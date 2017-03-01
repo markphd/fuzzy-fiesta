@@ -1,0 +1,573 @@
+{
+    "bbox": {
+        "bottom": 100,
+        "left": 0,
+        "right": 100,
+        "top": 0
+    },
+    "height": 100,
+    "id": "5E0A1785-9F73-4FB2-919B-567E29FE9B17",
+    "items": [
+        {
+            "bbox": {
+                "bottom": 1366,
+                "left": 0,
+                "right": 960,
+                "top": 1236
+            },
+            "height": 130,
+            "id": "2BC3984B-BBDE-4EF3-B16A-B7ECCDB2A307",
+            "mobileDown": true,
+            "orderIndex": 11,
+            "relTo": {
+                "below": 85,
+                "id": "15BDC763-2B2A-456D-A9E2-BB1470116AC5"
+            },
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 960,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 485,
+                "left": 130,
+                "right": 830,
+                "top": 427
+            },
+            "cells": [],
+            "height": 58,
+            "id": "845E26AA-86D8-4D75-9DE8-1C4F2686EAEC",
+            "links": [],
+            "mobileDown": false,
+            "orderIndex": 12,
+            "paras": [
+                [
+                    0,
+                    14,
+                    {
+                        "align": "center",
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    14,
+                    {
+                        "globalId": "E9D14894-96B2-4FB7-AAD0-8388979D57C2",
+                        "globalName": "[heading.1]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "BOOK A SESSION",
+            "type": "web.data.components.Text",
+            "width": 700,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 1151,
+                "left": 0,
+                "right": 504,
+                "top": 575
+            },
+            "formElements": {
+                "dropdown1": {
+                    "errorMessage": "Please select at least 1 option",
+                    "inputType": "dropdown",
+                    "isRequired": true,
+                    "name": "Services",
+                    "values": [
+                        "Music Production",
+                        "Voice Over",
+                        "Audio for Film and Video",
+                        "Vocal Tuning"
+                    ]
+                },
+                "email": {
+                    "errorMessage": "Please enter a valid email",
+                    "inputType": "email",
+                    "isRequired": true,
+                    "name": "Email",
+                    "values": null
+                },
+                "message": {
+                    "errorMessage": "Please enter a valid message",
+                    "inputType": "textarea",
+                    "isRequired": true,
+                    "name": "Message",
+                    "values": null
+                },
+                "name": {
+                    "errorMessage": "Please enter a valid name",
+                    "inputType": "text",
+                    "isRequired": true,
+                    "name": "Name",
+                    "values": null
+                },
+                "phone1": {
+                    "errorMessage": "Please enter a valid phone number",
+                    "inputType": "tel",
+                    "isRequired": false,
+                    "name": "Phone",
+                    "values": null
+                }
+            },
+            "formElementsOrder": [
+                "name",
+                "email",
+                "phone1",
+                "dropdown1",
+                "message"
+            ],
+            "height": 576,
+            "id": "15BDC763-2B2A-456D-A9E2-BB1470116AC5",
+            "mobileDown": false,
+            "orderIndex": 13,
+            "recipientEmail": null,
+            "relTo": {
+                "below": 90,
+                "id": "845E26AA-86D8-4D75-9DE8-1C4F2686EAEC"
+            },
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "styleButton": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "globalId": "37B856EA-0035-4AE0-9BD5-D55372FEC9AD",
+                "globalName": "[button.1]",
+                "hover": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "type": "web.data.styles.StyleButton",
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                }
+            },
+            "styleForm": {
+                "fieldBgColor": null,
+                "fieldBorderColor": null,
+                "font": null,
+                "fontColor": null,
+                "fontSize": 16,
+                "primaryColor": null,
+                "type": "web.data.styles.StyleForm"
+            },
+            "submitBtn": "  SEND NOW  ",
+            "successMessage": "Thank you for your message.",
+            "type": "web.data.components.ContactForm",
+            "width": 504,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 848,
+                "left": 560,
+                "right": 960,
+                "top": 588
+            },
+            "cells": [],
+            "height": 260,
+            "id": "FFEF185B-CDBE-4C1F-B8A2-B67FB6F9478E",
+            "links": [],
+            "mobileDown": false,
+            "orderIndex": 14,
+            "paras": [
+                [
+                    0,
+                    48,
+                    {
+                        "height": 1.2,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    49,
+                    49,
+                    {
+                        "height": 1.8,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    50,
+                    108,
+                    {
+                        "height": 1.2,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    109,
+                    109,
+                    {
+                        "height": 1.8,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    110,
+                    116,
+                    {
+                        "height": 1.2,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    117,
+                    117,
+                    {
+                        "height": 1.8,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    118,
+                    199,
+                    {
+                        "height": 1.2,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relTo": {
+                "below": 103,
+                "id": "845E26AA-86D8-4D75-9DE8-1C4F2686EAEC"
+            },
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    11,
+                    {
+                        "globalId": "10DB0F86-3416-4B56-B233-D72EDF4F0FFD",
+                        "globalName": "[heading.2]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    110,
+                    116,
+                    {
+                        "globalId": "8370B0C3-B362-4877-B666-A8C362BACEA1",
+                        "globalName": "[heading.3]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "RECO STUDIO\n\n8901 Marmora Road, Glasgow\nD04 89GR\n\nPhone:      01(800)433 633\nEmail:        mail@demolink.org\n\nTIMING\n\nMonday – Friday :    10:00 – 16:00\nSaturday :    10:00 – 14:00\nSunday :    Closed",
+            "type": "web.data.components.Text",
+            "width": 400,
+            "wrap": false
+        },
+        {
+            "action": {
+                "id": "901A4414-F61D-4FAA-AB56-7EE9512CD65F",
+                "link": {
+                    "hidden": false,
+                    "id": "E584DF92-A290-4C3C-8982-C25E3B161A8A",
+                    "linkId": null,
+                    "name": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,12z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e",
+                    "target": "_self",
+                    "type": "web.data.links.LinkExternal",
+                    "url": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,12z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e"
+                },
+                "type": "web.data.Action"
+            },
+            "anchorLeft": 50,
+            "anchorTop": 50,
+            "asset": {
+                "alpha": null,
+                "animated": false,
+                "bpp": null,
+                "contentType": "image/png",
+                "etag": "W/\"66692-542d0bf422761\"",
+                "filesize": 419474,
+                "height": 640,
+                "id": "7FF095BA-5990-43EC-BD26-80921BD679A3",
+                "recommendedFormat": null,
+                "type": "web.data.assets.Image",
+                "url": "repository:/hd-recostudio-map.png",
+                "width": 800
+            },
+            "bbox": {
+                "bottom": 1220,
+                "left": 561,
+                "right": 960,
+                "top": 900
+            },
+            "cropLeft": 241,
+            "cropTop": 129,
+            "height": 320,
+            "id": "65EFEE45-BEEB-4CDE-9064-B1BD8363E363",
+            "mobileDown": false,
+            "mobileHide": true,
+            "orderIndex": 15,
+            "relTo": {
+                "below": 52,
+                "id": "FFEF185B-CDBE-4C1F-B8A2-B67FB6F9478E"
+            },
+            "rotation": 0,
+            "scale": 1,
+            "scaleStrategy": "crop",
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "title": "",
+            "type": "web.data.components.resources.Image",
+            "width": 399,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 228,
+                "left": 80,
+                "right": 880,
+                "top": 170
+            },
+            "cells": [],
+            "height": 58,
+            "id": "0D1DBEAF-A485-49FA-8860-88C7D6E498F8",
+            "links": [],
+            "mobileDown": false,
+            "orderIndex": 16,
+            "paras": [
+                [
+                    0,
+                    7,
+                    {
+                        "align": "center",
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relIn": {
+                "bottom": -92,
+                "id": "52C189A8-A5E1-4022-A1DB-D22D1C7D96B2",
+                "left": 80,
+                "right": -80,
+                "top": 170
+            },
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    7,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "globalId": "E9D14894-96B2-4FB7-AAD0-8388979D57C2",
+                        "globalName": "[heading.1]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "CONTACT",
+            "type": "web.data.components.Text",
+            "width": 800,
+            "wrap": false
+        },
+        {
+            "action": {
+                "id": "EB4047AB-2C78-4CC7-9ED5-D5A8747730F3",
+                "link": {
+                    "hidden": false,
+                    "id": "3B42F1AE-D0BE-4770-A7E3-F81B2D8195E1",
+                    "linkId": null,
+                    "name": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,12z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e",
+                    "target": "_self",
+                    "type": "web.data.links.LinkExternal",
+                    "url": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,12z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e"
+                },
+                "type": "web.data.Action"
+            },
+            "anchorLeft": 50,
+            "anchorTop": 50,
+            "asset": {
+                "alpha": null,
+                "animated": false,
+                "bpp": null,
+                "contentType": "image/png",
+                "etag": "W/\"df3b-542d0c8901ca1\"",
+                "filesize": 57147,
+                "height": 182,
+                "id": "7D351DD9-FBED-45E6-8320-C90B77EC65A5",
+                "recommendedFormat": null,
+                "type": "web.data.assets.Image",
+                "url": "repository:/hd-map-locator.png",
+                "width": 106
+            },
+            "bbox": {
+                "bottom": 1105,
+                "left": 734,
+                "right": 787,
+                "top": 1014
+            },
+            "cropLeft": 0,
+            "cropTop": 0,
+            "height": 91,
+            "id": "11801601-62B3-4006-9022-049681920DEC",
+            "mobileDown": false,
+            "mobileHide": true,
+            "orderIndex": 17,
+            "relIn": {
+                "bottom": -115,
+                "id": "65EFEE45-BEEB-4CDE-9064-B1BD8363E363",
+                "left": 173,
+                "right": -173,
+                "top": 114
+            },
+            "rotation": 0,
+            "scale": 0.5,
+            "scaleStrategy": "crop",
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "title": "",
+            "type": "web.data.components.resources.Image",
+            "width": 53,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 320,
+                "left": 0,
+                "right": 960,
+                "top": 0
+            },
+            "height": 320,
+            "id": "DF36820F-D82B-4C06-BFC9-5BC0B492D344",
+            "mobileDown": false,
+            "orderIndex": 0,
+            "stretch": true,
+            "style": {
+                "background": {
+                    "asset": {
+                        "alpha": null,
+                        "animated": false,
+                        "bpp": null,
+                        "contentType": "image/png",
+                        "etag": "W/\"522b97-542d1563140c1\"",
+                        "filesize": 5385111,
+                        "height": 1320,
+                        "id": "A65ACF07-4A0F-40E9-81EF-DB5C888AA028",
+                        "recommendedFormat": null,
+                        "type": "web.data.assets.Image",
+                        "url": "repository:/hd-recostudio-home-top-image.png",
+                        "width": 3200
+                    },
+                    "color": null,
+                    "fixed": false,
+                    "gradient": null,
+                    "position": [
+                        "50%",
+                        "0%"
+                    ],
+                    "repeat": [
+                        false,
+                        false
+                    ],
+                    "size": "fill"
+                },
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 960,
+            "wrap": false
+        }
+    ],
+    "mobileDown": false,
+    "name": "Contact",
+    "orderIndex": 0,
+    "stretch": false,
+    "templateId": "9BF60287-71F4-427F-9996-42D08E9B6B71",
+    "type": "web.data.components.Page",
+    "width": 100,
+    "wrap": false
+}

@@ -1,0 +1,5378 @@
+{
+    "id": "3392B75C-FC2A-496A-99A2-7B0AB548D8F0",
+    "name": "Layout Testing Light",
+    "styles": [
+        {
+            "background": {
+                "asset": null,
+                "color": [
+                    "RGB",
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "gradient": null
+            },
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "AC4C9BC7-6066-4E27-9AC7-49D70CB80D77",
+            "name": "[body]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "body",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSV",
+                0,
+                0,
+                0,
+                1
+            ],
+            "font": "google://Open Sans",
+            "id": "400383FC-0220-4982-8049-F7BF2B19FC72",
+            "italic": false,
+            "name": "[paragraph]",
+            "ref": "normal",
+            "size": 18,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSV",
+                0,
+                0,
+                0,
+                1
+            ],
+            "font": "google://Pacifico",
+            "id": "3536016E-B62C-49C1-8CE3-A9F4032DADF0",
+            "italic": false,
+            "name": "[heading.1]",
+            "ref": "heading.1",
+            "size": 80,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSV",
+                0,
+                0,
+                0,
+                1
+            ],
+            "font": "google://Mr Dafoe",
+            "id": "98CB6111-4593-4385-96E5-5A9FB7C13431",
+            "italic": false,
+            "name": "[heading.2]",
+            "ref": "heading.2",
+            "size": 60,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSV",
+                0,
+                0,
+                0,
+                1
+            ],
+            "font": "google://Great Vibes",
+            "id": "C94792BD-9F4A-4A3B-B1C0-2511C3B23E40",
+            "italic": false,
+            "name": "[heading.3]",
+            "ref": "heading.3",
+            "size": 40,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "hover": {
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "underline": false
+            },
+            "id": "7731D4BD-6492-472E-A4C6-31D08C13DDDC",
+            "inactive": {
+                "color": [
+                    "RGB",
+                    0.5372549019607843,
+                    0.5372549019607843,
+                    0.5372549019607843,
+                    1
+                ],
+                "underline": true
+            },
+            "name": "[Link 1]",
+            "press": {
+                "color": [
+                    "RGB",
+                    0.4745098039215686,
+                    0.4745098039215686,
+                    0.4745098039215686,
+                    1
+                ],
+                "underline": true
+            },
+            "ref": "link.1",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "RGB",
+                    0.4745098039215686,
+                    0.4745098039215686,
+                    0.4745098039215686,
+                    1
+                ],
+                "underline": true
+            }
+        },
+        {
+            "accordionTextIndent": 40,
+            "block": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "cascadeWidth": 200,
+            "divider": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "expandable": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad62-52931fa175ac7\"",
+                                "filesize": 568674,
+                                "height": 20,
+                                "id": "58ADF14B-EA1F-4120-9FBF-F059D1D5212D",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu1-expandable.png",
+                                "width": 52
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            52,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad84-52931fb164c68\"",
+                                "filesize": 568708,
+                                "height": 20,
+                                "id": "A6F077B8-8AD3-4B0A-BC17-F06CCB4A4523",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu1-expanded.png",
+                                "width": 52
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            52,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad62-52931fa175ac7\"",
+                                "filesize": 568674,
+                                "height": 20,
+                                "id": "0335AC71-E2EE-44DB-9EEA-128343943228",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu1-expandable.png",
+                                "width": 52
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            52,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad62-52931fa175ac7\"",
+                                "filesize": 568674,
+                                "height": 20,
+                                "id": "81628EEE-718E-4FBD-9855-A318E0FCE0B5",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu1-expandable.png",
+                                "width": 52
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            52,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad62-52931fa175ac7\"",
+                                "filesize": 568674,
+                                "height": 20,
+                                "id": "92B9102E-9D79-4FAC-8321-44D5C5EAE503",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu1-expandable.png",
+                                "width": 52
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            52,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "expanded": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad84-52931fb164c68\"",
+                                "filesize": 568708,
+                                "height": 20,
+                                "id": "D6F4A637-8E94-488A-8492-3C00589DE56C",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu1-expanded.png",
+                                "width": 52
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            52,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad84-52931fb164c68\"",
+                                "filesize": 568708,
+                                "height": 20,
+                                "id": "D278FB94-E146-48C6-B7F4-CE3A4F852C5F",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu1-expanded.png",
+                                "width": 52
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            52,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad84-52931fb164c68\"",
+                                "filesize": 568708,
+                                "height": 20,
+                                "id": "6797DCBE-B0CA-4C1D-9E5E-E0735C991073",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu1-expanded.png",
+                                "width": 52
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            52,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad84-52931fb164c68\"",
+                                "filesize": 568708,
+                                "height": 20,
+                                "id": "20FFED3D-4C02-466F-8072-322426B4B53E",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu1-expanded.png",
+                                "width": 52
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            52,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad84-52931fb164c68\"",
+                                "filesize": 568708,
+                                "height": 20,
+                                "id": "EE1E788F-7585-49AF-B8C4-CE50411889E9",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu1-expanded.png",
+                                "width": 52
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            52,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "id": "E0FE486B-4CA9-4DD9-9E3D-25FC8C34E14E",
+            "item": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            30,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            30,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            30,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            30,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            30,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "name": "[menu.1]",
+            "ref": "menu.1",
+            "selected": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            30,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            30,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            30,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            30,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            15,
+                            30,
+                            15,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "type": "web.data.styles.StyleMenu"
+        },
+        {
+            "accordionTextIndent": 40,
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "cascadeWidth": 200,
+            "divider": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "expandable": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad60-529321c69fe73\"",
+                                "filesize": 568672,
+                                "height": 26,
+                                "id": "78666DD4-BD3E-428D-8773-3F1715FBFB0A",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu2-expandable.png",
+                                "width": 38
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            38,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.09375,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad7e-529321c6e24f3\"",
+                                "filesize": 568702,
+                                "height": 26,
+                                "id": "DEBE20C8-FBFD-421A-97C1-3EF71A60AD6A",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu2-expanded.png",
+                                "width": 38
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            38,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad60-529321c69fe73\"",
+                                "filesize": 568672,
+                                "height": 26,
+                                "id": "D7453237-91D6-424D-9670-1DE9E2C78486",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu2-expandable.png",
+                                "width": 38
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            38,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.09375,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad60-529321c69fe73\"",
+                                "filesize": 568672,
+                                "height": 26,
+                                "id": "7ABA9A7F-AA8C-4002-8650-C44B6014F6A1",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu2-expandable.png",
+                                "width": 38
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            38,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.09375,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad60-529321c69fe73\"",
+                                "filesize": 568672,
+                                "height": 26,
+                                "id": "6962C3D5-7B1A-48F2-8375-80C040D68406",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu2-expandable.png",
+                                "width": 38
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            38,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.09375,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "expanded": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad7e-529321c6e24f3\"",
+                                "filesize": 568702,
+                                "height": 26,
+                                "id": "785A4AC8-E4EC-4200-9698-84AB49FA04BF",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu2-expanded.png",
+                                "width": 38
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            38,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad7e-529321c6e24f3\"",
+                                "filesize": 568702,
+                                "height": 26,
+                                "id": "34AA872F-EF94-4A69-8BC3-ED22F0DA8758",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu2-expanded.png",
+                                "width": 38
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            38,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad7e-529321c6e24f3\"",
+                                "filesize": 568702,
+                                "height": 26,
+                                "id": "27F88C11-BA3D-46DC-8944-47F6F6A54DF0",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu2-expanded.png",
+                                "width": 38
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            38,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad7e-529321c6e24f3\"",
+                                "filesize": 568702,
+                                "height": 26,
+                                "id": "59B7326F-26F3-4B8E-A41A-8FE7A5465CEC",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu2-expanded.png",
+                                "width": 38
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            38,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8ad7e-529321c6e24f3\"",
+                                "filesize": 568702,
+                                "height": 26,
+                                "id": "FB630F70-E87D-46D0-A31F-48081F5AD300",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/curriculum-vitae-menu2-expanded.png",
+                                "width": 38
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            38,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "id": "A1FB86CE-C7AD-4933-9883-98C47572A2F0",
+            "item": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.9921875,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.9921875,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.9921875,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.9921875,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "name": "[menu.2]",
+            "ref": "menu.2",
+            "selected": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "font": "google://Open Sans",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 16,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "type": "web.data.styles.StyleMenu"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0.9215686274509803,
+                        0.9215686274509803,
+                        0.9215686274509803,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "C5FBCE02-6D7D-4F87-A92B-BD15F4C56AF1",
+            "name": "[normal]",
+            "ref": "normal",
+            "text": {
+                "bold": false,
+                "color": [
+                    "RGB",
+                    0.4745098039215686,
+                    0.4745098039215686,
+                    0.4745098039215686,
+                    1
+                ],
+                "font": "google://Open Sans",
+                "italic": false,
+                "shadow": false,
+                "size": 18,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0.8,
+                        0.8,
+                        0.8,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "C8F7CA05-80D3-465E-8FB8-C1CEAE35256C",
+            "name": "[heading.1]",
+            "ref": "heading.1",
+            "text": {
+                "bold": true,
+                "color": [
+                    "RGB",
+                    0.4745098039215686,
+                    0.4745098039215686,
+                    0.4745098039215686,
+                    1
+                ],
+                "font": "google://Rokkitt",
+                "italic": false,
+                "shadow": false,
+                "size": 20,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0.8392156862745098,
+                        0.8392156862745098,
+                        0.8392156862745098,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "5864A611-8117-43C7-BDCC-E1E581FB1393",
+            "name": "[heading.2]",
+            "ref": "heading.2",
+            "text": {
+                "bold": true,
+                "color": [
+                    "RGB",
+                    0.4745098039215686,
+                    0.4745098039215686,
+                    0.4745098039215686,
+                    1
+                ],
+                "font": 0,
+                "italic": false,
+                "shadow": false,
+                "size": 15,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0.8784313725490196,
+                        0.8784313725490196,
+                        0.8784313725490196,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "2F5EDF9A-91EF-4972-88DE-AE5C9E3E9870",
+            "name": "[alternate]",
+            "ref": "alternate",
+            "text": {
+                "bold": false,
+                "color": [
+                    "RGB",
+                    0.4745098039215686,
+                    0.4745098039215686,
+                    0.4745098039215686,
+                    1
+                ],
+                "font": 0,
+                "italic": false,
+                "shadow": false,
+                "size": 15,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "BF7A4988-5C08-4124-A330-E6C332EA160B",
+            "name": "[main]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "main",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "651E0A45-E2E8-4177-9D3D-A0834D72551B",
+            "name": "[content]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "content",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "E3FBD3FC-9D2A-41AE-8B57-3954EFE35372",
+            "name": "[decorator]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "decorator",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "2653CF36-5150-4E9A-BAC0-D3731CA5E7D1",
+            "name": "[special]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "special",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "2EA41AB1-2396-4FEF-BE93-F8CFE3B78162",
+            "name": "[horizontal]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "horizontal",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "A01A7803-8387-4CC4-AD16-841F773AAA4F",
+            "name": "[vertical]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "vertical",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "02FE3095-8086-411F-BE24-088B0CDBCC65",
+            "name": "[heading]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "heading",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "FB4CE539-D0E9-40CD-AA73-3F1D57573FFA",
+            "name": "[divider]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "divider",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {},
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            0.7
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": null,
+                        "corners": null,
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSV",
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "verticalAlign": null
+            },
+            "id": "77FBF493-8B22-4DE4-8F5C-7B2B5857AD73",
+            "inactive": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": null,
+                        "corners": {
+                            "bottomLeft": 25,
+                            "bottomRight": 25,
+                            "topLeft": 25,
+                            "topRight": 25
+                        },
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": "left",
+                "text": {
+                    "color": [
+                        "HSV",
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "font": "google://Open Sans",
+                    "size": 16
+                },
+                "verticalAlign": "top"
+            },
+            "name": "[button.1]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {},
+                "verticalAlign": null
+            },
+            "ref": "button.1",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {},
+                "verticalAlign": null
+            },
+            "width": null
+        },
+        {
+            "fieldBgColor": [
+                "RGB",
+                1,
+                0,
+                0,
+                1
+            ],
+            "fieldBorderColor": [
+                "RGB",
+                0.23529411764705882,
+                0,
+                0,
+                1
+            ],
+            "font": 6,
+            "fontColor": [
+                "RGB",
+                0,
+                0,
+                0,
+                1
+            ],
+            "fontSize": 12,
+            "id": "8E90154E-D187-4F9C-8B8F-16B1550AC85D",
+            "name": "[form]",
+            "primaryColor": [
+                "RGB",
+                1,
+                0,
+                0,
+                1
+            ],
+            "ref": "form",
+            "type": "web.data.styles.StyleForm"
+        },
+        {
+            "hover": {
+                "color": [
+                    "RGB",
+                    0.4745098039215686,
+                    0.4745098039215686,
+                    0.4745098039215686,
+                    1
+                ],
+                "underline": false
+            },
+            "id": "4C2425FF-B86E-49E6-B955-335B3B246574",
+            "inactive": {
+                "color": [
+                    "RGB",
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "underline": true
+            },
+            "name": "[Link 2]",
+            "press": {
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "underline": true
+            },
+            "ref": "link.2",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "underline": true
+            }
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {},
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            0.7
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": null,
+                        "corners": null,
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSV",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                "verticalAlign": null
+            },
+            "id": "79358E12-6415-4ADF-8A29-B37A7CA36980",
+            "inactive": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": null,
+                        "corners": {
+                            "bottomLeft": 25,
+                            "bottomRight": 25,
+                            "topLeft": 25,
+                            "topRight": 25
+                        },
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": "left",
+                "text": {
+                    "color": [
+                        "HSV",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "font": "google://Open Sans",
+                    "size": 16
+                },
+                "verticalAlign": "top"
+            },
+            "name": "[button.2]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {},
+                "verticalAlign": null
+            },
+            "ref": "button.2",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {},
+                "verticalAlign": null
+            },
+            "width": null
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {},
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": null,
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                0.4,
+                                0.4,
+                                0.4,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.4,
+                                0.4,
+                                0.4,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.4,
+                                0.4,
+                                0.4,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.4,
+                                0.4,
+                                0.4,
+                                1
+                            ]
+                        ],
+                        "corners": null,
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            2,
+                            2,
+                            2,
+                            2
+                        ]
+                    },
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "RGB",
+                        0.4,
+                        0.4,
+                        0.4,
+                        1
+                    ]
+                },
+                "verticalAlign": null
+            },
+            "id": "EA783AA5-FD0E-4F90-9776-DD34808B3175",
+            "inactive": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "corners": null,
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            2,
+                            2,
+                            2,
+                            2
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": "left",
+                "text": {
+                    "color": [
+                        "HSV",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "font": "google://Open Sans",
+                    "size": 16
+                },
+                "verticalAlign": "top"
+            },
+            "name": "[button.3]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {},
+                "verticalAlign": null
+            },
+            "ref": "button.3",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {},
+                "verticalAlign": null
+            },
+            "width": null
+        },
+        {
+            "hover": {
+                "color": [
+                    "RGB",
+                    0.8,
+                    0.8,
+                    0.8,
+                    1
+                ],
+                "underline": false
+            },
+            "id": "9BEE339B-22A0-4655-B3CD-72D9C777B04F",
+            "inactive": {
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "underline": false
+            },
+            "name": "[ link 3]",
+            "press": {
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "underline": false
+            },
+            "ref": "link.3",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "underline": false
+            }
+        }
+    ],
+    "type": "web.data.styles.Stylesheet"
+}

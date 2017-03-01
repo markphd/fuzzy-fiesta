@@ -1,0 +1,486 @@
+{
+    "bbox": {
+        "bottom": 100,
+        "left": 0,
+        "right": 100,
+        "top": 0
+    },
+    "height": 100,
+    "id": "654DB013-9913-4388-A74F-C7BD6C6CF45C",
+    "items": [
+        {
+            "bbox": {
+                "bottom": 360,
+                "left": 0,
+                "right": 1000,
+                "top": 0
+            },
+            "height": 360,
+            "id": "7147D196-145E-4231-A239-D1B2F86D5DBB",
+            "mobileDown": false,
+            "orderIndex": 5,
+            "stretch": true,
+            "style": {
+                "background": {
+                    "asset": {
+                        "alpha": null,
+                        "animated": false,
+                        "bpp": null,
+                        "contentType": "image/png",
+                        "etag": "W/\"49ed5e-54428ef0f0479\"",
+                        "filesize": 4844894,
+                        "height": 720,
+                        "id": "9667B7D5-005D-4F76-8F33-E470ED254698",
+                        "recommendedFormat": null,
+                        "type": "web.data.assets.Image",
+                        "url": "repository:/hd-bakery-contact-top-image.png",
+                        "width": 3200
+                    },
+                    "color": null,
+                    "fixed": false,
+                    "gradient": null,
+                    "position": [
+                        "50%",
+                        "100%"
+                    ],
+                    "repeat": [
+                        false,
+                        false
+                    ],
+                    "size": "fill"
+                },
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 1000,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 256,
+                "left": 131,
+                "right": 869,
+                "top": 184
+            },
+            "cells": [],
+            "height": 72,
+            "id": "6D6F9D37-65F2-4688-91DB-79522E122EFE",
+            "links": [],
+            "mobileDown": false,
+            "orderIndex": 6,
+            "paras": [
+                [
+                    0,
+                    7,
+                    {
+                        "align": "center",
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relIn": {
+                "bottom": -104,
+                "id": "7147D196-145E-4231-A239-D1B2F86D5DBB",
+                "left": 131,
+                "right": -131,
+                "top": 184
+            },
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    7,
+                    {
+                        "bold": true,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Ubuntu",
+                        "globalId": "095769F3-0F45-428A-824A-F124CE85D78D",
+                        "globalName": "[heading.1]",
+                        "size": 60,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "CONTACT",
+            "type": "web.data.components.Text",
+            "width": 738,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 1020,
+                "left": 0,
+                "right": 1000,
+                "top": 884
+            },
+            "height": 136,
+            "id": "E3DED719-1E9C-4CB0-B152-E8D44A0381A4",
+            "mobileDown": false,
+            "orderIndex": 8,
+            "relTo": {
+                "below": 14,
+                "id": "5B3160B7-8F4C-43AD-9B15-E58B0FAFDB61"
+            },
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 1000,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 870,
+                "left": 0,
+                "right": 485,
+                "top": 371
+            },
+            "formElements": {
+                "email": {
+                    "errorMessage": "Please enter a valid email",
+                    "inputType": "email",
+                    "isRequired": true,
+                    "name": "Email",
+                    "values": null
+                },
+                "message": {
+                    "errorMessage": "Please enter a valid message",
+                    "inputType": "textarea",
+                    "isRequired": true,
+                    "name": "Message",
+                    "values": null
+                },
+                "name": {
+                    "errorMessage": "Please enter a valid name",
+                    "inputType": "text",
+                    "isRequired": true,
+                    "name": "Name",
+                    "values": null
+                },
+                "phone1": {
+                    "errorMessage": "Please enter a valid phone number",
+                    "inputType": "tel",
+                    "isRequired": false,
+                    "name": "Phone",
+                    "values": null
+                }
+            },
+            "formElementsOrder": [
+                "name",
+                "phone1",
+                "email",
+                "message"
+            ],
+            "height": 499,
+            "id": "5B3160B7-8F4C-43AD-9B15-E58B0FAFDB61",
+            "mobileDown": false,
+            "orderIndex": 9,
+            "recipientEmail": null,
+            "relTo": {
+                "below": 11,
+                "id": "7147D196-145E-4231-A239-D1B2F86D5DBB"
+            },
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "styleButton": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "globalId": "9C70C7CA-3664-4A76-AC7A-5FF7A2761F0F",
+                "globalName": "[button.1]",
+                "hover": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "type": "web.data.styles.StyleButton",
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                }
+            },
+            "styleForm": {
+                "fieldBgColor": null,
+                "fieldBorderColor": null,
+                "font": null,
+                "fontColor": null,
+                "fontSize": null,
+                "primaryColor": null,
+                "type": "web.data.styles.StyleForm"
+            },
+            "submitBtn": "SEND NOW",
+            "successMessage": "Thank you for your message.",
+            "type": "web.data.components.ContactForm",
+            "width": 485,
+            "wrap": false
+        },
+        {
+            "action": {
+                "id": "758EFF89-3BB8-4598-8E9F-2E4848E9D16B",
+                "link": {
+                    "hidden": false,
+                    "id": "F67DF447-45A8-4D71-A942-E20319DB7D1C",
+                    "linkId": null,
+                    "name": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,12z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e",
+                    "target": "_self",
+                    "type": "web.data.links.LinkExternal",
+                    "url": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,12z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e"
+                },
+                "type": "web.data.Action"
+            },
+            "anchorLeft": 50,
+            "anchorTop": 50,
+            "asset": {
+                "alpha": null,
+                "animated": false,
+                "bpp": null,
+                "contentType": "image/png",
+                "etag": "W/\"7c2ae-54439cca60f88\"",
+                "filesize": 508590,
+                "height": 800,
+                "id": "42BBF45B-E6AD-4FB9-B441-2680BB03547C",
+                "recommendedFormat": null,
+                "type": "web.data.assets.Image",
+                "url": "repository:/hd-bakery-map.png",
+                "width": 920
+            },
+            "bbox": {
+                "bottom": 757,
+                "left": 548,
+                "right": 1000,
+                "top": 408
+            },
+            "cropLeft": 133,
+            "cropTop": 13,
+            "height": 349,
+            "id": "4B21B879-04D9-494A-91FD-5A1264FB52CC",
+            "mobileDown": false,
+            "mobileHide": true,
+            "orderIndex": 10,
+            "relTo": {
+                "below": 48,
+                "id": "7147D196-145E-4231-A239-D1B2F86D5DBB"
+            },
+            "rotation": 0,
+            "scale": 1,
+            "scaleStrategy": "crop",
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "title": "",
+            "type": "web.data.components.resources.Image",
+            "width": 452,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 869,
+                "left": 548,
+                "right": 781,
+                "top": 811
+            },
+            "cells": [],
+            "height": 58,
+            "id": "D9858573-B3C6-4EF7-A6AC-622D56B240E5",
+            "links": [],
+            "mobileDown": false,
+            "orderIndex": 11,
+            "paras": [
+                [
+                    0,
+                    36,
+                    {
+                        "height": 1.8,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relTo": {
+                "below": 54,
+                "id": "4B21B879-04D9-494A-91FD-5A1264FB52CC"
+            },
+            "stretch": false,
+            "styles": [],
+            "text": "8901 Marmora Road, Glasgow, D04 89GR",
+            "type": "web.data.components.Text",
+            "width": 233,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 869,
+                "left": 850,
+                "right": 1000,
+                "top": 811
+            },
+            "cells": [],
+            "height": 58,
+            "id": "0B9FF0D6-272F-4333-9D23-FBCF15D124F1",
+            "links": [],
+            "mobileDown": false,
+            "orderIndex": 12,
+            "paras": [
+                [
+                    0,
+                    33,
+                    {
+                        "height": 1.8,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relTo": {
+                "below": 54,
+                "id": "4B21B879-04D9-494A-91FD-5A1264FB52CC"
+            },
+            "stretch": false,
+            "styles": [],
+            "text": "001-234-567-890\nmail@demolink.org",
+            "type": "web.data.components.Text",
+            "width": 150,
+            "wrap": false
+        },
+        {
+            "action": {
+                "id": "34BB8859-0BF6-4C4A-B344-C7908F58706D",
+                "link": {
+                    "hidden": false,
+                    "id": "64118AA6-36FE-4575-BCAC-A730EB7E6009",
+                    "linkId": null,
+                    "name": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,12z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e",
+                    "target": "_self",
+                    "type": "web.data.links.LinkExternal",
+                    "url": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,12z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e"
+                },
+                "type": "web.data.Action"
+            },
+            "anchorLeft": 50,
+            "anchorTop": 50,
+            "asset": {
+                "alpha": null,
+                "animated": false,
+                "bpp": null,
+                "contentType": "image/png",
+                "etag": "W/\"df3b-5443a578cc6ed\"",
+                "filesize": 57147,
+                "height": 182,
+                "id": "84E82CC7-0ED2-49D8-9FF7-6F9353AD3D96",
+                "recommendedFormat": null,
+                "type": "web.data.assets.Image",
+                "url": "repository:/hd-map-locator.png",
+                "width": 106
+            },
+            "bbox": {
+                "bottom": 638,
+                "left": 718,
+                "right": 771,
+                "top": 547
+            },
+            "cropLeft": 0,
+            "cropTop": 0,
+            "height": 91,
+            "id": "D975EA56-BCD2-444D-8AE2-1D7F9179165A",
+            "mobileDown": false,
+            "mobileHide": true,
+            "orderIndex": 13,
+            "relIn": {
+                "bottom": -119,
+                "id": "4B21B879-04D9-494A-91FD-5A1264FB52CC",
+                "left": 170,
+                "right": -229,
+                "top": 139
+            },
+            "rotation": 0,
+            "scale": 0.5,
+            "scaleStrategy": "crop",
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "title": "",
+            "type": "web.data.components.resources.Image",
+            "width": 53,
+            "wrap": false
+        }
+    ],
+    "mobileDown": false,
+    "name": "Contact",
+    "orderIndex": 0,
+    "stretch": false,
+    "templateId": "504C5CF3-1872-4261-9753-F31BBCEBF584",
+    "type": "web.data.components.Page",
+    "width": 100,
+    "wrap": false
+}

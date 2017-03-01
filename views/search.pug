@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  section
+    .center
+      img.logo(src="images/one-web.svg")
+      h2 JSON Template Finder
+      |
+      form(action='/search', method='post')
+        input#search(type='text', placeholder='Template name or JSON' name='search' autofocus)
+        button(type='submit')
+      p #{ result }

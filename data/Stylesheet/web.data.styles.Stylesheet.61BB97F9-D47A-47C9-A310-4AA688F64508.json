@@ -1,0 +1,5427 @@
+{
+    "id": "61BB97F9-D47A-47C9-A310-4AA688F64508",
+    "name": "Curabi",
+    "styles": [
+        {
+            "background": {
+                "asset": null,
+                "color": [
+                    "RGB",
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "gradient": null
+            },
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "B5519B09-2BD8-41C3-B5BA-AC8CFCE68A5B",
+            "name": "[body]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "body",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "bold": false,
+            "color": [
+                "RGB",
+                0.5372549019607843,
+                0.5372549019607843,
+                0.5372549019607843,
+                1
+            ],
+            "font": 0,
+            "id": "51C4D3E7-4F07-4208-BB96-BE41FBAAE34C",
+            "italic": false,
+            "name": "[paragraph]",
+            "ref": "normal",
+            "size": 14,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": true,
+            "color": [
+                "RGB",
+                0.27450980392156865,
+                0.27450980392156865,
+                0.27450980392156865,
+                1
+            ],
+            "font": "google://Cinzel",
+            "id": "2CD3378B-A79A-4C4D-89A7-A05920E1368E",
+            "italic": false,
+            "name": "[heading.1]",
+            "ref": "heading.1",
+            "size": 60,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": true,
+            "color": [
+                "RGB",
+                0.6901960784313725,
+                0.8352941176470589,
+                0.4627450980392157,
+                1
+            ],
+            "font": "google://Open Sans",
+            "id": "2B126A49-50EF-4E20-A5A2-43B1F012B3FF",
+            "italic": false,
+            "name": "[heading.2]",
+            "ref": "heading.2",
+            "size": 48,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": false,
+            "color": [
+                "RGB",
+                0.5372549019607843,
+                0.5372549019607843,
+                0.5372549019607843,
+                1
+            ],
+            "font": "google://Josefin Sans",
+            "id": "D77B9D09-6B17-483A-93AC-86E26A6C5118",
+            "italic": false,
+            "name": "[heading.3]",
+            "ref": "heading.3",
+            "size": 36,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "hover": {
+                "color": [
+                    "RGB",
+                    0.5372549019607843,
+                    0.5372549019607843,
+                    0.5372549019607843,
+                    1
+                ],
+                "underline": false
+            },
+            "id": "02064538-56CE-4C21-A435-887CBF37BBCA",
+            "inactive": {
+                "color": [
+                    "RGB",
+                    0.6901960784313725,
+                    0.8352941176470589,
+                    0.4627450980392157,
+                    1
+                ],
+                "underline": false
+            },
+            "name": "[Link 1]",
+            "press": {
+                "color": [
+                    "RGB",
+                    0.6901960784313725,
+                    0.8352941176470589,
+                    0.4627450980392157,
+                    1
+                ],
+                "underline": false
+            },
+            "ref": "link.1",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "RGB",
+                    0.6901960784313725,
+                    0.8352941176470589,
+                    0.4627450980392157,
+                    1
+                ],
+                "underline": false
+            }
+        },
+        {
+            "accordionTextIndent": 40,
+            "block": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "cascadeWidth": 200,
+            "divider": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "expandable": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.38823529411764707,
+                            0.38823529411764707,
+                            0.38823529411764707,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "\"b54-50c0f9faccaf5\"",
+                                "filesize": 2900,
+                                "height": 8,
+                                "id": "3083B4F8-9FFF-4DD8-B03A-E3A5E290E489",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/portfolio-menu1-expanded.png",
+                                "width": 30
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.38823529411764707,
+                            0.38823529411764707,
+                            0.38823529411764707,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.38823529411764707,
+                            0.38823529411764707,
+                            0.38823529411764707,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.38823529411764707,
+                            0.38823529411764707,
+                            0.38823529411764707,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "expanded": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "\"b54-50c0f9faccaf5\"",
+                                "filesize": 2900,
+                                "height": 8,
+                                "id": "8EDF0860-55F4-4283-9B13-76CEB38A60DC",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/portfolio-menu1-expanded.png",
+                                "width": 30
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "\"b54-50c0f9faccaf5\"",
+                                "filesize": 2900,
+                                "height": 8,
+                                "id": "00A0F5B9-E6E3-4BB5-9EC8-630CFAA87EC3",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/portfolio-menu1-expanded.png",
+                                "width": 30
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "\"b54-50c0f9faccaf5\"",
+                                "filesize": 2900,
+                                "height": 8,
+                                "id": "A091E35C-1006-4C9D-8A73-68852B4A2C47",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/portfolio-menu1-expanded.png",
+                                "width": 30
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "\"b54-50c0f9faccaf5\"",
+                                "filesize": 2900,
+                                "height": 8,
+                                "id": "4471DCB6-2C62-48B0-BC63-584E101CA2BD",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/portfolio-menu1-expanded.png",
+                                "width": 30
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "\"b54-50c0f9faccaf5\"",
+                                "filesize": 2900,
+                                "height": 8,
+                                "id": "793DC17A-AD41-469F-9090-EE95C6FD8B52",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/portfolio-menu1-expanded.png",
+                                "width": 30
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "id": "0F7240BD-DC64-49BC-A875-5C5AE41C1E2A",
+            "item": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.38823529411764707,
+                            0.38823529411764707,
+                            0.38823529411764707,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.38823529411764707,
+                            0.38823529411764707,
+                            0.38823529411764707,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.38823529411764707,
+                            0.38823529411764707,
+                            0.38823529411764707,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.38823529411764707,
+                            0.38823529411764707,
+                            0.38823529411764707,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "name": "[menu.1]",
+            "ref": "menu.1",
+            "selected": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            30,
+                            10,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "right",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "type": "web.data.styles.StyleMenu"
+        },
+        {
+            "accordionTextIndent": 40,
+            "block": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "cascadeWidth": 200,
+            "divider": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0.8980392156862745,
+                        0.8980392156862745,
+                        0.8980392156862745,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "expandable": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "\"b61-50c0fe15207b2\"",
+                                "filesize": 2913,
+                                "height": 16,
+                                "id": "CF5494A6-0D74-4A82-9F68-D953D41A9CD6",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/portfolio-menu2-expanded.png",
+                                "width": 30
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            40,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.27450980392156865,
+                            0.27450980392156865,
+                            0.27450980392156865,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "\"b61-50c0fe15207b2\"",
+                                "filesize": 2913,
+                                "height": 16,
+                                "id": "91FD8FF6-E68F-47C7-A0A4-0CA68B50AB37",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/portfolio-menu2-expanded.png",
+                                "width": 30
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            40,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "\"b61-50c0fe15207b2\"",
+                                "filesize": 2913,
+                                "height": 16,
+                                "id": "D08EE7A4-3956-4306-84D3-56E7EE65674F",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/portfolio-menu2-expanded.png",
+                                "width": 30
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            40,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.27450980392156865,
+                            0.27450980392156865,
+                            0.27450980392156865,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "\"b61-50c0fe15207b2\"",
+                                "filesize": 2913,
+                                "height": 16,
+                                "id": "794E14A8-722E-4F3C-9EB9-F3156A893010",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/portfolio-menu2-expanded.png",
+                                "width": 30
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            40,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.27450980392156865,
+                            0.27450980392156865,
+                            0.27450980392156865,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "\"b61-50c0fe15207b2\"",
+                                "filesize": 2913,
+                                "height": 16,
+                                "id": "077F5DF7-0499-4F67-893B-1618CA986960",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/portfolio-menu2-expanded.png",
+                                "width": 30
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            40,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.27450980392156865,
+                            0.27450980392156865,
+                            0.27450980392156865,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "expanded": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "\"b61-50c0fe15207b2\"",
+                                "filesize": 2913,
+                                "height": 16,
+                                "id": "F6A46798-2D5F-49FA-8EA7-8BDCF4FD5D85",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/portfolio-menu2-expanded.png",
+                                "width": 30
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            40,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "\"b61-50c0fe15207b2\"",
+                                "filesize": 2913,
+                                "height": 16,
+                                "id": "09311C79-FD1F-45B3-AA4C-2E28508D83F2",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/portfolio-menu2-expanded.png",
+                                "width": 30
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            40,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "\"b61-50c0fe15207b2\"",
+                                "filesize": 2913,
+                                "height": 16,
+                                "id": "4E458186-A9A3-4C86-B466-0CA4D92DDAA4",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/portfolio-menu2-expanded.png",
+                                "width": 30
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            40,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "\"b61-50c0fe15207b2\"",
+                                "filesize": 2913,
+                                "height": 16,
+                                "id": "32C03F1F-6E01-4E8F-BE90-435D0333E303",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/portfolio-menu2-expanded.png",
+                                "width": 30
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            40,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "\"b61-50c0fe15207b2\"",
+                                "filesize": 2913,
+                                "height": 16,
+                                "id": "6A81C87E-8896-467D-BFAD-0569EE234137",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/portfolio-menu2-expanded.png",
+                                "width": 30
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            40,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "id": "A4BC0A51-5DAC-41CC-9701-0DC8BFFD1578",
+            "item": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            22,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.27450980392156865,
+                            0.27450980392156865,
+                            0.27450980392156865,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            22,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            22,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.27450980392156865,
+                            0.27450980392156865,
+                            0.27450980392156865,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            22,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.27450980392156865,
+                            0.27450980392156865,
+                            0.27450980392156865,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            22,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.27450980392156865,
+                            0.27450980392156865,
+                            0.27450980392156865,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "name": "[menu.2]",
+            "ref": "menu.2",
+            "selected": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            22,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            22,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            22,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            22,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            14,
+                            22,
+                            16,
+                            22
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "transform": "uppercase",
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "type": "web.data.styles.StyleMenu"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0.9809523809523809,
+                        0.9809523809523809,
+                        0.9809523809523809,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "AA338BBD-2873-4B89-910A-CD010FCA60FA",
+            "name": "[normal]",
+            "ref": "normal",
+            "text": {
+                "bold": false,
+                "color": [
+                    "RGB",
+                    0.5372549019607843,
+                    0.5372549019607843,
+                    0.5372549019607843,
+                    1
+                ],
+                "font": 0,
+                "italic": false,
+                "shadow": false,
+                "size": 15,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0.9215686274509803,
+                        0.9215686274509803,
+                        0.9215686274509803,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "FF1CFF09-5A2C-4665-B69D-F2A5F5082A58",
+            "name": "[heading.1]",
+            "ref": "heading.1",
+            "text": {
+                "bold": true,
+                "color": [
+                    "RGB",
+                    0.6901960784313725,
+                    0.8352941176470589,
+                    0.4627450980392157,
+                    1
+                ],
+                "font": "google://Open Sans",
+                "italic": false,
+                "shadow": false,
+                "size": 20,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0.9215686274509803,
+                        0.9215686274509803,
+                        0.9215686274509803,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "754FD18A-3DF8-4508-BF8B-0F476253E7F8",
+            "name": "[heading.2]",
+            "ref": "heading.2",
+            "text": {
+                "bold": true,
+                "color": [
+                    "RGB",
+                    0.6901960784313725,
+                    0.8352941176470589,
+                    0.4627450980392157,
+                    1
+                ],
+                "font": "google://Josefin Sans",
+                "italic": false,
+                "shadow": false,
+                "size": 18,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0.9529411764705882,
+                        0.9529411764705882,
+                        0.9529411764705882,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "6D4E71EE-3BDD-4D44-ADDB-0AA0B4C2D189",
+            "name": "[alternate]",
+            "ref": "alternate",
+            "text": {
+                "bold": false,
+                "color": [
+                    "RGB",
+                    0.5372549019607843,
+                    0.5372549019607843,
+                    0.5372549019607843,
+                    1
+                ],
+                "font": 0,
+                "italic": false,
+                "shadow": false,
+                "size": 14,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "A950496B-442D-4FA0-AE62-2DF9BE26B943",
+            "name": "[main]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "main",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "7277E276-5822-4A13-934C-37C64B3F2FA2",
+            "name": "[content]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "content",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "AD787119-3D3D-485C-B838-F7C9FCA88A1F",
+            "name": "[decorator]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "decorator",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "BC27E2EA-CD1C-4B05-A0F4-5FDDAA09080D",
+            "name": "[special]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "special",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "B82884F3-2F9D-4C08-8DD1-693963BB96E0",
+            "name": "[horizontal]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "horizontal",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "151A16D5-36C0-47C2-9B1D-355009F59311",
+            "name": "[vertical]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "vertical",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "F684760B-245F-43F1-AE1E-04BA67E687DB",
+            "name": "[heading]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "heading",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "EC652D2E-F4AE-419F-AA8E-96350C68CFE0",
+            "name": "[divider]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "divider",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0.7333333333333333,
+                            0.7333333333333333,
+                            0.7333333333333333,
+                            1
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                1
+                            ]
+                        ],
+                        "corners": null,
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    },
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSV",
+                        0.99,
+                        0,
+                        1,
+                        1
+                    ],
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "id": "037B5CAF-9CB7-49B7-8407-55F49DB6DD0E",
+            "inactive": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                1
+                            ]
+                        ],
+                        "corners": null,
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "RGB",
+                        0.6901960784313725,
+                        0.8352941176470589,
+                        0.4627450980392157,
+                        1
+                    ],
+                    "font": 0,
+                    "size": 14
+                },
+                "verticalAlign": null
+            },
+            "name": "[button.1]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "ref": "button.1",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "width": null
+        },
+        {
+            "fieldBgColor": [
+                "RGB",
+                1,
+                0,
+                0,
+                1
+            ],
+            "fieldBorderColor": [
+                "RGB",
+                0.23529411764705882,
+                0,
+                0,
+                1
+            ],
+            "font": 6,
+            "fontColor": [
+                "RGB",
+                0,
+                0,
+                0,
+                1
+            ],
+            "fontSize": 12,
+            "id": "655363DB-CC55-41C2-A48A-6B1F71F336FD",
+            "name": "[form]",
+            "primaryColor": [
+                "RGB",
+                1,
+                0,
+                0,
+                1
+            ],
+            "ref": "form",
+            "type": "web.data.styles.StyleForm"
+        },
+        {
+            "hover": {
+                "color": [
+                    "RGB",
+                    0.27450980392156865,
+                    0.27450980392156865,
+                    0.27450980392156865,
+                    1
+                ],
+                "underline": true
+            },
+            "id": "DF2018C2-3BFE-440E-B753-0849E94FEDA4",
+            "inactive": {
+                "color": [
+                    "RGB",
+                    0.5372549019607843,
+                    0.5372549019607843,
+                    0.5372549019607843,
+                    1
+                ],
+                "underline": true
+            },
+            "name": "[Link 2]",
+            "press": {
+                "color": [
+                    "RGB",
+                    0.5372549019607843,
+                    0.5372549019607843,
+                    0.5372549019607843,
+                    1
+                ],
+                "underline": true
+            },
+            "ref": "link.2",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "RGB",
+                    0.5372549019607843,
+                    0.5372549019607843,
+                    0.5372549019607843,
+                    1
+                ],
+                "underline": true
+            }
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            0.85
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": null,
+                        "corners": null,
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "RGB",
+                        0.5058823529411764,
+                        0.6549019607843137,
+                        0.28627450980392155,
+                        1
+                    ],
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "id": "DCD93FEF-D080-443F-9429-B2029CC38D28",
+            "inactive": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0.6901960784313725,
+                            0.8352941176470589,
+                            0.4627450980392157,
+                            1
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                1
+                            ]
+                        ],
+                        "corners": null,
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSV",
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "font": 0,
+                    "size": 18
+                },
+                "verticalAlign": null
+            },
+            "name": "[ button.2]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "ref": "button.2",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "width": null
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.85
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": null,
+                        "corners": null,
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "RGB",
+                        0.27450980392156865,
+                        0.27450980392156865,
+                        0.27450980392156865,
+                        1
+                    ],
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "id": "21EB9F9B-0E07-4BD1-875E-162F95E91502",
+            "inactive": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            0.5372549019607843,
+                            1
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                0.7333333333333333,
+                                1
+                            ]
+                        ],
+                        "corners": null,
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSV",
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "font": 0,
+                    "size": 18
+                },
+                "verticalAlign": null
+            },
+            "name": "[ button.3]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "ref": "button.3",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "width": null
+        }
+    ],
+    "type": "web.data.styles.Stylesheet"
+}

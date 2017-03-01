@@ -1,0 +1,5362 @@
+{
+    "id": "134EF50F-41E9-4453-8C64-34C44BF1608B",
+    "name": "Seaside",
+    "styles": [
+        {
+            "background": {
+                "asset": {
+                    "alpha": false,
+                    "animated": false,
+                    "bpp": 24,
+                    "contentType": "image/jpeg",
+                    "etag": "W/\"3453a-5241a8ae9cd07\"",
+                    "filesize": 214330,
+                    "height": 1600,
+                    "id": "9710B517-5D2B-4C58-83B3-BFD2AC630F55",
+                    "recommendedFormat": null,
+                    "type": "web.data.assets.Image",
+                    "url": "repository:/seaside-background.jpg",
+                    "width": 1600
+                },
+                "color": [
+                    "RGB",
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "fixed": true,
+                "gradient": null,
+                "position": [
+                    "50%",
+                    "50%"
+                ],
+                "repeat": [
+                    false,
+                    false
+                ],
+                "size": "fill"
+            },
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "5BABCDEB-38BB-4368-8462-8AF84C8B87BE",
+            "name": "[body]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "body",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSV",
+                0,
+                0,
+                1,
+                1
+            ],
+            "font": 12,
+            "id": "10FECB79-8422-4D41-97F7-A1F0CFEEF7C5",
+            "italic": false,
+            "name": "[paragraph]",
+            "ref": "normal",
+            "size": 18,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSV",
+                0,
+                0,
+                1,
+                1
+            ],
+            "font": "google://Kaushan Script",
+            "id": "F41285BA-378F-4963-9774-B1E64A79C83C",
+            "italic": false,
+            "name": "[heading.1]",
+            "ref": "heading.1",
+            "size": 72,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSV",
+                0,
+                0,
+                1,
+                1
+            ],
+            "font": "google://Kaushan Script",
+            "id": "4E4297AA-3188-495E-A64C-25E1EAFF9C08",
+            "italic": false,
+            "name": "[heading.2]",
+            "ref": "heading.2",
+            "size": 48,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSV",
+                0,
+                0,
+                1,
+                1
+            ],
+            "font": 12,
+            "id": "30F5E6C5-543A-4898-A9E9-A4B83F275481",
+            "italic": false,
+            "name": "[heading.3]",
+            "ref": "heading.3",
+            "size": 30,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "hover": {
+                "color": [
+                    "RGB",
+                    0,
+                    0.6392156862745098,
+                    0.6745098039215687,
+                    1
+                ],
+                "underline": true
+            },
+            "id": "33A784A8-6CB1-400D-9803-730B323D3B7D",
+            "inactive": {
+                "color": [
+                    "RGB",
+                    0,
+                    0.6392156862745098,
+                    0.6745098039215687,
+                    1
+                ],
+                "underline": false
+            },
+            "name": "[Link 1]",
+            "press": {
+                "color": [
+                    "RGB",
+                    0,
+                    0.6392156862745098,
+                    0.6745098039215687,
+                    1
+                ],
+                "underline": false
+            },
+            "ref": "link.1",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "RGB",
+                    0,
+                    0.6392156862745098,
+                    0.6745098039215687,
+                    1
+                ],
+                "underline": false
+            }
+        },
+        {
+            "accordionTextIndent": 40,
+            "block": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "cascadeWidth": 200,
+            "divider": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "expandable": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"88147-5241b5575aac0\"",
+                                "filesize": 557383,
+                                "height": 22,
+                                "id": "CBAF099C-1CCC-4419-87BA-70D7DDA1252B",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu1-expandable.png",
+                                "width": 46
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "100%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            46,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.39,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"88174-5241b7765e62f\"",
+                                "filesize": 557428,
+                                "height": 22,
+                                "id": "53BB4723-0847-4D67-9FC6-CD62D59E844F",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu1-expanded.png",
+                                "width": 46
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "100%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            46,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"88147-5241b5575aac0\"",
+                                "filesize": 557383,
+                                "height": 22,
+                                "id": "0E736721-B3EF-4611-8442-6791902609C3",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu1-expandable.png",
+                                "width": 46
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "100%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            46,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.39,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"88147-5241b5575aac0\"",
+                                "filesize": 557383,
+                                "height": 22,
+                                "id": "3EA4B491-F972-4D3B-8B6D-BEB928ABDB34",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu1-expandable.png",
+                                "width": 46
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "100%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            46,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.39,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"88147-5241b5575aac0\"",
+                                "filesize": 557383,
+                                "height": 22,
+                                "id": "A2D41364-8CEA-4C69-8D9D-91898A9DAA55",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu1-expandable.png",
+                                "width": 46
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "100%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            46,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.39,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "expanded": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"88174-5241b7765e62f\"",
+                                "filesize": 557428,
+                                "height": 22,
+                                "id": "0740BFCE-51A9-4726-8BFE-EBCE02CCF2B1",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu1-expanded.png",
+                                "width": 46
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "100%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            46,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"88174-5241b7765e62f\"",
+                                "filesize": 557428,
+                                "height": 22,
+                                "id": "6FD17ECE-78FE-4566-AD20-B52F43D6B305",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu1-expanded.png",
+                                "width": 46
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "100%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            46,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"88174-5241b7765e62f\"",
+                                "filesize": 557428,
+                                "height": 22,
+                                "id": "011F8578-6CC5-442F-AA69-71920D51159F",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu1-expanded.png",
+                                "width": 46
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "100%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            46,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"88174-5241b7765e62f\"",
+                                "filesize": 557428,
+                                "height": 22,
+                                "id": "AB0A6ED5-6ACC-4332-A9A6-F19CFAD212A1",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu1-expanded.png",
+                                "width": 46
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "100%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            46,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"88174-5241b7765e62f\"",
+                                "filesize": 557428,
+                                "height": 22,
+                                "id": "45415AC2-3779-45B0-9D96-B6F5F0CADC07",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu1-expanded.png",
+                                "width": 46
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "100%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            46,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "id": "7AAAEA5C-6BD1-44CB-ADA9-A5F4CB8FA8E4",
+            "item": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            24,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            24,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            24,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            24,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            24,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "name": "[menu.1]",
+            "ref": "menu.1",
+            "selected": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            24,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            24,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            24,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            24,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0.8,
+                                    0.8,
+                                    0.8,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            48,
+                            24,
+                            10,
+                            25
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "type": "web.data.styles.StyleMenu"
+        },
+        {
+            "accordionTextIndent": 40,
+            "block": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "cascadeWidth": 200,
+            "divider": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "expandable": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"88147-524298d69c7b2\"",
+                                "filesize": 557383,
+                                "height": 14,
+                                "id": "B000F9CD-590F-4B5C-A249-F419737E834C",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu2-expandable.png",
+                                "width": 27
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                0.95
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            37,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8812e-524297d51cd16\"",
+                                "filesize": 557358,
+                                "height": 14,
+                                "id": "45F8FDD1-8462-45CD-94FB-FF168F72DC1B",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu2-expanded.png",
+                                "width": 27
+                            },
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6392156862745098,
+                                0.6745098039215687,
+                                0.95
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            37,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"88147-524298d69c7b2\"",
+                                "filesize": 557383,
+                                "height": 14,
+                                "id": "AD6957A1-EA17-4FE7-8FA3-C254C7EBD6C9",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu2-expandable.png",
+                                "width": 27
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                0.95
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            37,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"88147-524298d69c7b2\"",
+                                "filesize": 557383,
+                                "height": 14,
+                                "id": "FD485781-E0B7-43A4-B476-284C3F14E537",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu2-expandable.png",
+                                "width": 27
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                0.95
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            37,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"88147-524298d69c7b2\"",
+                                "filesize": 557383,
+                                "height": 14,
+                                "id": "748F99C9-E726-462E-B139-9A424281B22A",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu2-expandable.png",
+                                "width": 27
+                            },
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                0.95
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            37,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "expanded": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8812e-524297d51cd16\"",
+                                "filesize": 557358,
+                                "height": 14,
+                                "id": "D7D72FA0-21C8-4CE7-837D-8DD8EE38C302",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu2-expanded.png",
+                                "width": 27
+                            },
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6392156862745098,
+                                0.6745098039215687,
+                                0.95
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            37,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8812e-524297d51cd16\"",
+                                "filesize": 557358,
+                                "height": 14,
+                                "id": "97FEF49D-B720-4EE7-B142-B805BB04BDDC",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu2-expanded.png",
+                                "width": 27
+                            },
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6392156862745098,
+                                0.6745098039215687,
+                                0.95
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            37,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8812e-524297d51cd16\"",
+                                "filesize": 557358,
+                                "height": 14,
+                                "id": "E95E6C5E-7A2B-475E-8A1C-B2ECF9BAA5F9",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu2-expanded.png",
+                                "width": 27
+                            },
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6392156862745098,
+                                0.6745098039215687,
+                                0.95
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            37,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8812e-524297d51cd16\"",
+                                "filesize": 557358,
+                                "height": 14,
+                                "id": "BE2DA4B8-F394-45C5-8894-D2FF0B55422E",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu2-expanded.png",
+                                "width": 27
+                            },
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6392156862745098,
+                                0.6745098039215687,
+                                0.95
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            37,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"8812e-524297d51cd16\"",
+                                "filesize": 557358,
+                                "height": 14,
+                                "id": "A933FBA3-F7EE-443F-9545-70EFE388D476",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/seaside-menu2-expanded.png",
+                                "width": 27
+                            },
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6392156862745098,
+                                0.6745098039215687,
+                                0.95
+                            ],
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            37,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "id": "AD740219-D3C1-4255-9FA5-474B4FB41EF4",
+            "item": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                0.95
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6392156862745098,
+                                0.6745098039215687,
+                                0.95
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                0.95
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                0.95
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                0.95
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "name": "[menu.2]",
+            "ref": "menu.2",
+            "selected": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6392156862745098,
+                                0.6745098039215687,
+                                0.95
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6392156862745098,
+                                0.6745098039215687,
+                                0.95
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6392156862745098,
+                                0.6745098039215687,
+                                0.95
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6392156862745098,
+                                0.6745098039215687,
+                                0.95
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6392156862745098,
+                                0.6745098039215687,
+                                0.95
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            11,
+                            20,
+                            12,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 12,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "type": "web.data.styles.StyleMenu"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0,
+                        0.6392156862745098,
+                        0.6745098039215687,
+                        0
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "2E69DE16-8DEE-4F3A-92B9-5A2DFD36247D",
+            "name": "[normal]",
+            "ref": "normal",
+            "text": {
+                "bold": false,
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "font": 12,
+                "italic": false,
+                "shadow": false,
+                "size": 18,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0,
+                        0.6392156862745098,
+                        0.6745098039215687,
+                        0
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "29A26AC5-E9D9-440F-A009-28350CB5A4B8",
+            "name": "[heading.1]",
+            "ref": "heading.1",
+            "text": {
+                "bold": false,
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "font": "google://Kaushan Script",
+                "italic": false,
+                "shadow": false,
+                "size": 36,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0,
+                        0.6392156862745098,
+                        0.6745098039215687,
+                        0
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "845B31CC-A37B-4C34-BAC9-5E3725BF93BC",
+            "name": "[heading.2]",
+            "ref": "heading.2",
+            "text": {
+                "bold": false,
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "font": 12,
+                "italic": false,
+                "shadow": false,
+                "size": 30,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0,
+                        0.6392156862745098,
+                        0.6745098039215687,
+                        0
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "4AE58E98-9FF6-4F45-922A-F2F0AAA35083",
+            "name": "[alternate]",
+            "ref": "alternate",
+            "text": {
+                "bold": false,
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "font": 12,
+                "italic": false,
+                "shadow": false,
+                "size": 18,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "C00A6964-5D83-4133-97F3-281A2C8DA39E",
+            "name": "[main]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "main",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "D5C8252B-0E40-4770-AE28-AC7C16A94FDF",
+            "name": "[content]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "content",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "3B5E78AA-83A3-466C-BB20-D25995380F99",
+            "name": "[decorator]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "decorator",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "6A1228E2-57DC-47D0-AD4F-9E618B16487A",
+            "name": "[special]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "special",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "83C228D7-F0B9-464C-8DEF-A9FAD268B5A6",
+            "name": "[horizontal]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "horizontal",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "62CDD11D-8BF8-437F-A709-F9F167FB0857",
+            "name": "[vertical]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "vertical",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "5569E203-739F-461C-B409-0656778F93D5",
+            "name": "[heading]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "heading",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "5A2CC159-8678-474A-B701-E5F08888AB1C",
+            "name": "[divider]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "divider",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            0.8
+                        ],
+                        "gradient": null
+                    },
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSV",
+                        0.075,
+                        0,
+                        1,
+                        1
+                    ],
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "id": "FAA4E5F9-9DE1-4882-B8F8-AA1C11210D24",
+            "inactive": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6392156862745098,
+                            0.6745098039215687,
+                            1
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": null,
+                        "corners": {
+                            "bottomLeft": 25,
+                            "bottomRight": 25,
+                            "topLeft": 25,
+                            "topRight": 25
+                        },
+                        "style": null,
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSV",
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "font": 12,
+                    "size": 18
+                },
+                "verticalAlign": null
+            },
+            "name": "[button.1]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "ref": "button.1",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "width": null
+        },
+        {
+            "fieldBgColor": [
+                "RGB",
+                1,
+                0,
+                0,
+                1
+            ],
+            "fieldBorderColor": [
+                "RGB",
+                0.23529411764705882,
+                0,
+                0,
+                1
+            ],
+            "font": 6,
+            "fontColor": [
+                "RGB",
+                0,
+                0,
+                0,
+                1
+            ],
+            "fontSize": 12,
+            "id": "55D3B366-D4EA-4C75-A6DC-6ED461CD9286",
+            "name": "[form]",
+            "primaryColor": [
+                "RGB",
+                1,
+                0,
+                0,
+                1
+            ],
+            "ref": "form",
+            "type": "web.data.styles.StyleForm"
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            0.8
+                        ],
+                        "gradient": null
+                    },
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "RGB",
+                        0,
+                        0.6392156862745098,
+                        0.6745098039215687,
+                        1
+                    ],
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "id": "7668D32C-6EFB-4893-90DD-537159023817",
+            "inactive": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": null,
+                        "corners": {
+                            "bottomLeft": 25,
+                            "bottomRight": 25,
+                            "topLeft": 25,
+                            "topRight": 25
+                        },
+                        "style": null,
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "RGB",
+                        0,
+                        0.6392156862745098,
+                        0.6745098039215687,
+                        1
+                    ],
+                    "font": 12,
+                    "size": 18
+                },
+                "verticalAlign": null
+            },
+            "name": "[ button.2]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "ref": "button.2",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "width": null
+        },
+        {
+            "hover": {
+                "color": [
+                    "RGB",
+                    0.43529411764705883,
+                    0.43529411764705883,
+                    0.43529411764705883,
+                    1
+                ],
+                "underline": true
+            },
+            "id": "B3EFF8C9-494F-48E0-B9C3-F198FBD61A23",
+            "inactive": {
+                "color": [
+                    "RGB",
+                    0.21176470588235294,
+                    0.21176470588235294,
+                    0.21176470588235294,
+                    1
+                ],
+                "underline": true
+            },
+            "name": "[ link 2]",
+            "press": {
+                "color": [
+                    "RGB",
+                    0.21176470588235294,
+                    0.21176470588235294,
+                    0.21176470588235294,
+                    1
+                ],
+                "underline": false
+            },
+            "ref": "link.2",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "RGB",
+                    0.21176470588235294,
+                    0.21176470588235294,
+                    0.21176470588235294,
+                    1
+                ],
+                "underline": false
+            }
+        },
+        {
+            "hover": {
+                "color": [
+                    "RGB",
+                    0.3176470588235294,
+                    0.7333333333333333,
+                    0.7568627450980392,
+                    1
+                ],
+                "underline": false
+            },
+            "id": "A56C9A6D-5571-41F6-8F18-D81523A0D321",
+            "inactive": {
+                "color": [
+                    "HSV",
+                    0.38,
+                    0,
+                    1,
+                    1
+                ],
+                "underline": false
+            },
+            "name": "[ link 3]",
+            "press": {
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "underline": false
+            },
+            "ref": "link.3",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "HSV",
+                    0.135,
+                    0,
+                    1,
+                    1
+                ],
+                "underline": false
+            }
+        }
+    ],
+    "type": "web.data.styles.Stylesheet"
+}

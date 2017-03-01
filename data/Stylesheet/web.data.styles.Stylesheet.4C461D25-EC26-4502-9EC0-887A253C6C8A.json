@@ -1,0 +1,5347 @@
+{
+    "id": "4C461D25-EC26-4502-9EC0-887A253C6C8A",
+    "name": "iStore",
+    "styles": [
+        {
+            "background": {
+                "asset": null,
+                "color": [
+                    "RGB",
+                    0.9607843137254902,
+                    0.9607843137254902,
+                    0.9607843137254902,
+                    1
+                ],
+                "gradient": null
+            },
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "2B8D0C6A-6632-4989-A85C-6CD42E621668",
+            "name": "[body]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "body",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSV",
+                0,
+                0,
+                0,
+                1
+            ],
+            "font": "google://Arimo",
+            "id": "27FA96D2-86ED-4625-9827-D2B30DA041E8",
+            "italic": false,
+            "name": "[paragraph]",
+            "ref": "normal",
+            "size": 18,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSV",
+                0,
+                0,
+                0,
+                1
+            ],
+            "font": "google://Teko",
+            "id": "A260E2A3-A6BC-4B55-A44D-7D734FDBFBE6",
+            "italic": false,
+            "name": "[heading.1]",
+            "ref": "heading.1",
+            "size": 80,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSV",
+                0,
+                0,
+                0,
+                1
+            ],
+            "font": "google://Teko",
+            "id": "15B45232-9DBF-4A33-8F6D-E1BBE69D7DA8",
+            "italic": false,
+            "name": "[heading.2]",
+            "ref": "heading.2",
+            "size": 60,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSV",
+                0,
+                0,
+                0,
+                1
+            ],
+            "font": "google://Teko",
+            "id": "D14633C4-79DC-4182-B937-D77283FB7C9D",
+            "italic": false,
+            "name": "[heading.3]",
+            "ref": "heading.3",
+            "size": 40,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "hover": {
+                "color": [
+                    "RGB",
+                    0.08627450980392157,
+                    0.2823529411764706,
+                    0.5137254901960784,
+                    1
+                ],
+                "underline": true
+            },
+            "id": "BCF49D59-C03F-4B1E-8D0E-8D1283008EDB",
+            "inactive": {
+                "color": [
+                    "RGB",
+                    0.08627450980392157,
+                    0.2823529411764706,
+                    0.5137254901960784,
+                    1
+                ],
+                "underline": false
+            },
+            "name": "[Link 1]",
+            "press": {
+                "color": [
+                    "RGB",
+                    0.08627450980392157,
+                    0.2823529411764706,
+                    0.5137254901960784,
+                    1
+                ],
+                "underline": false
+            },
+            "ref": "link.1",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "RGB",
+                    0.08627450980392157,
+                    0.2823529411764706,
+                    0.5137254901960784,
+                    1
+                ],
+                "underline": false
+            }
+        },
+        {
+            "accordionTextIndent": 40,
+            "block": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "cascadeWidth": 200,
+            "divider": {
+                "background": {
+                    "asset": {
+                        "alpha": null,
+                        "animated": false,
+                        "bpp": null,
+                        "contentType": "image/png",
+                        "etag": "W/\"8d2e8-5353a793b169c\"",
+                        "filesize": 578280,
+                        "height": 20,
+                        "id": "D9DB5C01-557C-4982-92A0-398A5AD78E22",
+                        "recommendedFormat": null,
+                        "type": "web.data.assets.Image",
+                        "url": "repository:/istore-menu1-divider.png",
+                        "width": 11
+                    },
+                    "color": null,
+                    "fixed": false,
+                    "gradient": null,
+                    "position": [
+                        "50%",
+                        "50%"
+                    ],
+                    "repeat": [
+                        false,
+                        false
+                    ]
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    1,
+                    0,
+                    0
+                ]
+            },
+            "expandable": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "expanded": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "id": "B641506B-A532-4430-8110-FA8BBB35EF9B",
+            "item": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "name": "[menu.1]",
+            "ref": "menu.1",
+            "selected": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            25,
+                            20,
+                            25,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "type": "web.data.styles.StyleMenu"
+        },
+        {
+            "accordionTextIndent": 40,
+            "block": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            0.15
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            0.15
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            0.15
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            0.15
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "cascadeWidth": 200,
+            "divider": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0.5568627450980392,
+                            0.6666666666666666,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0.5568627450980392,
+                            0.6666666666666666,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0.5568627450980392,
+                            0.6666666666666666,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0.5568627450980392,
+                            0.6666666666666666,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "expandable": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.30196078431372547,
+                                0.7725490196078432,
+                                0.8666666666666667,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "expanded": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.30196078431372547,
+                                0.7725490196078432,
+                                0.8666666666666667,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.30196078431372547,
+                                0.7725490196078432,
+                                0.8666666666666667,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.30196078431372547,
+                                0.7725490196078432,
+                                0.8666666666666667,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.30196078431372547,
+                                0.7725490196078432,
+                                0.8666666666666667,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.30196078431372547,
+                                0.7725490196078432,
+                                0.8666666666666667,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "id": "1FA9A506-D7D2-4F9B-A19C-F3D0158355CC",
+            "item": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.30196078431372547,
+                                0.7725490196078432,
+                                0.8666666666666667,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "name": "[menu.2]",
+            "ref": "menu.2",
+            "selected": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.30196078431372547,
+                                0.7725490196078432,
+                                0.8666666666666667,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.30196078431372547,
+                                0.7725490196078432,
+                                0.8666666666666667,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.30196078431372547,
+                                0.7725490196078432,
+                                0.8666666666666667,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.30196078431372547,
+                                0.7725490196078432,
+                                0.8666666666666667,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.30196078431372547,
+                                0.7725490196078432,
+                                0.8666666666666667,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            12,
+                            20,
+                            14,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Arimo",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 18,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "type": "web.data.styles.StyleMenu"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    8,
+                    3,
+                    9,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "B7FCC376-DBF5-4B8B-92EA-EA55C35B4E44",
+            "name": "[normal]",
+            "ref": "normal",
+            "text": {
+                "bold": false,
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "font": "google://Arimo",
+                "italic": false,
+                "shadow": false,
+                "size": 18,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0,
+                        0.6745098039215687,
+                        0.807843137254902,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    8,
+                    3,
+                    9,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "DC949700-C764-4C59-8CE4-AC2CA99DAB4E",
+            "name": "[heading.1]",
+            "ref": "heading.1",
+            "text": {
+                "bold": false,
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "font": "google://Arimo",
+                "italic": false,
+                "shadow": false,
+                "size": 32,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    8,
+                    3,
+                    9,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "BC141784-488F-4020-B801-4EE7F390A74F",
+            "name": "[heading.2]",
+            "ref": "heading.2",
+            "text": {
+                "bold": true,
+                "color": [
+                    "RGB",
+                    0.21176470588235294,
+                    0.21176470588235294,
+                    0.21176470588235294,
+                    1
+                ],
+                "font": "google://Arimo",
+                "italic": false,
+                "shadow": false,
+                "size": 18,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        1,
+                        1,
+                        1,
+                        0.5
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    8,
+                    3,
+                    9,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "D4AF2F09-0FBE-4FAA-A097-213A44C64846",
+            "name": "[alternate]",
+            "ref": "alternate",
+            "text": {
+                "bold": false,
+                "color": [
+                    "RGB",
+                    0.21176470588235294,
+                    0.21176470588235294,
+                    0.21176470588235294,
+                    1
+                ],
+                "font": "google://Arimo",
+                "italic": false,
+                "shadow": false,
+                "size": 18,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "2B101E40-8BBF-473D-B9B7-B474E7EE0460",
+            "name": "[main]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "main",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "08842DF9-F8F1-458B-A446-85128306F523",
+            "name": "[content]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "content",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "8E378193-A996-4A88-98F6-0E7C28C680A2",
+            "name": "[decorator]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "decorator",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "98E8C43D-94AD-47C3-AC76-145BDC4B0F3A",
+            "name": "[special]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "special",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "4309D2BA-04F4-4C72-BB38-E7D940A1EA71",
+            "name": "[horizontal]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "horizontal",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "3C54E3A0-A51E-4B76-9D7C-AB8D0EBEBF47",
+            "name": "[vertical]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "vertical",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "E37B28FA-51AB-458D-BB10-10003564B6CE",
+            "name": "[heading]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "heading",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "E74C493B-198F-41D6-AB37-D0B45921C2A3",
+            "name": "[divider]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "divider",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            0.7
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "corners": null,
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSV",
+                        0.86,
+                        0,
+                        1,
+                        1
+                    ],
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "id": "57E731FA-3088-42AD-B9C5-C53882FCC066",
+            "inactive": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0,
+                                0,
+                                1
+                            ]
+                        ],
+                        "corners": {
+                            "bottomLeft": 30,
+                            "bottomRight": 30,
+                            "topLeft": 30,
+                            "topRight": 30
+                        },
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": "left",
+                "text": {
+                    "color": [
+                        "HSV",
+                        0.74,
+                        0,
+                        1,
+                        1
+                    ],
+                    "font": "google://Arimo",
+                    "size": 18
+                },
+                "verticalAlign": "top"
+            },
+            "name": "[button.1]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "ref": "button.1",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "width": null
+        },
+        {
+            "fieldBgColor": [
+                "RGB",
+                1,
+                0,
+                0,
+                1
+            ],
+            "fieldBorderColor": [
+                "RGB",
+                0.23529411764705882,
+                0,
+                0,
+                1
+            ],
+            "font": 6,
+            "fontColor": [
+                "RGB",
+                0,
+                0,
+                0,
+                1
+            ],
+            "fontSize": 12,
+            "id": "91AFDAB2-AC2D-4CCE-A7F2-F971AB0D8892",
+            "name": "[form]",
+            "primaryColor": [
+                "RGB",
+                1,
+                0,
+                0,
+                1
+            ],
+            "ref": "form",
+            "type": "web.data.styles.StyleForm"
+        },
+        {
+            "hover": {
+                "color": [
+                    "RGB",
+                    0.3843137254901961,
+                    0.788235294117647,
+                    0.8705882352941177,
+                    1
+                ],
+                "underline": false
+            },
+            "id": "6AA243DC-3659-4004-B61C-66BB3289900B",
+            "inactive": {
+                "color": [
+                    "RGB",
+                    0,
+                    0.6745098039215687,
+                    0.807843137254902,
+                    1
+                ],
+                "underline": false
+            },
+            "name": "[ link 2]",
+            "press": {
+                "color": [
+                    "RGB",
+                    0,
+                    0.6745098039215687,
+                    0.807843137254902,
+                    1
+                ],
+                "underline": false
+            },
+            "ref": "link.2",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "RGB",
+                    0,
+                    0.6745098039215687,
+                    0.807843137254902,
+                    1
+                ],
+                "underline": false
+            }
+        },
+        {
+            "hover": {
+                "color": [
+                    "HSV",
+                    0.42156862745098034,
+                    0.15246636771300445,
+                    0,
+                    1
+                ],
+                "underline": false
+            },
+            "id": "F70945AF-7803-48A0-B50F-C2EF8AA7EE8C",
+            "inactive": {
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "underline": true
+            },
+            "name": "[ link 3]",
+            "press": {
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "underline": false
+            },
+            "ref": "link.3",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "HSV",
+                    0.335,
+                    0,
+                    0,
+                    1
+                ],
+                "underline": false
+            }
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            0.2
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                0.05
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                0.05
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                0.05
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                0.05
+                            ]
+                        ],
+                        "corners": null,
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    },
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "RGB",
+                        0,
+                        0.6745098039215687,
+                        0.807843137254902,
+                        1
+                    ],
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "id": "BE7BFEA3-7C59-4A18-9DE8-8B1E086ADF53",
+            "inactive": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0.16470588235294117,
+                            0.6588235294117647,
+                            0.4627450980392157,
+                            0
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ]
+                        ],
+                        "corners": {
+                            "bottomLeft": 30,
+                            "bottomRight": 30,
+                            "topLeft": 30,
+                            "topRight": 30
+                        },
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": "left",
+                "text": {
+                    "color": [
+                        "RGB",
+                        0,
+                        0.6745098039215687,
+                        0.807843137254902,
+                        1
+                    ],
+                    "font": "google://Arimo",
+                    "size": 18
+                },
+                "verticalAlign": "top"
+            },
+            "name": "[ button.2]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "ref": "button.2",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "width": null
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0,
+                            0.6745098039215687,
+                            0.807843137254902,
+                            1
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ]
+                        ],
+                        "corners": null,
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSV",
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "id": "A3F6AFE8-A31A-42B8-BACE-345E0632753D",
+            "inactive": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0,
+                                0.6745098039215687,
+                                0.807843137254902,
+                                1
+                            ]
+                        ],
+                        "corners": {
+                            "bottomLeft": 30,
+                            "bottomRight": 30,
+                            "topLeft": 30,
+                            "topRight": 30
+                        },
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": "left",
+                "text": {
+                    "color": [
+                        "RGB",
+                        0,
+                        0.6745098039215687,
+                        0.807843137254902,
+                        1
+                    ],
+                    "font": "google://Arimo",
+                    "size": 18
+                },
+                "verticalAlign": "top"
+            },
+            "name": "[ button.3]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "ref": "button.3",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "width": null
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            0.2
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                0.05
+                            ],
+                            [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                0.05
+                            ],
+                            [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                0.05
+                            ],
+                            [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                0.05
+                            ]
+                        ],
+                        "corners": null,
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    },
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSV",
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "id": "ABE93F58-69FF-4AFE-BE26-1F91B05CBD3F",
+            "inactive": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0.16470588235294117,
+                            0.6588235294117647,
+                            0.4627450980392157,
+                            0
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ]
+                        ],
+                        "corners": {
+                            "bottomLeft": 30,
+                            "bottomRight": 30,
+                            "topLeft": 30,
+                            "topRight": 30
+                        },
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": "left",
+                "text": {
+                    "color": [
+                        "HSV",
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "font": "google://Arimo",
+                    "size": 18
+                },
+                "verticalAlign": "top"
+            },
+            "name": "[ button.4]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "ref": "button.4",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "width": null
+        }
+    ],
+    "type": "web.data.styles.Stylesheet"
+}

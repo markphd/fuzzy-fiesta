@@ -1,0 +1,820 @@
+{
+    "bbox": {
+        "bottom": 100,
+        "left": 0,
+        "right": 100,
+        "top": 0
+    },
+    "height": 100,
+    "id": "14470D59-80CA-4042-A23A-BA0BCEA29AC9",
+    "items": [
+        {
+            "bbox": {
+                "bottom": 256,
+                "left": 0,
+                "right": 1180,
+                "top": 90
+            },
+            "height": 166,
+            "id": "D6A6040A-43D7-421A-B806-F4DA768AEC39",
+            "mobileDown": false,
+            "orderIndex": 1,
+            "relTo": {
+                "below": 0,
+                "id": "EFE13F3D-007F-41CC-90B0-0CE2080C9080"
+            },
+            "stretch": true,
+            "style": {
+                "background": {
+                    "asset": {
+                        "alpha": null,
+                        "animated": false,
+                        "bpp": null,
+                        "contentType": "image/png",
+                        "etag": "W/\"1c8b23-53b5f60a2331f\"",
+                        "filesize": 1870627,
+                        "height": 940,
+                        "id": "C73F873D-36CF-412A-922E-551B9CB08FCC",
+                        "recommendedFormat": null,
+                        "type": "web.data.assets.Image",
+                        "url": "repository:/int-subpages-top-header.png",
+                        "width": 3200
+                    },
+                    "color": null,
+                    "gradient": null,
+                    "position": [
+                        "0%",
+                        "50%"
+                    ],
+                    "repeat": [
+                        false,
+                        false
+                    ],
+                    "size": "fill"
+                },
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 1180,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 165,
+                "left": 373,
+                "right": 807,
+                "top": 162
+            },
+            "height": 3,
+            "id": "C51E753F-8229-419A-909C-7A014F4764FE",
+            "mobileDown": false,
+            "orderIndex": 14,
+            "relIn": {
+                "bottom": -91,
+                "id": "D6A6040A-43D7-421A-B806-F4DA768AEC39",
+                "left": 373,
+                "right": -373,
+                "top": 72
+            },
+            "stretch": false,
+            "style": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 434,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 204,
+                "left": 255,
+                "right": 925,
+                "top": 182
+            },
+            "cells": [],
+            "height": 22,
+            "id": "9895A0D9-C2C8-442D-B94E-2AD91935623C",
+            "links": [],
+            "mobileDown": false,
+            "orderIndex": 15,
+            "paras": [
+                [
+                    0,
+                    10,
+                    {
+                        "align": "center",
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relIn": {
+                "bottom": -52,
+                "id": "D6A6040A-43D7-421A-B806-F4DA768AEC39",
+                "left": 255,
+                "right": -255,
+                "top": 92
+            },
+            "relTo": {
+                "below": 17,
+                "id": "C51E753F-8229-419A-909C-7A014F4764FE"
+            },
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    10,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "globalId": "A513F5F6-5D56-4267-91D7-5988C0FB14C3",
+                        "globalName": "[heading.3]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "CONTACT US",
+            "type": "web.data.components.Text",
+            "width": 670,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 843,
+                "left": 357,
+                "right": 823,
+                "top": 289
+            },
+            "formElements": {
+                "email": {
+                    "errorMessage": "Please enter a valid email",
+                    "inputType": "email",
+                    "isRequired": true,
+                    "name": "Email",
+                    "values": null
+                },
+                "message": {
+                    "errorMessage": "Please enter a valid message",
+                    "inputType": "textarea",
+                    "isRequired": true,
+                    "name": "Message",
+                    "values": null
+                },
+                "name": {
+                    "errorMessage": "Please enter a valid name",
+                    "inputType": "text",
+                    "isRequired": true,
+                    "name": "Name",
+                    "values": null
+                },
+                "subject1": {
+                    "errorMessage": "Please enter a valid subject",
+                    "inputType": "text",
+                    "isRequired": false,
+                    "name": "Subject",
+                    "values": null
+                }
+            },
+            "formElementsOrder": [
+                "name",
+                "email",
+                "subject1",
+                "message"
+            ],
+            "height": 554,
+            "id": "17840667-7737-4740-900C-C82C5C336BCA",
+            "mobileDown": false,
+            "orderIndex": 21,
+            "recipientEmail": null,
+            "relTo": {
+                "below": 33,
+                "id": "D6A6040A-43D7-421A-B806-F4DA768AEC39"
+            },
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "styleButton": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "globalId": "FB805328-CCB3-416A-8BD8-A304DC948F0E",
+                "globalName": "[button.1]",
+                "hover": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "type": "web.data.styles.StyleButton",
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                }
+            },
+            "styleForm": {
+                "fieldBgColor": null,
+                "fieldBorderColor": null,
+                "font": "google://Open Sans",
+                "fontColor": null,
+                "fontSize": 18,
+                "primaryColor": null,
+                "type": "web.data.styles.StyleForm"
+            },
+            "submitBtn": "   SUBMIT   ",
+            "successMessage": "Thank you for your message.",
+            "type": "web.data.components.ContactForm",
+            "width": 466,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 1304,
+                "left": 0,
+                "right": 1180,
+                "top": 878
+            },
+            "height": 426,
+            "id": "433CAC33-4304-422B-8104-4B74DE3DE4E8",
+            "mobileDown": false,
+            "orderIndex": 0,
+            "relTo": {
+                "below": 35,
+                "id": "17840667-7737-4740-900C-C82C5C336BCA"
+            },
+            "stretch": true,
+            "style": {
+                "background": {
+                    "asset": {
+                        "alpha": null,
+                        "animated": false,
+                        "bpp": null,
+                        "contentType": "image/png",
+                        "etag": "W/\"13a1cf-53ab8c0bf6d1e\"",
+                        "filesize": 1286607,
+                        "height": 732,
+                        "id": "AD84B9EA-4CAE-4951-9D3E-8056FEC6D82F",
+                        "recommendedFormat": null,
+                        "type": "web.data.assets.Image",
+                        "url": "repository:/hd-map.png",
+                        "width": 3242
+                    },
+                    "color": [
+                        "RGB",
+                        0.25,
+                        0.5,
+                        0.5,
+                        1
+                    ],
+                    "fixed": false,
+                    "gradient": null,
+                    "position": [
+                        "50%",
+                        "50%"
+                    ],
+                    "repeat": [
+                        true,
+                        true
+                    ],
+                    "size": 87
+                },
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 1180,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 1271,
+                "left": 834,
+                "right": 1180,
+                "top": 911
+            },
+            "height": 360,
+            "id": "655AE276-B452-4D2F-8232-5A77D0CA736B",
+            "mobileDown": false,
+            "orderIndex": 29,
+            "relIn": {
+                "bottom": -33,
+                "id": "433CAC33-4304-422B-8104-4B74DE3DE4E8",
+                "left": 834,
+                "right": 0,
+                "top": 33
+            },
+            "stretch": false,
+            "style": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 346,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 1169,
+                "left": 874,
+                "right": 1138,
+                "top": 941
+            },
+            "cells": [],
+            "height": 228,
+            "id": "182E4FA7-C8AC-4877-B995-5AC0ADC81711",
+            "links": [
+                [
+                    18,
+                    19,
+                    {
+                        "id": "C994743D-C40D-45EA-9FBE-7330A8D04493",
+                        "linkId": "2D70A9A1-6728-4C78-B9D1-E63B7D5B531F",
+                        "style": {
+                            "globalId": "382A353A-B093-4FD6-B293-952B939608FA",
+                            "globalName": "[Link 1]",
+                            "hover": {},
+                            "inactive": {},
+                            "press": {},
+                            "type": "web.data.styles.StyleLink",
+                            "visited": {}
+                        },
+                        "type": "web.data.Action"
+                    }
+                ],
+                [
+                    57,
+                    75,
+                    {
+                        "id": "39967AB8-5A57-4CA3-A9EA-5224ED6B0B8E",
+                        "link": {
+                            "hidden": false,
+                            "id": "645995A5-FDE4-489D-AACE-A03B65E50B3D",
+                            "linkId": null,
+                            "name": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,12z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e",
+                            "target": "_self",
+                            "type": "web.data.links.LinkExternal",
+                            "url": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,12z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e"
+                        },
+                        "style": {
+                            "globalId": "9EAE0A4C-13C6-4142-8AFF-D9C0C4BF214C",
+                            "globalName": "[Link 1]",
+                            "hover": {},
+                            "inactive": {},
+                            "press": {},
+                            "type": "web.data.styles.StyleLink",
+                            "visited": {}
+                        },
+                        "type": "web.data.Action"
+                    }
+                ]
+            ],
+            "mobileDown": false,
+            "orderIndex": 30,
+            "paras": [
+                [
+                    0,
+                    75,
+                    {
+                        "height": 1.8,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    77,
+                    121,
+                    {
+                        "height": 1.8,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relIn": {
+                "bottom": -102,
+                "id": "655AE276-B452-4D2F-8232-5A77D0CA736B",
+                "left": 40,
+                "right": -42,
+                "top": 30
+            },
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    14,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "globalId": "A513F5F6-5D56-4267-91D7-5988C0FB14C3",
+                        "globalName": "[heading.3]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    15,
+                    18,
+                    {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "letterspacing": 1,
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    18,
+                    19,
+                    {
+                        "bold": true,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "letterspacing": 1,
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    20,
+                    75,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    77,
+                    90,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "globalId": "A513F5F6-5D56-4267-91D7-5988C0FB14C3",
+                        "globalName": "[heading.3]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    91,
+                    121,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "OFFICE ADDRESS\nInt.\n8901 Marmora Road, Glasgow, D04 89GR\nSee in google maps\n\nOPENING HOURS\nMonday to Friday: 9:00 - 18:00",
+            "type": "web.data.components.Text",
+            "width": 264,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 1035,
+                "left": 557,
+                "right": 570,
+                "top": 1022
+            },
+            "height": 13,
+            "id": "1D6651C8-1847-4888-A545-C5E610D9E6F0",
+            "mobileDown": false,
+            "orderIndex": 31,
+            "relIn": {
+                "bottom": -269,
+                "id": "433CAC33-4304-422B-8104-4B74DE3DE4E8",
+                "left": 557,
+                "right": -610,
+                "top": 144
+            },
+            "stretch": false,
+            "style": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        1,
+                        0.00784313725490196,
+                        0.6627450980392157,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": null,
+                    "corners": {
+                        "bottomLeft": 13,
+                        "bottomRight": 13,
+                        "topLeft": 13,
+                        "topRight": 13
+                    },
+                    "style": null,
+                    "width": null
+                },
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 13,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 1237,
+                "left": 874,
+                "right": 978,
+                "top": 1187
+            },
+            "cells": [],
+            "height": 50,
+            "id": "852515B4-8273-4956-B690-14751363AE9A",
+            "links": [],
+            "mobileDown": false,
+            "orderIndex": 32,
+            "paras": [
+                [
+                    6,
+                    18,
+                    {
+                        "height": 1.8,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relIn": {
+                "bottom": -34,
+                "id": "655AE276-B452-4D2F-8232-5A77D0CA736B",
+                "left": 40,
+                "right": -202,
+                "top": 276
+            },
+            "relTo": {
+                "below": 18,
+                "id": "182E4FA7-C8AC-4877-B995-5AC0ADC81711"
+            },
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    5,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "globalId": "A513F5F6-5D56-4267-91D7-5988C0FB14C3",
+                        "globalName": "[heading.3]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    6,
+                    18,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "PHONE\n123-456-7890",
+            "type": "web.data.components.Text",
+            "width": 104,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 1237,
+                "left": 1004,
+                "right": 1151,
+                "top": 1187
+            },
+            "cells": [],
+            "height": 50,
+            "id": "01AA34C7-7A53-408C-809B-F841AAD675E2",
+            "links": [
+                [
+                    5,
+                    22,
+                    {
+                        "id": "19551AB5-6392-41D1-9DDB-A8CA8483B55E",
+                        "link": {
+                            "hidden": false,
+                            "id": "4CF673DF-A6C3-40CF-9256-4CF822B0BA3B",
+                            "linkId": null,
+                            "name": "mailto:mail@demolink.org",
+                            "target": "_self",
+                            "type": "web.data.links.LinkExternal",
+                            "url": "mailto:mail@demolink.org"
+                        },
+                        "style": {
+                            "globalId": "9EAE0A4C-13C6-4142-8AFF-D9C0C4BF214C",
+                            "globalName": "[Link 1]",
+                            "hover": {},
+                            "inactive": {},
+                            "press": {},
+                            "type": "web.data.styles.StyleLink",
+                            "visited": {}
+                        },
+                        "type": "web.data.Action"
+                    }
+                ]
+            ],
+            "mobileDown": false,
+            "orderIndex": 32,
+            "paras": [
+                [
+                    5,
+                    22,
+                    {
+                        "height": 1.8,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relIn": {
+                "bottom": -34,
+                "id": "655AE276-B452-4D2F-8232-5A77D0CA736B",
+                "left": 170,
+                "right": -29,
+                "top": 276
+            },
+            "relTo": {
+                "below": 18,
+                "id": "182E4FA7-C8AC-4877-B995-5AC0ADC81711"
+            },
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    4,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "globalId": "A513F5F6-5D56-4267-91D7-5988C0FB14C3",
+                        "globalName": "[heading.3]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    5,
+                    22,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "MAIL\nmail@demolink.org",
+            "type": "web.data.components.Text",
+            "width": 147,
+            "wrap": false
+        }
+    ],
+    "mobileDown": false,
+    "name": "Contact us",
+    "orderIndex": 0,
+    "stretch": false,
+    "templateId": "D22B3298-AAEC-42CC-935A-6AB25F7BABA5",
+    "type": "web.data.components.Page",
+    "width": 100,
+    "wrap": false
+}
