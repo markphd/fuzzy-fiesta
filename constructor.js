@@ -23,16 +23,18 @@ var dbStylesheets = new Datastore({ filename: stylesheetsDB, autoload: true });
 
 
 // GET TEMPLATE NAME & ID
-// dbTemplates.find({}, {_id:0, id:1, templateId: 1, name: 1}, function (err, docs) {
-// 	var tempCollection = [];
-// 	tempCollection.push(docs);
+function generateTemplateNameIDStylesheet() {
+	dbTemplates.find({}, {_id:0, id:1, templateId: 1, name: 1, stylesheetId: 1}, function (err, docs) {
+		var tempCollection = [];
+		tempCollection.push(docs);
 
-// 	for(i in tempCollection){
-// 	dbMaster.insert(tempCollection[i], function(err, docs) {
-// 		console.log(docs);
-// 	})
-// 	}
-// })
+		for(i in tempCollection){
+			dbMaster.insert(tempCollection[i], function(err, docs) {
+				console.log(docs);
+			})
+		}
+	})
+}
 
 // SET PAGES & STYLESHEET PROPS
 // dbTemplates.find({}, {_id:0, id:1, templateId: 1, name: 1}, function (err, docs) {
@@ -50,16 +52,37 @@ var dbStylesheets = new Datastore({ filename: stylesheetsDB, autoload: true });
 // })
 
 // GET ALL PAGES IN DBPAGE, IF MATHCHES WITH TEMPLATEID, ADD IT TO TEMPLATE DATA
-dbPage.find({}, {_id:0, id:1, templateId: 1, name: 1}, function (err, docs) {
-	var tempCollection = [];
-	tempCollection.push(docs);
+dbPage.find({}, {_id:0, id:1, templateId: 1, items: 0}, function (err, docs) {
+	var tempCollection = docs; //Array
+	// tempCollection.push(docs);
+	// console.log(Array.isArray(tempCollection))
+	// console.log(tempCollection[0]);
+	// for(i in tempCollection[0]){
+	// 	dbMaster.update({ id: tempCollection[0][i].templateId }, { $push: { pages: tempCollection[0][i] } }, {}, function(err, doc) {
+	// 		console.log('success!');
+	// 	})
+	// }
+	// for(i in tempCollection)
 
-	for(i in tempCollection[0]){
-		dbMaster.update({ id: tempCollection[0][i].templateId }, { $push: { pages: tempCollection[0][i] } }, {}, function(err, doc) {
-			console.log('success!');
+	for (var i = tempCollection.length - 1; i >= 0; i--) {
+		dbMaster.find({ id: tempCollection[i].templateId }, function(err, doc) {
+			// var output;
+			// if (doc[0]['name']) {
+			// 	output = doc[0]['name'];
+			// } else {
+			// 	output = "null"
+			// }
+
+			console.log(doc);
+			// dbMaster.update({doc}, { $push: { pages: tempCollection[i] } }, {}, function(err, doc) {
+			// 	console.log('success!');
+			// })
 		})
 	}
 })
+
+
+
 // GET ALL STYLESHEETS IN DBSTYLESHEETS, IF NAME MATCHES, ADD IT TO TEMPLATE DATA
 // dbStylesheets.find({}, {_id:0, id:1, name: 1}, function (err, docs) {
 // 	console.log(docs);
