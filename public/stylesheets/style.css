@@ -5,10 +5,10 @@ section .center { display: table-cell; vertical-align: inherit; text-align: cent
 
 h1 { font-weight: 100;}
 p { font-weight: 100; letter-spacing: 0; color: #E6E6E6; }
-p.result { color: #9bce7d; font-size: 1.5em; }
+p.result { color: #9bce7d; font-size: 1.5em; letter-spacing: -2px; font-weight: bolder; }
 .logo {
 	width: 150px;
-	height: 200px;
+	height: 100px;
 	margin: 3% 0 0 0;
 }
 
@@ -63,7 +63,9 @@ dl {
 }
 
 dl img {
+  height: 50px;
   float: left;
+  margin-bottom: 10px;
 }
 
 span {
