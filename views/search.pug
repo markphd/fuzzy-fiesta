@@ -7,9 +7,10 @@ block content
       h2 JSON Template Finder
       |
       form(action='/search', method='post')
-        input#search(type='text', placeholder='Template name or JSON' name='search' autofocus)
+        input#search(type='text', placeholder='e.g. A887B21D-7067-42F0-924C-5433BFE46B7C' name='search' autofocus)
         button(type='submit')
-        p.result #{ name }
+        p.template-name #{ name }
+        p.template-json #{ templateId }
       dl
         dd Total pages:
         span #{ numberPages }

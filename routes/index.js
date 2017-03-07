@@ -26,13 +26,13 @@ router.post('/search', function(req, res, next) {
   //   // if (err) { return err }; 
   // 	res.render('search', { title: 'Search results', result: docs.name });
   // })
-
+  var keyword = new RegExp(req.body.search, "i");
   // FIND TEMPLATE OR PAGE
-  db.find({ $or: [{ id: req.body.search }, { pages: { $elemMatch: { id: req.body.search } } }]}, function(err, docs) {
+  db.find({ $or: [{stylesheetId: { $regex: keyword } }, { id: { $regex: keyword } }, { pages: { $elemMatch: { id: { $regex: keyword } } } }]}, function(err, docs) {
     console.log(docs);
     // return result = docs;
     // console.log(result);
-    if (docs.length === 0) { res.redirect('/') } else { res.render('search', { title: 'Search results', name: docs[0].name, style: docs[0].stylesheetId, numberPages: docs[0].pages.length, pagesArray: docs[0].pages }); } ; 
+    if (docs.length === 0) { res.redirect('/') } else { res.render('search', { title: 'Search results', name: docs[0].name, style: docs[0].stylesheetId, numberPages: docs[0].pages.length, pagesArray: docs[0].pages, templateId: docs[0].id }); } ; 
    
   })
 });
