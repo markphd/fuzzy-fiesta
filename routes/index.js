@@ -17,18 +17,24 @@ router.post('/search', function(req, res, next) {
   // 	console.log(docs);
   // 	result = docs;
   // })
-  db.findOne({ id: req.body.search }, function(err, docs) {
+
+  // FIND JSON TEMPLATE
+  // db.findOne({ id: req.body.search }, function(err, docs) {
+  //   console.log(docs);
+  //   // return result = docs;
+  //   // console.log(result);
+  //   // if (err) { return err }; 
+  // 	res.render('search', { title: 'Search results', result: docs.name });
+  // })
+
+  // FIND TEMPLATE OR PAGE
+  db.find({ $or: [{ id: req.body.search }, { pages: { $elemMatch: { id: req.body.search } } }]}, function(err, docs) {
     console.log(docs);
     // return result = docs;
     // console.log(result);
-    // if (err) { return err }; 
-  	res.render('search', { title: 'Search results', result: docs.name });
+    if (docs.length === 0) { res.redirect('/') } else { res.render('search', { title: 'Search results', name: docs[0].name, style: docs[0].stylesheetId, numberPages: docs[0].pages.length, pagesArray: docs[0].pages }); } ; 
+   
   })
-  // db.find({}, function(err, doc) {
-  // 	console.log(doc);
-  // })
-  // console.log(result);
-  // res.render('search', { title: 'Search results', result: result });
 });
 
 module.exports = router;

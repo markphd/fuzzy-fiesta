@@ -4,7 +4,7 @@ section { height: 100vh; width: 100%; display: table; }
 section .center { display: table-cell; vertical-align: inherit; text-align: center; }
 
 h1 { font-weight: 100;}
-p { font-weight: 100; letter-spacing: 0; color: #E6E6E6 }
+p { font-weight: 100; letter-spacing: 0; color: #E6E6E6; }
 p.result { color: #9bce7d; font-size: 1.5em; }
 .logo {
 	width: 150px;
@@ -52,4 +52,39 @@ button {
 
 input:active, input:focus {
   outline: none;
+}
+
+dl {
+  text-align: left;
+  font-size: 0.7em;
+  width: 650px;
+  margin: 0 auto;
+  padding: 0 0 0 5%;
+}
+
+dl img {
+  float: left;
+}
+
+span {
+  // color: #eabcbc;
+  color: #c8e0cb;
+  margin: 0 20px;
+  float: left;
+}
+
+dd {
+  color: darkgrey;
+  font-size: 0.9em;
+  display: inline;
+  float: left;
+  clear: both;
+  letter-spacing: 0.0001em;
+}
+
+.divider {
+  clear: both;
+  color: #cccccc;
+  margin-left: 40px;
+  padding-top: 20px;
 }

@@ -23,18 +23,18 @@ var dbStylesheets = new Datastore({ filename: stylesheetsDB, autoload: true });
 
 
 // GET TEMPLATE NAME & ID
-function generateTemplateNameIDStylesheet() {
-	dbTemplates.find({}, {_id:0, id:1, templateId: 1, name: 1, stylesheetId: 1}, function (err, docs) {
-		var tempCollection = [];
-		tempCollection.push(docs);
+// function generateTemplateNameIDStylesheet() {
+// 	dbTemplates.find({}, {_id:0, id:1, templateId: 1, name: 1, stylesheetId: 1}, function (err, docs) {
+// 		var tempCollection = [];
+// 		tempCollection.push(docs);
 
-		for(i in tempCollection){
-			dbMaster.insert(tempCollection[i], function(err, docs) {
-				console.log(docs);
-			})
-		}
-	})
-}
+// 		for(i in tempCollection){
+// 			dbMaster.insert(tempCollection[i], function(err, docs) {
+// 				console.log(docs);
+// 			})
+// 		}
+// 	})
+// }
 
 // SET PAGES & STYLESHEET PROPS
 // dbTemplates.find({}, {_id:0, id:1, templateId: 1, name: 1}, function (err, docs) {
@@ -52,32 +52,51 @@ function generateTemplateNameIDStylesheet() {
 // })
 
 // GET ALL PAGES IN DBPAGE, IF MATHCHES WITH TEMPLATEID, ADD IT TO TEMPLATE DATA
-dbPage.find({}, {_id:0, id:1, templateId: 1, items: 0}, function (err, docs) {
+dbPage.find({}, {_id:0, id:1, templateId: 1, name: 1}, function (err, docs) {
 	var tempCollection = docs; //Array
 	// tempCollection.push(docs);
 	// console.log(Array.isArray(tempCollection))
-	// console.log(tempCollection[0]);
+	// console.log(docs);
 	// for(i in tempCollection[0]){
 	// 	dbMaster.update({ id: tempCollection[0][i].templateId }, { $push: { pages: tempCollection[0][i] } }, {}, function(err, doc) {
 	// 		console.log('success!');
 	// 	})
 	// }
 	// for(i in tempCollection)
+	// console.log("orphan template is: ", tempCollection[213]);
 
 	for (var i = tempCollection.length - 1; i >= 0; i--) {
-		dbMaster.find({ id: tempCollection[i].templateId }, function(err, doc) {
+		// console.log("counter=>", i)
+		// console.log(tempCollection[i].templateId, tempCollection[i]);
+		var templateIdOfPage = tempCollection[i].templateId;
+
+		function matchTemplate(template, page, name) {
+			dbMaster.find({ id: template }, function(err, doc) {
 			// var output;
 			// if (doc[0]['name']) {
 			// 	output = doc[0]['name'];
 			// } else {
 			// 	output = "null"
 			// }
+			// console.log(tempCollection[i].templateId);
+			// console.log(Array.isArray(doc));
+			// console.log(doc[0].id);
+			// console.log(doc[0].name);
+			if (doc.length === 0) {
+				console.log("orphan template");
+			} else {
+				// console.log(doc[0].id);
+				// console.log(doc[0].name);
+				console.log('current id: ', template);
+				dbMaster.update({ id: template }, { $push: { pages: {"id": page, "name": name } } }, {}, function(err, doc) {
+					console.log('updated document: ', page );
+				})
+			}
+			})
+		}
 
-			console.log(doc);
-			// dbMaster.update({doc}, { $push: { pages: tempCollection[i] } }, {}, function(err, doc) {
-			// 	console.log('success!');
-			// })
-		})
+		// console.log("current: ", templateIdOfPage);
+		matchTemplate(templateIdOfPage, tempCollection[i].id, tempCollection[i].name);
 	}
 })
 
