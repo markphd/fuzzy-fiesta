@@ -28,7 +28,7 @@ router.post('/search', function(req, res, next) {
   // })
   var keyword = new RegExp(req.body.search, "i");
   // FIND TEMPLATE OR PAGE
-  db.find({ $or: [{stylesheetId: { $regex: keyword } }, { id: { $regex: keyword } }, { pages: { $elemMatch: { id: { $regex: keyword } } } }]}, function(err, docs) {
+  db.find({ $or: [{stylesheetId: { $regex: keyword } }, {name: { $regex: keyword } }, { id: { $regex: keyword } }, { pages: { $elemMatch: { id: { $regex: keyword } } } }]}, function(err, docs) {
     console.log(docs);
     // return result = docs;
     // console.log(result);
