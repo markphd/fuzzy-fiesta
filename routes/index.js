@@ -31,7 +31,7 @@ router.post('/search', function(req, res, next) {
   db.find({ $or: [{stylesheetId: { $regex: keyword } }, {name: { $regex: keyword } }, { id: { $regex: keyword } }, { pages: { $elemMatch: { id: { $regex: keyword } } } }]}, function(err, docs) {
     console.log(docs);
     // return result = docs;
-    // console.log(result);
+    console.log(docs.length);
     if (docs.length === 0) { res.redirect('/') } else { res.render('search', { title: 'Search results', name: docs[0].name, style: docs[0].stylesheetId, numberPages: docs[0].pages.length, pagesArray: docs[0].pages, templateId: docs[0].id }); } ; 
    
   })
