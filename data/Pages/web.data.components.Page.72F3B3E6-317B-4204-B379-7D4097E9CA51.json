@@ -10,12 +10,12 @@
     "items": [
         {
             "bbox": {
-                "bottom": 1068,
+                "bottom": 1069,
                 "left": 0,
                 "right": 1000,
                 "top": 931
             },
-            "height": 137,
+            "height": 138,
             "id": "042BA431-7F75-4AFD-B315-F238440EA6A3",
             "mobileDown": false,
             "orderIndex": 18,
@@ -52,25 +52,30 @@
                 "top": 182
             },
             "category": null,
+            "cropImages": true,
             "height": 730,
             "id": "579481D9-7A11-4197-8A64-83C87DE6E925",
-            "language": "en_us",
+            "imageRatio": "actual",
+            "labelPosition": "topRight",
             "mobileDown": false,
             "orderIndex": 22,
+            "productsPerPage": 24,
+            "productsPerRow": 2,
             "relTo": {
                 "below": 37,
                 "id": "1294820B-3D49-47E0-B8CC-894A353B60A9"
             },
             "showCategory": true,
             "showWelcomeMessage": true,
+            "sortProducts": "name-ascending",
             "stretch": false,
             "style": {
                 "buttonId": "B9A0D990-B7C0-4789-9FAF-96A8A232B992",
                 "fieldBgColor": [
-                    "HSV",
-                    0,
-                    0,
-                    1,
+                    "RGB",
+                    0.7333333333333333,
+                    0.7333333333333333,
+                    0.7333333333333333,
                     1
                 ],
                 "fieldBorderColor": [
@@ -95,16 +100,37 @@
                     0.13333333333333333,
                     1
                 ],
-                "id": "E0DEC8E2-0DED-4249-A5B8-7DCDDE6A8506",
+                "hoverColor": [
+                    "RGB",
+                    1,
+                    1,
+                    1,
+                    0.2
+                ],
+                "labelBgColor": [
+                    "RGB",
+                    0,
+                    0.592156862745098,
+                    0.807843137254902,
+                    1
+                ],
+                "labelTextColor": [
+                    "RGB",
+                    1,
+                    1,
+                    1,
+                    1
+                ],
                 "type": "web.data.styles.WebShop"
             },
             "type": "web.data.components.WebShop",
+            "userCanSortProducts": false,
             "width": 1000,
             "wrap": false
         },
         {
             "bbox": {
-                "bottom": 1068,
+                "bottom": 1069,
                 "left": 0,
                 "right": 300,
                 "top": 931
@@ -121,7 +147,7 @@
             "formElementsOrder": [
                 "email1"
             ],
-            "height": 137,
+            "height": 138,
             "id": "3B989A56-97C4-4E78-876A-E6ABC919ED18",
             "mobileDown": false,
             "orderIndex": 23,
@@ -148,7 +174,9 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 },
                 "globalId": "B6292A78-5869-46F1-826C-86CC96D1FADD",
@@ -160,7 +188,9 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 },
                 "inactive": {
@@ -170,7 +200,9 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 },
                 "press": {
@@ -180,7 +212,9 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 },
                 "type": "web.data.styles.StyleButton",
@@ -191,11 +225,16 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 }
             },
             "styleForm": {
+                "fieldBgColor": null,
+                "fieldBorderColor": null,
+                "font": null,
                 "fontColor": [
                     "HSV",
                     0.72,
@@ -203,6 +242,8 @@
                     1,
                     1
                 ],
+                "fontSize": null,
+                "primaryColor": null,
                 "type": "web.data.styles.StyleForm"
             },
             "submitBtn": "   Subscribe   ",
@@ -256,6 +297,7 @@
                             1,
                             1
                         ],
+                        "size": null,
                         "type": "web.data.styles.StyleText"
                     }
                 ],
@@ -270,6 +312,7 @@
                             1,
                             1
                         ],
+                        "size": null,
                         "type": "web.data.styles.StyleText"
                     }
                 ]
@@ -281,10 +324,10 @@
         },
         {
             "bbox": {
-                "bottom": 1137,
+                "bottom": 1138,
                 "left": 0,
                 "right": 1000,
-                "top": 1068
+                "top": 1069
             },
             "height": 69,
             "id": "15E37A15-6AB1-4878-8067-9997F43F2474",
@@ -305,9 +348,6 @@
             "width": 1000,
             "wrap": false
         }
-    ],
-    "migrationInfo": [
-        34
     ],
     "mobileDown": false,
     "name": "Shop",

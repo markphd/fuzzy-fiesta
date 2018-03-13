@@ -42,16 +42,22 @@
                 "top": 230
             },
             "category": null,
+            "cropImages": true,
             "height": 730,
             "id": "284E358D-139A-4F9C-99AD-4C3A2F3E6570",
+            "imageRatio": "actual",
+            "labelPosition": "topRight",
             "mobileDown": false,
             "orderIndex": 7,
+            "productsPerPage": 24,
+            "productsPerRow": 4,
             "relTo": {
                 "below": 70,
                 "id": "07F0B8A8-80D7-4F2B-9B02-A25F9760EFC6"
             },
             "showCategory": true,
             "showWelcomeMessage": true,
+            "sortProducts": "price-descending",
             "stretch": false,
             "style": {
                 "buttonId": "F547BDC7-310C-4DE4-A7F2-C54999950451",
@@ -84,10 +90,31 @@
                     0.21176470588235294,
                     1
                 ],
-                "id": "4A5BAD08-F66E-4F8E-8A8D-FA09471CD833",
+                "hoverColor": [
+                    "RGB",
+                    1,
+                    1,
+                    1,
+                    0.2
+                ],
+                "labelBgColor": [
+                    "RGB",
+                    0.21176470588235294,
+                    0.21176470588235294,
+                    0.21176470588235294,
+                    1
+                ],
+                "labelTextColor": [
+                    "RGB",
+                    1,
+                    1,
+                    1,
+                    1
+                ],
                 "type": "web.data.styles.WebShop"
             },
             "type": "web.data.components.WebShop",
+            "userCanSortProducts": false,
             "width": 1000,
             "wrap": false
         },
@@ -542,7 +569,34 @@
             "cells": [],
             "height": 126,
             "id": "D9D63858-A1AD-483A-A7C6-E0901582AF13",
-            "links": [],
+            "links": [
+                [
+                    58,
+                    75,
+                    {
+                        "id": "5348449D-776A-41B1-A0E9-CCC20BC9E0A7",
+                        "link": {
+                            "hidden": false,
+                            "id": "E746970A-BAF4-4F14-820C-85AD7A2B3977",
+                            "linkId": null,
+                            "name": "javascript:void(0);",
+                            "target": "_self",
+                            "type": "web.data.links.LinkExternal",
+                            "url": "javascript:void(0);"
+                        },
+                        "style": {
+                            "globalId": "946C6898-F901-4EBF-87E9-0C962AF6D5C5",
+                            "globalName": "[Link 1]",
+                            "hover": {},
+                            "inactive": {},
+                            "press": {},
+                            "type": "web.data.styles.StyleLink",
+                            "visited": {}
+                        },
+                        "type": "web.data.Action"
+                    }
+                ]
+            ],
             "mobileDown": false,
             "orderIndex": 17,
             "paras": [
@@ -581,8 +635,8 @@
         {
             "bbox": {
                 "bottom": 1184,
-                "left": 277,
-                "right": 327,
+                "left": 252,
+                "right": 302,
                 "top": 1162
             },
             "cells": [],
@@ -605,8 +659,8 @@
             "relIn": {
                 "bottom": -76,
                 "id": "14F291FD-2AC9-4828-99C9-0BED03FF9068",
-                "left": 277,
-                "right": -673,
+                "left": 252,
+                "right": -698,
                 "top": 84
             },
             "relTo": {
@@ -656,8 +710,8 @@
             },
             "bbox": {
                 "bottom": 1182,
-                "left": 250,
-                "right": 277,
+                "left": 225,
+                "right": 252,
                 "top": 1156
             },
             "cropLeft": 0,
@@ -669,8 +723,8 @@
             "relIn": {
                 "bottom": -78,
                 "id": "14F291FD-2AC9-4828-99C9-0BED03FF9068",
-                "left": 250,
-                "right": -723,
+                "left": 225,
+                "right": -748,
                 "top": 78
             },
             "relTo": {
@@ -692,9 +746,6 @@
             "width": 27,
             "wrap": false
         }
-    ],
-    "migrationInfo": [
-        34
     ],
     "mobileDown": false,
     "name": "Shop",

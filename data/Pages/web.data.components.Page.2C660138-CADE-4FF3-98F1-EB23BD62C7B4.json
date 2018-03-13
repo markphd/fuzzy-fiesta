@@ -1,0 +1,727 @@
+{
+    "bbox": {
+        "bottom": 100,
+        "left": 0,
+        "right": 100,
+        "top": 0
+    },
+    "height": 100,
+    "id": "2C660138-CADE-4FF3-98F1-EB23BD62C7B4",
+    "items": [
+        {
+            "bbox": {
+                "bottom": 978,
+                "left": 0,
+                "right": 1180,
+                "top": 912
+            },
+            "height": 66,
+            "id": "CF889C24-20AF-4944-A201-05A64FBBB411",
+            "mobileDown": false,
+            "orderIndex": 12,
+            "relTo": {
+                "below": 0,
+                "id": "5816F855-8206-49AA-B463-AF7400C51E0F"
+            },
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 1180,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 330,
+                "left": 0,
+                "right": 80,
+                "top": 313
+            },
+            "height": 17,
+            "id": "9850EABE-5829-4369-9C89-007F5CB95F23",
+            "mobileDown": false,
+            "orderIndex": 13,
+            "relTo": {
+                "below": 0,
+                "id": "77376C06-D329-4265-A64E-6B23780EA6FE"
+            },
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            1,
+                            0.6078431372549019,
+                            0.4470588235294118,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            0.6078431372549019,
+                            0.4470588235294118,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            0.6078431372549019,
+                            0.4470588235294118,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            0.6078431372549019,
+                            0.4470588235294118,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        2,
+                        0
+                    ]
+                },
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 80,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 313,
+                "left": 0,
+                "right": 560,
+                "top": 277
+            },
+            "cells": [],
+            "height": 36,
+            "id": "77376C06-D329-4265-A64E-6B23780EA6FE",
+            "links": [],
+            "mobileDown": false,
+            "orderIndex": 14,
+            "paras": [
+                [
+                    0,
+                    14,
+                    {
+                        "align": "left",
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relTo": {
+                "below": 56,
+                "id": "A42AE288-D896-4780-A02A-0EEB3254349C"
+            },
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    14,
+                    {
+                        "globalId": "C5AA9367-EEFC-4D98-94BB-1BBB4A1382BB",
+                        "globalName": "[heading.2]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "Send a request",
+            "type": "web.data.components.Text",
+            "width": 560,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 441,
+                "left": 0,
+                "right": 560,
+                "top": 357
+            },
+            "cells": [],
+            "height": 84,
+            "id": "AA3E7798-E4DD-408F-9458-82C24DFFC69E",
+            "links": [],
+            "mobileDown": false,
+            "orderIndex": 15,
+            "paras": [
+                [
+                    0,
+                    219,
+                    {
+                        "align": "left",
+                        "height": 1.5,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relTo": {
+                "below": 27,
+                "id": "9850EABE-5829-4369-9C89-007F5CB95F23"
+            },
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    219,
+                    {
+                        "globalId": "A7F65A04-8807-4D40-ACA0-0AED7F328631",
+                        "globalName": "[heading.3]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "Please let us know what service you're most interested in. We'll be in touch to see how we can help. Once in a while we might end up in your junk folder so please check there if you've not heard from us within 24hours.\n",
+            "type": "web.data.components.Text",
+            "width": 560,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 912,
+                "left": 0,
+                "right": 599,
+                "top": 449
+            },
+            "formElements": {
+                "dropdown1": {
+                    "errorMessage": "Please select an option",
+                    "inputType": "dropdown",
+                    "isRequired": true,
+                    "name": "What styling services can we help you with today?",
+                    "values": [
+                        " Preliminary Consultation",
+                        " Wedding Design Advice",
+                        " Rehearsal Supervision",
+                        " Day of Wedding Coordination"
+                    ]
+                },
+                "email": {
+                    "errorMessage": "Please enter a valid email address.",
+                    "inputType": "email",
+                    "isRequired": true,
+                    "name": "Email",
+                    "values": null
+                },
+                "message": {
+                    "errorMessage": "Please enter a valid message",
+                    "inputType": "textarea",
+                    "isRequired": true,
+                    "name": "Message",
+                    "values": null
+                },
+                "name": {
+                    "errorMessage": "Please enter a valid name",
+                    "inputType": "text",
+                    "isRequired": true,
+                    "name": "Name",
+                    "values": null
+                }
+            },
+            "formElementsOrder": [
+                "name",
+                "email",
+                "dropdown1",
+                "message"
+            ],
+            "height": 463,
+            "id": "5816F855-8206-49AA-B463-AF7400C51E0F",
+            "mobileDown": false,
+            "orderIndex": 16,
+            "recipientEmail": null,
+            "relTo": {
+                "below": 8,
+                "id": "AA3E7798-E4DD-408F-9458-82C24DFFC69E"
+            },
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "styleButton": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "globalId": "5DC02BA8-68C9-4DE6-820F-11BF8FEC5D03",
+                "globalName": "[button.1]",
+                "hover": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "type": "web.data.styles.StyleButton",
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                }
+            },
+            "styleForm": {
+                "fieldBgColor": null,
+                "fieldBorderColor": null,
+                "font": null,
+                "fontColor": null,
+                "fontSize": 14,
+                "primaryColor": null,
+                "type": "web.data.styles.StyleForm"
+            },
+            "submitBtn": "SUBMIT",
+            "successMessage": "Thank you for your message.",
+            "type": "web.data.components.ContactForm",
+            "width": 599,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 559,
+                "left": 680,
+                "right": 955,
+                "top": 357
+            },
+            "cells": [],
+            "height": 202,
+            "id": "D86C86C2-3249-48A0-A2B6-1AB514D53D8C",
+            "links": [
+                [
+                    52,
+                    69,
+                    {
+                        "id": "3098A064-59FE-4E97-8F4E-39461CC6662C",
+                        "link": {
+                            "hidden": false,
+                            "id": "6A2B8BFB-67CE-49C7-B80A-48D29E67EE28",
+                            "linkId": null,
+                            "name": "javascript:void(0);",
+                            "target": "_self",
+                            "type": "web.data.links.LinkExternal",
+                            "url": "javascript:void(0);"
+                        },
+                        "style": {
+                            "globalId": "32AAEEC3-F195-47C3-8360-33978CCEAD94",
+                            "globalName": "[ link 2]",
+                            "hover": {},
+                            "inactive": {},
+                            "press": {},
+                            "type": "web.data.styles.StyleLink",
+                            "visited": {}
+                        },
+                        "type": "web.data.Action"
+                    }
+                ]
+            ],
+            "mobileDown": false,
+            "orderIndex": 0,
+            "paras": [
+                [
+                    0,
+                    7,
+                    {
+                        "align": "left",
+                        "height": 1.4,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    8,
+                    45,
+                    {
+                        "align": "left",
+                        "height": 1.5,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    46,
+                    51,
+                    {
+                        "align": "left",
+                        "height": 1.4,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    52,
+                    70,
+                    {
+                        "align": "left",
+                        "height": 1.5,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    71,
+                    76,
+                    {
+                        "align": "left",
+                        "height": 1.4,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    77,
+                    100,
+                    {
+                        "align": "left",
+                        "height": 1.5,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    101,
+                    101,
+                    {
+                        "align": "left",
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relTo": {
+                "below": 136,
+                "id": "A42AE288-D896-4780-A02A-0EEB3254349C"
+            },
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    7,
+                    {
+                        "color": [
+                            "RGB",
+                            1,
+                            0.6078431372549019,
+                            0.4470588235294118,
+                            1
+                        ],
+                        "globalId": "A7F65A04-8807-4D40-ACA0-0AED7F328631",
+                        "globalName": "[heading.3]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    46,
+                    51,
+                    {
+                        "color": [
+                            "RGB",
+                            1,
+                            0.6078431372549019,
+                            0.4470588235294118,
+                            1
+                        ],
+                        "globalId": "A7F65A04-8807-4D40-ACA0-0AED7F328631",
+                        "globalName": "[heading.3]",
+                        "italic": false,
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    71,
+                    76,
+                    {
+                        "color": [
+                            "RGB",
+                            1,
+                            0.6078431372549019,
+                            0.4470588235294118,
+                            1
+                        ],
+                        "globalId": "A7F65A04-8807-4D40-ACA0-0AED7F328631",
+                        "globalName": "[heading.3]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "ADDRESS\n8901 Marmora Road, Glasgow\nD04 89GR \n\nEMAIL\nmail@demolink.org\n\nPHONE\n(800) 0123 - 456 - 7890\n",
+            "type": "web.data.components.Text",
+            "width": 275,
+            "wrap": false
+        },
+        {
+            "action": {
+                "id": "6F758D09-86C0-4195-A28D-0C453C916745",
+                "link": {
+                    "hidden": false,
+                    "id": "433A78CC-86A6-4023-838C-1D4BDAD9E1EA",
+                    "linkId": null,
+                    "name": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,11z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e",
+                    "target": "_self",
+                    "type": "web.data.links.LinkExternal",
+                    "url": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,11z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e"
+                },
+                "type": "web.data.Action"
+            },
+            "anchorLeft": 50,
+            "anchorTop": 50,
+            "asset": {
+                "alpha": null,
+                "animated": false,
+                "bpp": null,
+                "contentType": "image/png",
+                "etag": "W/\"4204f-54eb332f847f9\"",
+                "filesize": 270415,
+                "height": 520,
+                "id": "EFE12FAF-2A51-4933-8114-F00B435E6709",
+                "recommendedFormat": null,
+                "type": "web.data.assets.Image",
+                "url": "repository:/diana-cordero-map.png",
+                "width": 1001
+            },
+            "bbox": {
+                "bottom": 878,
+                "left": 680,
+                "right": 1180,
+                "top": 618
+            },
+            "cropLeft": 0,
+            "cropTop": 0,
+            "height": 260,
+            "id": "8CE47712-342E-4CB7-8A5E-B01E7027EABE",
+            "mobileDown": false,
+            "mobileHide": true,
+            "orderIndex": 17,
+            "relTo": {
+                "below": 0,
+                "id": "3A75B5D1-94F5-4BF2-A052-4B157CCA7CB3"
+            },
+            "rotation": 0,
+            "scale": 0.5,
+            "scaleStrategy": "crop",
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "title": "",
+            "type": "web.data.components.resources.Image",
+            "width": 500,
+            "wrap": false
+        },
+        {
+            "action": {
+                "id": "37D8003A-7A80-4EEB-B8BE-DABBC2D65619",
+                "link": {
+                    "hidden": false,
+                    "id": "B6C89D4F-E0D9-4A04-9198-E23BADB124A0",
+                    "linkId": null,
+                    "name": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,11z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e",
+                    "target": "_self",
+                    "type": "web.data.links.LinkExternal",
+                    "url": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,11z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e"
+                },
+                "type": "web.data.Action"
+            },
+            "anchorLeft": 50,
+            "anchorTop": 50,
+            "asset": {
+                "alpha": null,
+                "animated": false,
+                "bpp": null,
+                "contentType": "image/png",
+                "etag": "W/\"584b-550a5e58d985b\"",
+                "filesize": 22603,
+                "height": 204,
+                "id": "723FE2A7-2FE8-4660-AE54-B570BD2D7E37",
+                "recommendedFormat": null,
+                "type": "web.data.assets.Image",
+                "url": "repository:/icon-locator2-atomic-tangerine.png",
+                "width": 175
+            },
+            "bbox": {
+                "bottom": 778,
+                "left": 904,
+                "right": 955,
+                "top": 718
+            },
+            "cropLeft": 1,
+            "cropTop": 0,
+            "height": 60,
+            "id": "393BC25E-FF34-4ED2-9A81-557CA8CCB95A",
+            "mobileDown": false,
+            "mobileHide": true,
+            "orderIndex": 18,
+            "relIn": {
+                "bottom": -100,
+                "id": "8CE47712-342E-4CB7-8A5E-B01E7027EABE",
+                "left": 224,
+                "right": -225,
+                "top": 100
+            },
+            "rotation": 0,
+            "scale": 0.29411764705882354,
+            "scaleStrategy": "crop",
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "title": "",
+            "type": "web.data.components.resources.Image",
+            "width": 51,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 618,
+                "left": 680,
+                "right": 880,
+                "top": 595
+            },
+            "cells": [],
+            "height": 23,
+            "id": "3A75B5D1-94F5-4BF2-A052-4B157CCA7CB3",
+            "links": [],
+            "mobileDown": false,
+            "mobileHide": true,
+            "orderIndex": 19,
+            "paras": [
+                [
+                    0,
+                    19,
+                    {
+                        "align": "left",
+                        "height": 1.5,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relTo": {
+                "below": 36,
+                "id": "D86C86C2-3249-48A0-A2B6-1AB514D53D8C"
+            },
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    19,
+                    {
+                        "bold": true,
+                        "color": [
+                            "RGB",
+                            1,
+                            0.6078431372549019,
+                            0.4470588235294118,
+                            1
+                        ],
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "VISIT US IN GLASGOW",
+            "type": "web.data.components.Text",
+            "width": 200,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 927,
+                "left": 680,
+                "right": 880,
+                "top": 899
+            },
+            "cells": [],
+            "height": 28,
+            "id": "24A955A0-8548-4A6D-A924-FF1B92755957",
+            "links": [],
+            "mobileDown": false,
+            "orderIndex": 19,
+            "paras": [],
+            "relIn": {
+                "bottom": -51,
+                "id": "CF889C24-20AF-4944-A201-05A64FBBB411",
+                "left": 680,
+                "right": -300,
+                "top": -13
+            },
+            "stretch": false,
+            "styles": [],
+            "text": "",
+            "type": "web.data.components.Text",
+            "width": 200,
+            "wrap": false
+        }
+    ],
+    "mobileDown": false,
+    "name": "Contact",
+    "orderIndex": 0,
+    "stretch": false,
+    "templateId": "A5C3E0DE-B3A9-4DD2-8D9A-3322C5393130",
+    "type": "web.data.components.Page",
+    "width": 100,
+    "wrap": false
+}

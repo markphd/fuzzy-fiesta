@@ -52,17 +52,22 @@
                 "top": 240
             },
             "category": null,
+            "cropImages": true,
             "height": 730,
             "id": "1D8E660F-6053-403C-B106-C7688A4777BD",
-            "language": "en_us",
+            "imageRatio": "actual",
+            "labelPosition": "topRight",
             "mobileDown": false,
             "orderIndex": 30,
+            "productsPerPage": 24,
+            "productsPerRow": 4,
             "relTo": {
                 "below": 30,
                 "id": "2A80B242-5AE4-4DBB-B561-0C221231296E"
             },
             "showCategory": true,
             "showWelcomeMessage": true,
+            "sortProducts": "name-ascending",
             "stretch": false,
             "style": {
                 "buttonId": "23A9A096-149B-42BE-9C3A-BD05F8BAD364",
@@ -95,10 +100,31 @@
                     0.1607843137254902,
                     1
                 ],
-                "id": "A1471E43-2E5F-49DD-B9C7-9492BD8F75B3",
+                "hoverColor": [
+                    "RGB",
+                    1,
+                    1,
+                    1,
+                    0.2
+                ],
+                "labelBgColor": [
+                    "RGB",
+                    0.1803921568627451,
+                    0.8156862745098039,
+                    0.4117647058823529,
+                    1
+                ],
+                "labelTextColor": [
+                    "RGB",
+                    1,
+                    1,
+                    1,
+                    1
+                ],
                 "type": "web.data.styles.WebShop"
             },
             "type": "web.data.components.WebShop",
+            "userCanSortProducts": false,
             "width": 1000,
             "wrap": false
         },
@@ -172,9 +198,6 @@
             "width": 1000,
             "wrap": false
         }
-    ],
-    "migrationInfo": [
-        34
     ],
     "mobileDown": false,
     "name": "Shop",

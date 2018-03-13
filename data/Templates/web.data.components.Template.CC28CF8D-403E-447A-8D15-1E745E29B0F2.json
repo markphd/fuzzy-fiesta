@@ -1,7 +1,7 @@
 {
     "align": "center",
     "bbox": {
-        "bottom": 1702,
+        "bottom": 1218,
         "left": 0,
         "right": 970,
         "top": 0
@@ -575,6 +575,7 @@
                 "type": "web.data.styles.StyleMenu"
             },
             "mobileDown": false,
+            "moreText": null,
             "orderIndex": 1,
             "relTo": {
                 "below": 24,
@@ -589,23 +590,55 @@
         },
         {
             "bbox": {
-                "bottom": 174,
+                "bottom": 167,
                 "left": 0,
                 "right": 270,
-                "top": 94
+                "top": 25
             },
             "cells": [],
-            "height": 80,
-            "id": "CEFBFE56-CB7D-453D-ABC6-1A8F3F4AE326",
+            "height": 142,
+            "id": "2F0A8994-8FA1-484F-97FF-ABCD12570E5E",
             "links": [],
             "mobileDown": false,
-            "orderIndex": 2,
-            "paras": [],
+            "orderIndex": 3,
+            "paras": [
+                [
+                    0,
+                    11,
+                    {
+                        "height": 1,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
             "stretch": false,
             "styles": [
                 [
                     0,
-                    6,
+                    4,
+                    {
+                        "globalId": "819B480B-9676-4FDF-BE3C-E02B8350D1E8",
+                        "globalName": "[heading.1]",
+                        "shadow": {
+                            "blur": 5,
+                            "color": [
+                                "HSV",
+                                0,
+                                0,
+                                0,
+                                1
+                            ],
+                            "left": 1,
+                            "top": 1,
+                            "type": "web.data.styles.TextShadow"
+                        },
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    5,
+                    11,
                     {
                         "globalId": "819B480B-9676-4FDF-BE3C-E02B8350D1E8",
                         "globalName": "[heading.1]",
@@ -627,52 +660,7 @@
                     }
                 ]
             ],
-            "text": "NIGHT!",
-            "type": "web.data.components.Text",
-            "width": 270,
-            "wrap": false
-        },
-        {
-            "bbox": {
-                "bottom": 119,
-                "left": 0,
-                "right": 270,
-                "top": 28
-            },
-            "cells": [],
-            "height": 91,
-            "id": "2F0A8994-8FA1-484F-97FF-ABCD12570E5E",
-            "links": [],
-            "mobileDown": false,
-            "orderIndex": 3,
-            "paras": [],
-            "stretch": false,
-            "styles": [
-                [
-                    0,
-                    5,
-                    {
-                        "globalId": "819B480B-9676-4FDF-BE3C-E02B8350D1E8",
-                        "globalName": "[heading.1]",
-                        "shadow": {
-                            "blur": 5,
-                            "color": [
-                                "HSV",
-                                0,
-                                0,
-                                0,
-                                1
-                            ],
-                            "left": 1,
-                            "top": 1,
-                            "type": "web.data.styles.TextShadow"
-                        },
-                        "size": null,
-                        "type": "web.data.styles.StyleText"
-                    }
-                ]
-            ],
-            "text": "PROM ",
+            "text": "PROM\nNIGHT!",
             "type": "web.data.components.Text",
             "width": 270,
             "wrap": false
@@ -862,8 +850,8 @@
             "mobileDown": true,
             "orderIndex": 7,
             "relTo": {
-                "below": 0,
-                "id": "CEFBFE56-CB7D-453D-ABC6-1A8F3F4AE326"
+                "below": 7,
+                "id": "2F0A8994-8FA1-484F-97FF-ABCD12570E5E"
             },
             "stretch": false,
             "style": {

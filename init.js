@@ -46,6 +46,10 @@ function initializeFiles(src, collection, db) {
 function initializeDB(filename, collection) {
 	var db = new Datastore({ filename: filename, autoload: true });
 
+	db.remove({}, { multi: true }, function (err, numRemoved) {
+		console.log(numRemoved)
+	});
+
 	for(i in collection){
 		jsonfile.readFile(collection[i], function(err, obj) {
 			if (err) {return "Something went wrong."}

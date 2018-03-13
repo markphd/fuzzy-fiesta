@@ -46,7 +46,7 @@
             "height": 456,
             "id": "F660D8B6-711C-4C29-8CCA-A6E8B5C88E5B",
             "mobileDown": false,
-            "orderIndex": 21,
+            "orderIndex": 17,
             "recipientEmail": null,
             "relTo": {
                 "below": 101,
@@ -151,7 +151,7 @@
             "id": "2EB42790-E912-4A01-9413-965B461E5067",
             "links": [],
             "mobileDown": false,
-            "orderIndex": 22,
+            "orderIndex": 18,
             "paras": [
                 [
                     0,
@@ -203,7 +203,7 @@
             "height": 360,
             "id": "040EBA76-2A3D-4BE3-B11C-05CBF004A985",
             "mobileDown": false,
-            "orderIndex": 23,
+            "orderIndex": 19,
             "relTo": {
                 "below": 50,
                 "id": "2EB42790-E912-4A01-9413-965B461E5067"
@@ -231,82 +231,40 @@
         },
         {
             "bbox": {
-                "bottom": 835,
+                "bottom": 655,
                 "left": 40,
-                "right": 300,
+                "right": 320,
                 "top": 590
             },
             "cells": [],
-            "height": 245,
+            "height": 65,
             "id": "7355F801-1308-4068-BC5D-8CC9C6AC5CBC",
-            "links": [
-                [
-                    38,
-                    55,
-                    {
-                        "id": "4F45B082-281B-40D1-BCF3-69A85B052A82",
-                        "link": {
-                            "hidden": false,
-                            "id": "F84C9F96-53C8-4F2C-A4D9-D56F0536FAAB",
-                            "linkId": null,
-                            "name": "mailto:mail@demolink.org",
-                            "target": "_self",
-                            "type": "web.data.links.LinkExternal",
-                            "url": "mailto:mail@demolink.org"
-                        },
-                        "style": {
-                            "globalId": "57ADAF59-767A-4CA0-9ED2-00297073348E",
-                            "globalName": "[Link 1]",
-                            "hover": {},
-                            "inactive": {},
-                            "press": {},
-                            "type": "web.data.styles.StyleLink",
-                            "visited": {}
-                        },
-                        "type": "web.data.Action"
-                    }
-                ]
-            ],
+            "links": [],
             "mobileDown": true,
-            "orderIndex": 24,
+            "orderIndex": 20,
             "paras": [
                 [
                     0,
                     36,
                     {
                         "height": 1.8,
-                        "type": "web.data.styles.StylePara"
-                    }
-                ],
-                [
-                    38,
-                    55,
-                    {
-                        "height": 1.8,
-                        "type": "web.data.styles.StylePara"
-                    }
-                ],
-                [
-                    57,
-                    73,
-                    {
-                        "height": 1.8,
+                        "indent": 1,
                         "type": "web.data.styles.StylePara"
                     }
                 ]
             ],
             "relIn": {
-                "bottom": -63,
+                "bottom": -243,
                 "id": "040EBA76-2A3D-4BE3-B11C-05CBF004A985",
                 "left": 40,
-                "right": -40,
+                "right": -20,
                 "top": 52
             },
             "stretch": false,
             "styles": [
                 [
                     0,
-                    73,
+                    36,
                     {
                         "color": [
                             "HSV",
@@ -320,9 +278,9 @@
                     }
                 ]
             ],
-            "text": "8901 Marmora Road, 89GR Glasgow, D04\n\nmail@demolink.org\n\n123 - 456 - 7890",
+            "text": "8901 Marmora Road, 89GR Glasgow, D04",
             "type": "web.data.components.Text",
-            "width": 260,
+            "width": 280,
             "wrap": false
         },
         {
@@ -353,12 +311,12 @@
             "height": 25,
             "id": "D640417F-3E3F-49F4-A556-43D5C34D22B7",
             "mobileDown": false,
-            "orderIndex": 25,
+            "orderIndex": 21,
             "relIn": {
-                "bottom": -207,
+                "bottom": -27,
                 "id": "7355F801-1308-4068-BC5D-8CC9C6AC5CBC",
                 "left": 0,
-                "right": -242,
+                "right": -262,
                 "top": 13
             },
             "relPara": {
@@ -381,6 +339,19 @@
             "wrap": true
         },
         {
+            "action": {
+                "id": "D78809E2-5DB2-45AE-937B-45C5A65144FB",
+                "link": {
+                    "hidden": false,
+                    "id": "4984CFBD-D24E-4EDF-A461-BEC989197A5A",
+                    "linkId": null,
+                    "name": "javascript:void(0);",
+                    "target": "_self",
+                    "type": "web.data.links.LinkExternal",
+                    "url": "javascript:void(0);"
+                },
+                "type": "web.data.Action"
+            },
             "anchorLeft": 50,
             "anchorTop": 50,
             "asset": {
@@ -408,21 +379,17 @@
             "height": 18,
             "id": "4238FE13-5324-449A-8A9D-14D5911D0AC3",
             "mobileDown": false,
-            "orderIndex": 26,
+            "orderIndex": 28,
             "relIn": {
-                "bottom": -132,
-                "id": "7355F801-1308-4068-BC5D-8CC9C6AC5CBC",
+                "bottom": -19,
+                "id": "BCF4C6A8-C919-4D38-B347-495E96C53D10",
                 "left": 0,
-                "right": -237,
-                "top": 95
+                "right": -257,
+                "top": 3
             },
             "relPara": {
-                "index": 2,
-                "offset": 9
-            },
-            "relTo": {
-                "below": 57,
-                "id": "D640417F-3E3F-49F4-A556-43D5C34D22B7"
+                "index": 0,
+                "offset": 3
             },
             "rotation": 0,
             "scale": 0.12857142857142856,
@@ -457,31 +424,27 @@
                 "width": 200
             },
             "bbox": {
-                "bottom": 759,
+                "bottom": 758,
                 "left": 40,
                 "right": 63,
-                "top": 736
+                "top": 735
             },
             "cropLeft": 0,
             "cropTop": 0,
             "height": 23,
             "id": "91F575CB-A736-4509-AEF4-50096CE516B4",
             "mobileDown": false,
-            "orderIndex": 27,
+            "orderIndex": 30,
             "relIn": {
-                "bottom": -76,
-                "id": "7355F801-1308-4068-BC5D-8CC9C6AC5CBC",
+                "bottom": -17,
+                "id": "6AF68AF9-0D7A-4257-9C1C-F1D656D8D554",
                 "left": 0,
-                "right": -237,
-                "top": 146
+                "right": -257,
+                "top": 0
             },
             "relPara": {
-                "index": 2,
-                "offset": 60
-            },
-            "relTo": {
-                "below": 33,
-                "id": "4238FE13-5324-449A-8A9D-14D5911D0AC3"
+                "index": 0,
+                "offset": 0
             },
             "rotation": 0,
             "scale": 0.115,
@@ -526,7 +489,7 @@
             "height": 466,
             "id": "CFA9D829-0A81-4AA5-A95A-2EB8EEEF2BAF",
             "mobileDown": false,
-            "orderIndex": 29,
+            "orderIndex": 23,
             "relTo": {
                 "below": 37,
                 "id": "040EBA76-2A3D-4BE3-B11C-05CBF004A985"
@@ -556,7 +519,7 @@
             "height": 88,
             "id": "0B780090-6015-43A0-97ED-06244C7A9FF9",
             "mobileDown": false,
-            "orderIndex": 32,
+            "orderIndex": 24,
             "relTo": {
                 "below": 0,
                 "id": "3FDA2452-6157-461F-A628-E7F6D3F4A32E"
@@ -614,7 +577,7 @@
             "id": "4AD3E6B3-3155-4E74-BA8B-EC266B6E4159",
             "mobileDown": false,
             "mobileHide": true,
-            "orderIndex": 33,
+            "orderIndex": 25,
             "relTo": {
                 "below": 50,
                 "id": "2EB42790-E912-4A01-9413-965B461E5067"
@@ -676,7 +639,7 @@
             "id": "0B152758-E2A0-4912-8B50-B553AE784D07",
             "mobileDown": false,
             "mobileHide": true,
-            "orderIndex": 34,
+            "orderIndex": 26,
             "relIn": {
                 "bottom": -169,
                 "id": "4AD3E6B3-3155-4E74-BA8B-EC266B6E4159",
@@ -697,6 +660,131 @@
             "title": "",
             "type": "web.data.components.resources.Image",
             "width": 57,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 722,
+                "left": 40,
+                "right": 320,
+                "top": 682
+            },
+            "cells": [],
+            "height": 40,
+            "id": "BCF4C6A8-C919-4D38-B347-495E96C53D10",
+            "links": [
+                [
+                    0,
+                    17,
+                    {
+                        "id": "C6B3B5CA-E238-4FEF-ADF8-52E5E3B86B5B",
+                        "link": {
+                            "hidden": false,
+                            "id": "280BDD14-CA52-46B9-AC35-32F634A44A46",
+                            "linkId": null,
+                            "name": "javascript:void(0);",
+                            "target": "_self",
+                            "type": "web.data.links.LinkExternal",
+                            "url": "javascript:void(0);"
+                        },
+                        "style": {
+                            "globalId": "57ADAF59-767A-4CA0-9ED2-00297073348E",
+                            "globalName": "[Link 1]",
+                            "hover": {},
+                            "inactive": {},
+                            "press": {},
+                            "type": "web.data.styles.StyleLink",
+                            "visited": {}
+                        },
+                        "type": "web.data.Action"
+                    }
+                ]
+            ],
+            "mobileDown": false,
+            "orderIndex": 27,
+            "paras": [
+                [
+                    0,
+                    17,
+                    {
+                        "indent": 1,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relIn": {
+                "bottom": -176,
+                "id": "040EBA76-2A3D-4BE3-B11C-05CBF004A985",
+                "left": 40,
+                "right": -20,
+                "top": 144
+            },
+            "relTo": {
+                "below": 27,
+                "id": "7355F801-1308-4068-BC5D-8CC9C6AC5CBC"
+            },
+            "stretch": false,
+            "styles": [],
+            "text": "mail@demolink.org",
+            "type": "web.data.components.Text",
+            "width": 280,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 775,
+                "left": 40,
+                "right": 320,
+                "top": 735
+            },
+            "cells": [],
+            "height": 40,
+            "id": "6AF68AF9-0D7A-4257-9C1C-F1D656D8D554",
+            "links": [],
+            "mobileDown": false,
+            "orderIndex": 29,
+            "paras": [
+                [
+                    0,
+                    16,
+                    {
+                        "indent": 1,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relIn": {
+                "bottom": -123,
+                "id": "040EBA76-2A3D-4BE3-B11C-05CBF004A985",
+                "left": 40,
+                "right": -20,
+                "top": 197
+            },
+            "relTo": {
+                "below": 13,
+                "id": "BCF4C6A8-C919-4D38-B347-495E96C53D10"
+            },
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    16,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "123 - 456 - 7890",
+            "type": "web.data.components.Text",
+            "width": 280,
             "wrap": false
         }
     ],

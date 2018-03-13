@@ -18,6 +18,7 @@
             "height": 70,
             "id": "BC0515AC-BF1D-4AAF-BE6E-6366AFD1C8A0",
             "mobileDown": false,
+            "orderIndex": 2,
             "stretch": false,
             "style": {
                 "background": {
@@ -114,6 +115,7 @@
                 ]
             ],
             "mobileDown": false,
+            "orderIndex": 3,
             "paras": [],
             "relIn": {
                 "bottom": -12,
@@ -131,6 +133,7 @@
                         "globalId": "B2AF79DF-3D35-4E49-A371-1E77B63D141E",
                         "globalName": "[heading.2]",
                         "letterspacing": 1,
+                        "size": null,
                         "type": "web.data.styles.StyleText"
                     }
                 ],
@@ -150,19 +153,37 @@
         },
         {
             "bbox": {
-                "bottom": 213,
+                "bottom": 342,
                 "left": 270,
                 "right": 970,
-                "top": 141
+                "top": 147
             },
             "cells": [],
-            "height": 72,
+            "height": 195,
             "id": "54720360-784C-4E1D-9D26-C7146F740F6F",
             "links": [],
             "mobileDown": false,
-            "paras": [],
+            "orderIndex": 4,
+            "paras": [
+                [
+                    0,
+                    13,
+                    {
+                        "height": 1,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    14,
+                    367,
+                    {
+                        "height": 1.8,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
             "relTo": {
-                "below": 41,
+                "below": 47,
                 "id": "BC0515AC-BF1D-4AAF-BE6E-6366AFD1C8A0"
             },
             "stretch": false,
@@ -178,47 +199,14 @@
                     }
                 ]
             ],
-            "text": "GET IN TOUCH",
+            "text": "GET IN TOUCH\n\nNullam blandit velit lectus, a tincidunt nisl sagittis a. Vestibulum nec molestie dui. Aenean erat turpis, ornare id arcu nec, dictum consequat augue. Suspendisse elit sem, volutpat quis massa vel, aliquet ultrices lacus. In varius mi et purus congue, sit amet tincidunt lacus venenatis. In ac sagittis sapien. Vivamus rhoncus feugiat ex vitae lobortis.",
             "type": "web.data.components.Text",
             "width": 700,
             "wrap": false
         },
         {
             "bbox": {
-                "bottom": 328,
-                "left": 270,
-                "right": 970,
-                "top": 220
-            },
-            "cells": [],
-            "height": 108,
-            "id": "B0FB164F-8ABB-4DF3-B2B3-97E9D1B414FF",
-            "links": [],
-            "mobileDown": false,
-            "paras": [
-                [
-                    0,
-                    353,
-                    {
-                        "height": 1.8,
-                        "type": "web.data.styles.StylePara"
-                    }
-                ]
-            ],
-            "relTo": {
-                "below": 7,
-                "id": "54720360-784C-4E1D-9D26-C7146F740F6F"
-            },
-            "stretch": false,
-            "styles": [],
-            "text": "Nullam blandit velit lectus, a tincidunt nisl sagittis a. Vestibulum nec molestie dui. Aenean erat turpis, ornare id arcu nec, dictum consequat augue. Suspendisse elit sem, volutpat quis massa vel, aliquet ultrices lacus. In varius mi et purus congue, sit amet tincidunt lacus venenatis. In ac sagittis sapien. Vivamus rhoncus feugiat ex vitae lobortis.",
-            "type": "web.data.components.Text",
-            "width": 700,
-            "wrap": false
-        },
-        {
-            "bbox": {
-                "bottom": 748,
+                "bottom": 756,
                 "left": 253,
                 "right": 851,
                 "top": 350
@@ -251,13 +239,14 @@
                 "email",
                 "message"
             ],
-            "height": 392,
+            "height": 406,
             "id": "7CFEEC51-D4CF-4C6C-B26B-BC2DAEFACE67",
             "mobileDown": false,
+            "orderIndex": 6,
             "recipientEmail": null,
             "relTo": {
-                "below": 22,
-                "id": "B0FB164F-8ABB-4DF3-B2B3-97E9D1B414FF"
+                "below": 8,
+                "id": "54720360-784C-4E1D-9D26-C7146F740F6F"
             },
             "stretch": false,
             "style": {
@@ -274,7 +263,9 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 },
                 "globalId": "F38E5EB6-5BAD-43F0-A62E-23D01FE2932A",
@@ -286,7 +277,9 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 },
                 "inactive": {
@@ -296,7 +289,9 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 },
                 "press": {
@@ -306,7 +301,9 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 },
                 "type": "web.data.styles.StyleButton",
@@ -317,11 +314,19 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 }
             },
             "styleForm": {
+                "fieldBgColor": null,
+                "fieldBorderColor": null,
+                "font": null,
+                "fontColor": null,
+                "fontSize": null,
+                "primaryColor": null,
                 "type": "web.data.styles.StyleForm"
             },
             "submitBtn": "Send",
@@ -333,6 +338,7 @@
     ],
     "mobileDown": false,
     "name": "Contact",
+    "orderIndex": 0,
     "stretch": false,
     "templateId": "1BC233C4-52A6-45BB-85C9-C392B0AA8D5B",
     "type": "web.data.components.Page",

@@ -1,0 +1,1010 @@
+{
+    "bbox": {
+        "bottom": 100,
+        "left": 0,
+        "right": 100,
+        "top": 0
+    },
+    "height": 100,
+    "id": "0CE03135-0006-417C-90E5-C453BD26D465",
+    "items": [
+        {
+            "bbox": {
+                "bottom": 1752,
+                "left": 0,
+                "right": 1180,
+                "top": 1672
+            },
+            "height": 80,
+            "id": "795E093A-771D-45BB-A836-87AE983E8F96",
+            "mobileDown": true,
+            "orderIndex": 18,
+            "relPage": {
+                "7FDDDAA6-BB9D-43E3-A32A-4104A30A4600": 0
+            },
+            "relTo": {
+                "below": 0,
+                "id": "E4F7EC24-7F28-4653-8E3B-6E16D549ACAC"
+            },
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 1180,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 1317,
+                "left": 42,
+                "right": 660,
+                "top": 684
+            },
+            "formElements": {
+                "email": {
+                    "errorMessage": "Please enter a valid email address.",
+                    "inputType": "email",
+                    "isRequired": true,
+                    "name": "Email",
+                    "values": null
+                },
+                "message": {
+                    "errorMessage": "Please enter a valid message",
+                    "inputType": "textarea",
+                    "isRequired": true,
+                    "name": "Case Summary",
+                    "values": null
+                },
+                "name": {
+                    "errorMessage": "Please enter a valid name",
+                    "inputType": "text",
+                    "isRequired": true,
+                    "name": "Name",
+                    "values": null
+                },
+                "phone1": {
+                    "errorMessage": "Please enter a valid phone number",
+                    "inputType": "tel",
+                    "isRequired": true,
+                    "name": "Phone",
+                    "values": null
+                },
+                "radio1": {
+                    "errorMessage": "Please select an option",
+                    "inputType": "radio",
+                    "isRequired": true,
+                    "name": "Choose service category",
+                    "values": [
+                        "Inpatient Rehabilitation",
+                        "Neurokinetic Therapy",
+                        "Musculoskeletal Physiotherapy"
+                    ]
+                }
+            },
+            "formElementsOrder": [
+                "name",
+                "phone1",
+                "email",
+                "radio1",
+                "message"
+            ],
+            "height": 633,
+            "id": "7A7E2F51-CB5A-4ECA-AD1D-196FBEA86469",
+            "mobileDown": false,
+            "orderIndex": 19,
+            "recipientEmail": null,
+            "relIn": {
+                "bottom": -43,
+                "id": "C6C327AA-4050-46C5-B62A-39605AF43CB4",
+                "left": 42,
+                "right": -520,
+                "top": 204
+            },
+            "relPage": {},
+            "relTo": {
+                "below": 0,
+                "id": "8D597567-90D4-42E3-8ED1-EE2EC2FDE433"
+            },
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "styleButton": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "globalId": "62704967-DC63-4748-A572-F5DE37355685",
+                "globalName": "[button.1]",
+                "hover": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                },
+                "type": "web.data.styles.StyleButton",
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": null,
+                        "padding": null
+                    },
+                    "horizontalAlign": null,
+                    "text": {
+                        "size": null
+                    },
+                    "verticalAlign": null
+                }
+            },
+            "styleForm": {
+                "fieldBgColor": null,
+                "fieldBorderColor": null,
+                "font": null,
+                "fontColor": [
+                    "HSV",
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "fontSize": null,
+                "primaryColor": null,
+                "type": "web.data.styles.StyleForm"
+            },
+            "submitBtn": "Request Booking",
+            "successMessage": "Thank you for your message.",
+            "type": "web.data.components.ContactForm",
+            "width": 618,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 400,
+                "left": 0,
+                "right": 1180,
+                "top": 80
+            },
+            "height": 320,
+            "id": "CA63A9DE-8309-4BC6-AAAE-171FCC274916",
+            "mobileDown": false,
+            "orderIndex": 1,
+            "relPage": {},
+            "relTo": {
+                "below": 0,
+                "id": "566E994D-B4D9-49F9-8126-E43D4AE7C95B"
+            },
+            "stretch": true,
+            "style": {
+                "background": {
+                    "asset": {
+                        "alpha": null,
+                        "animated": false,
+                        "bpp": null,
+                        "contentType": "image/png",
+                        "etag": "W/\"117848-5597132bd69ce\"",
+                        "filesize": 1144904,
+                        "height": 640,
+                        "id": "2668059C-8A4A-47DD-8BF0-BB4678AB4A5C",
+                        "recommendedFormat": null,
+                        "type": "web.data.assets.Image",
+                        "url": "repository:/physiotherapy-subpage-header.png",
+                        "width": 4000
+                    },
+                    "color": null,
+                    "fixed": false,
+                    "gradient": null,
+                    "position": [
+                        "50%",
+                        "50%"
+                    ],
+                    "repeat": [
+                        false,
+                        false
+                    ],
+                    "size": "fill"
+                },
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 1180,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 353,
+                "left": 0,
+                "right": 556,
+                "top": 190
+            },
+            "cells": [],
+            "height": 163,
+            "id": "A7D78656-6051-461F-8614-F8F4D9E50BD0",
+            "links": [],
+            "mobileDown": false,
+            "orderIndex": 24,
+            "paras": [
+                [
+                    12,
+                    188,
+                    {
+                        "height": 1.5,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relIn": {
+                "bottom": -47,
+                "id": "CA63A9DE-8309-4BC6-AAAE-171FCC274916",
+                "left": 0,
+                "right": -624,
+                "top": 110
+            },
+            "relPage": {},
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    10,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "globalId": "8A585450-C1AD-4EDE-9B7E-D9951B8B28CA",
+                        "globalName": "[heading.1]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    11,
+                    188,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "Contact Us\n\nLorem ipsum sitame consteur adpscing usbore magna aliquat persicas unde omnis natus sit voluptaem.  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium\n ",
+            "type": "web.data.components.Text",
+            "width": 556,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 1360,
+                "left": 0,
+                "right": 1180,
+                "top": 480
+            },
+            "height": 880,
+            "id": "C6C327AA-4050-46C5-B62A-39605AF43CB4",
+            "mobileDown": false,
+            "orderIndex": 0,
+            "relTo": {
+                "below": 0,
+                "id": "8CAF8B19-9FD2-475F-9D70-6B174607F15C"
+            },
+            "stretch": false,
+            "style": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0.21568627450980393,
+                        0.17254901960784313,
+                        0.4392156862745098,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 1180,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 1238,
+                "left": 717,
+                "right": 1141,
+                "top": 583
+            },
+            "cells": [],
+            "height": 655,
+            "id": "D9DBAF5B-6772-4B09-B9EB-A1655A68228D",
+            "links": [],
+            "mobileDown": false,
+            "orderIndex": 25,
+            "paras": [
+                [
+                    0,
+                    13,
+                    {
+                        "padding": [
+                            10,
+                            0,
+                            0,
+                            0
+                        ],
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    15,
+                    186,
+                    {
+                        "height": 1.5,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    187,
+                    213,
+                    {
+                        "height": 1,
+                        "padding": [
+                            10,
+                            0,
+                            0,
+                            0
+                        ],
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    214,
+                    882,
+                    {
+                        "height": 1.5,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relIn": {
+                "bottom": -314,
+                "id": "C6C327AA-4050-46C5-B62A-39605AF43CB4",
+                "left": 717,
+                "right": -39,
+                "top": 103
+            },
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    13,
+                    {
+                        "bold": true,
+                        "color": [
+                            "RGB",
+                            0.09019607843137255,
+                            0.8,
+                            0.5411764705882353,
+                            1
+                        ],
+                        "globalId": "1A2C7640-CFB1-4BF6-8309-70C3E470C138",
+                        "globalName": "[paragraph]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    14,
+                    142,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    143,
+                    153,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "size": 16,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    154,
+                    154,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "size": 18,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    155,
+                    186,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    187,
+                    213,
+                    {
+                        "bold": true,
+                        "color": [
+                            "RGB",
+                            0.09019607843137255,
+                            0.8,
+                            0.5411764705882353,
+                            1
+                        ],
+                        "globalId": "1A2C7640-CFB1-4BF6-8309-70C3E470C138",
+                        "globalName": "[paragraph]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    214,
+                    882,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "OPENING HOURS\n\nLorem ipsum sitame consecteur adpsicing pltsmaore aliquer velitsse cillumer pariatur aurntium ipsae inventore.\n\nMonday - Friday\n7am - 10pm\n\nSaturday - Sunday\n8am - 10pm\n\n\n\nCANCELLING AN APPOINTMENT\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
+            "type": "web.data.components.Text",
+            "width": 424,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 480,
+                "left": 0,
+                "right": 1180,
+                "top": 400
+            },
+            "height": 80,
+            "id": "8CAF8B19-9FD2-475F-9D70-6B174607F15C",
+            "mobileDown": false,
+            "orderIndex": 26,
+            "relTo": {
+                "below": 0,
+                "id": "CA63A9DE-8309-4BC6-AAAE-171FCC274916"
+            },
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 1180,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 684,
+                "left": 59,
+                "right": 660,
+                "top": 530
+            },
+            "cells": [],
+            "height": 154,
+            "id": "8D597567-90D4-42E3-8ED1-EE2EC2FDE433",
+            "links": [],
+            "mobileDown": false,
+            "orderIndex": 27,
+            "paras": [
+                [
+                    0,
+                    19,
+                    {
+                        "padding": [
+                            10,
+                            0,
+                            0,
+                            0
+                        ],
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    21,
+                    154,
+                    {
+                        "height": 1.5,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relIn": {
+                "bottom": -673,
+                "id": "C6C327AA-4050-46C5-B62A-39605AF43CB4",
+                "left": 59,
+                "right": -520,
+                "top": 50
+            },
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    19,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "globalId": "443E96B6-039C-488B-AA25-62179B5006FF",
+                        "globalName": "[heading.2]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    21,
+                    154,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "Online Appointments\n\nThank you for choosing Physiotherapy. \nTo request an appointment with one of our Specialists, please fill in the \ninformation below.\n",
+            "type": "web.data.components.Text",
+            "width": 601,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 1672,
+                "left": 0,
+                "right": 1180,
+                "top": 1360
+            },
+            "height": 312,
+            "id": "E4F7EC24-7F28-4653-8E3B-6E16D549ACAC",
+            "mobileDown": false,
+            "orderIndex": 20,
+            "relPage": {},
+            "relTo": {
+                "below": 0,
+                "id": "C6C327AA-4050-46C5-B62A-39605AF43CB4"
+            },
+            "stretch": false,
+            "style": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0.09019607843137255,
+                        0.8,
+                        0.5411764705882353,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 1180,
+            "wrap": false
+        },
+        {
+            "action": {
+                "id": "2FDCB967-D775-4EA9-96A6-48253EC0932E",
+                "link": {
+                    "hidden": false,
+                    "id": "2C53EC4D-3F33-426E-B877-47ADB82FB0BE",
+                    "linkId": null,
+                    "name": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,11z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e",
+                    "target": "_self",
+                    "type": "web.data.links.LinkExternal",
+                    "url": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,11z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e"
+                },
+                "type": "web.data.Action"
+            },
+            "anchorLeft": 50,
+            "anchorTop": 50,
+            "asset": {
+                "alpha": null,
+                "animated": false,
+                "bpp": null,
+                "contentType": "image/png",
+                "etag": "W/\"d4396-5573f7bd0516d\"",
+                "filesize": 869270,
+                "height": 1200,
+                "id": "8C927E1A-3D4F-46BC-AC19-7B3E70A97BAD",
+                "recommendedFormat": null,
+                "type": "web.data.assets.Image",
+                "url": "repository:/coworking-space-map.png",
+                "width": 1320
+            },
+            "bbox": {
+                "bottom": 1672,
+                "left": 660,
+                "right": 1180,
+                "top": 1360
+            },
+            "cropLeft": 0,
+            "cropTop": 484,
+            "height": 312,
+            "id": "0C31FF55-2478-4ABC-B7D8-9C6CA3929588",
+            "mobileDown": false,
+            "mobileHide": true,
+            "orderIndex": 22,
+            "relIn": {
+                "bottom": 0,
+                "id": "E4F7EC24-7F28-4653-8E3B-6E16D549ACAC",
+                "left": 660,
+                "right": 0,
+                "top": 0
+            },
+            "relPage": {},
+            "rotation": 0,
+            "scale": 1,
+            "scaleStrategy": "crop",
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "title": "",
+            "type": "web.data.components.resources.Image",
+            "width": 520,
+            "wrap": false
+        },
+        {
+            "action": {
+                "id": "1A25AF09-1689-487E-A74F-5DBF766F7E00",
+                "link": {
+                    "hidden": false,
+                    "id": "0BC49B58-2239-465E-8CB5-4B145D5DD1AF",
+                    "linkId": null,
+                    "name": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,11z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e",
+                    "target": "_self",
+                    "type": "web.data.links.LinkExternal",
+                    "url": "https://www.google.com/maps/place/Glasgow,+Glasgow+City,+UK/@55.8554602,-4.2324586,11z/data=!3m1!4b1!4m2!3m1!1s0x488815562056ceeb:0x71e683b805ef511e"
+                },
+                "type": "web.data.Action"
+            },
+            "anchorLeft": 50,
+            "anchorTop": 50,
+            "asset": {
+                "alpha": null,
+                "animated": false,
+                "bpp": null,
+                "contentType": "image/png",
+                "etag": "W/\"a8a-5597605531fce\"",
+                "filesize": 2698,
+                "height": 121,
+                "id": "92F7807B-7CBC-4627-8BAD-5AC683CAB4DB",
+                "recommendedFormat": null,
+                "type": "web.data.assets.Image",
+                "url": "repository:/physiotherapy-location-icon-blue.png",
+                "width": 100
+            },
+            "bbox": {
+                "bottom": 1546,
+                "left": 895,
+                "right": 945,
+                "top": 1485
+            },
+            "cropLeft": 0,
+            "cropTop": 0,
+            "height": 60.5,
+            "id": "A9D0CCE8-7019-48D9-B30E-40B3C8820A7B",
+            "mobileDown": false,
+            "mobileHide": true,
+            "orderIndex": 23,
+            "relIn": {
+                "bottom": -126,
+                "id": "0C31FF55-2478-4ABC-B7D8-9C6CA3929588",
+                "left": 235,
+                "right": -235,
+                "top": 125
+            },
+            "relPage": {},
+            "rotation": 0,
+            "scale": 0.5041322314049587,
+            "scaleStrategy": "fit",
+            "stretch": false,
+            "style": {
+                "background": null,
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "title": "",
+            "type": "web.data.components.resources.Image",
+            "width": 50,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 1634,
+                "left": 56,
+                "right": 480,
+                "top": 1397
+            },
+            "cells": [],
+            "height": 237,
+            "id": "2D49534D-0FC3-41C3-B960-5F2F8D642642",
+            "links": [
+                [
+                    69,
+                    86,
+                    {
+                        "id": "E974C09E-BFED-478A-93E3-C0F941ED3131",
+                        "link": {
+                            "hidden": false,
+                            "id": "611EDFE4-99A1-49BB-BE8D-286B93D9715F",
+                            "linkId": null,
+                            "name": "javascript:void(0);",
+                            "target": "_self",
+                            "type": "web.data.links.LinkExternal",
+                            "url": "javascript:void(0);"
+                        },
+                        "style": {
+                            "globalId": "88DBC8F9-08BB-4F9E-973F-5CF9B5E769D9",
+                            "globalName": "[Link 1]",
+                            "hover": {},
+                            "inactive": {},
+                            "press": {},
+                            "type": "web.data.styles.StyleLink",
+                            "visited": {}
+                        },
+                        "type": "web.data.Action"
+                    }
+                ]
+            ],
+            "mobileDown": false,
+            "orderIndex": 25,
+            "paras": [
+                [
+                    0,
+                    12,
+                    {
+                        "padding": [
+                            10,
+                            0,
+                            0,
+                            0
+                        ],
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    14,
+                    23,
+                    {
+                        "height": 1.5,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    24,
+                    61,
+                    {
+                        "height": 1.3,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    62,
+                    114,
+                    {
+                        "height": 1.5,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
+            "relIn": {
+                "bottom": -38,
+                "id": "E4F7EC24-7F28-4653-8E3B-6E16D549ACAC",
+                "left": 56,
+                "right": -700,
+                "top": 37
+            },
+            "relPage": {},
+            "stretch": false,
+            "styles": [
+                [
+                    0,
+                    12,
+                    {
+                        "bold": true,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "globalId": "1A2C7640-CFB1-4BF6-8309-70C3E470C138",
+                        "globalName": "[paragraph]",
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    13,
+                    68,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    69,
+                    86,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "size": 16,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    87,
+                    87,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "size": 18,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    88,
+                    114,
+                    {
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "size": null,
+                        "type": "web.data.styles.StyleText"
+                    }
+                ]
+            ],
+            "text": "GET IN TOUCH\n\nAddress: \n8901 Marmora Road, Glasgow, D04 89GR\n\nEmail:\nmail@demolink.org\n\nPhone:\n(800) 0123-456-7890",
+            "type": "web.data.components.Text",
+            "width": 424,
+            "wrap": false
+        }
+    ],
+    "mobileDown": false,
+    "name": "Contact",
+    "orderIndex": 0,
+    "stretch": false,
+    "templateId": "D277B01D-D689-4128-8FAB-932CCA93CF9F",
+    "type": "web.data.components.Page",
+    "width": 100,
+    "wrap": false
+}

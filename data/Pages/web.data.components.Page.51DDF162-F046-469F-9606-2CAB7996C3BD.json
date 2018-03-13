@@ -42,32 +42,37 @@
                 "top": 185
             },
             "category": null,
+            "cropImages": true,
             "height": 730,
             "id": "A03AB9C3-F05F-462F-A0F5-DC8F17A6669B",
-            "language": "en_us",
+            "imageRatio": "actual",
+            "labelPosition": "topRight",
             "mobileDown": false,
             "orderIndex": 18,
+            "productsPerPage": 24,
+            "productsPerRow": 2,
             "relTo": {
                 "below": 100,
                 "id": "9F1863F5-7EC6-4688-B9E2-2D3DF1F4F5D1"
             },
             "showCategory": true,
             "showWelcomeMessage": true,
+            "sortProducts": "name-ascending",
             "stretch": false,
             "style": {
                 "buttonId": "C9B38A0D-48B4-4889-B9D1-2D710F2E5FAB",
                 "fieldBgColor": [
                     "RGB",
-                    0,
-                    0,
-                    0,
+                    0.7333333333333333,
+                    0.7333333333333333,
+                    0.7333333333333333,
                     1
                 ],
                 "fieldBorderColor": [
                     "RGB",
-                    0,
-                    0,
-                    0,
+                    0.7333333333333333,
+                    0.7333333333333333,
+                    0.7333333333333333,
                     1
                 ],
                 "focusColor": [
@@ -85,16 +90,37 @@
                     1,
                     1
                 ],
-                "id": "20D8EE5A-CF45-4E81-AA85-F61A862F6115",
+                "hoverColor": [
+                    "RGB",
+                    1,
+                    1,
+                    1,
+                    0.2
+                ],
+                "labelBgColor": [
+                    "RGB",
+                    0.21176470588235294,
+                    0.1843137254901961,
+                    0.17647058823529413,
+                    1
+                ],
+                "labelTextColor": [
+                    "RGB",
+                    1,
+                    1,
+                    1,
+                    1
+                ],
                 "type": "web.data.styles.WebShop"
             },
             "type": "web.data.components.WebShop",
+            "userCanSortProducts": false,
             "width": 960,
             "wrap": false
         },
         {
             "bbox": {
-                "bottom": 1167,
+                "bottom": 1174,
                 "left": 319,
                 "right": 573,
                 "top": 1014
@@ -111,7 +137,7 @@
             "formElementsOrder": [
                 "email1"
             ],
-            "height": 153,
+            "height": 160,
             "id": "20091672-A3C3-4A56-A825-BBA6CD84A86D",
             "mobileDown": false,
             "orderIndex": 19,
@@ -138,7 +164,9 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 },
                 "globalId": "C9B38A0D-48B4-4889-B9D1-2D710F2E5FAB",
@@ -150,7 +178,9 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 },
                 "inactive": {
@@ -160,7 +190,9 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 },
                 "press": {
@@ -170,7 +202,9 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 },
                 "type": "web.data.styles.StyleButton",
@@ -181,11 +215,19 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 }
             },
             "styleForm": {
+                "fieldBgColor": null,
+                "fieldBorderColor": null,
+                "font": null,
+                "fontColor": null,
+                "fontSize": null,
+                "primaryColor": null,
                 "type": "web.data.styles.StyleForm"
             },
             "submitBtn": "Subscribe Now",
@@ -194,9 +236,6 @@
             "width": 254,
             "wrap": false
         }
-    ],
-    "migrationInfo": [
-        34
     ],
     "mobileDown": false,
     "name": "Catalog",

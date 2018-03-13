@@ -31,6 +31,10 @@
                     }
                 ]
             ],
+            "relTo": {
+                "below": 137,
+                "id": "9271FD19-4568-408A-816E-E004D68C8455"
+            },
             "stretch": false,
             "styles": [
                 [
@@ -408,13 +412,40 @@
             "cells": [],
             "height": 29,
             "id": "159B4F31-0D2B-4419-B956-CF429276338B",
-            "links": [],
+            "links": [
+                [
+                    8,
+                    25,
+                    {
+                        "id": "7C551E34-65D0-4182-AAAB-02C7F157E3A6",
+                        "link": {
+                            "hidden": false,
+                            "id": "CC344483-7B65-42BB-B7A3-524577C3EC68",
+                            "linkId": null,
+                            "name": "javascript:void(0);",
+                            "target": "_self",
+                            "type": "web.data.links.LinkExternal",
+                            "url": "javascript:void(0);"
+                        },
+                        "style": {
+                            "globalId": "8EB36116-A619-46E9-875A-ADA7699C5D17",
+                            "globalName": "[Link 1]",
+                            "hover": {},
+                            "inactive": {},
+                            "press": {},
+                            "type": "web.data.styles.StyleLink",
+                            "visited": {}
+                        },
+                        "type": "web.data.Action"
+                    }
+                ]
+            ],
             "mobileDown": false,
             "orderIndex": 19,
             "paras": [
                 [
                     0,
-                    27,
+                    25,
                     {
                         "height": 1.8,
                         "type": "web.data.styles.StylePara"
@@ -427,7 +458,7 @@
             },
             "stretch": false,
             "styles": [],
-            "text": "E-mail: support@cleaner.net",
+            "text": "E-mail: mail@demolink.org",
             "type": "web.data.components.Text",
             "width": 420,
             "wrap": false
@@ -543,6 +574,19 @@
             "wrap": true
         },
         {
+            "action": {
+                "id": "014810D6-51AB-44CE-AC02-D1B69D2F78F7",
+                "link": {
+                    "hidden": false,
+                    "id": "C83A89EA-A5E6-4E45-BBFC-BF81ED01A561",
+                    "linkId": null,
+                    "name": "javascript:void(0);",
+                    "target": "_self",
+                    "type": "web.data.links.LinkExternal",
+                    "url": "javascript:void(0);"
+                },
+                "type": "web.data.Action"
+            },
             "anchorLeft": 50,
             "anchorTop": 50,
             "asset": {
@@ -642,6 +686,32 @@
                     ],
                     "size": "fill"
                 },
+                "border": null,
+                "padding": null,
+                "type": "web.data.styles.StyleBlock"
+            },
+            "type": "web.data.components.Block",
+            "width": 1000,
+            "wrap": false
+        },
+        {
+            "bbox": {
+                "bottom": 1570,
+                "left": 0,
+                "right": 1000,
+                "top": 1470
+            },
+            "height": 100,
+            "id": "CF5D82D9-DE1A-4FAE-BD30-87D82DF5D817",
+            "mobileDown": false,
+            "orderIndex": 23,
+            "relTo": {
+                "below": 145,
+                "id": "159B4F31-0D2B-4419-B956-CF429276338B"
+            },
+            "stretch": false,
+            "style": {
+                "background": null,
                 "border": null,
                 "padding": null,
                 "type": "web.data.styles.StyleBlock"

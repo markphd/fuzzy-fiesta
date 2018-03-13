@@ -19,6 +19,10 @@
             "id": "7681214C-4587-4D6E-A587-66CF8ADB3508",
             "mobileDown": false,
             "orderIndex": 14,
+            "relTo": {
+                "below": 70,
+                "id": "62DBDA9E-F285-409A-9094-7EFE7835C994"
+            },
             "stretch": false,
             "style": {
                 "background": null,
@@ -343,7 +347,34 @@
             "cells": [],
             "height": 19,
             "id": "B165A42F-C918-49F6-BBC9-8CD66765DE1E",
-            "links": [],
+            "links": [
+                [
+                    0,
+                    17,
+                    {
+                        "id": "6FD9E6C9-1CDB-4214-9C98-E2A584C27152",
+                        "link": {
+                            "hidden": false,
+                            "id": "7E92200D-E29E-4566-9DD5-DDFFE916247D",
+                            "linkId": null,
+                            "name": "javascript:void(0);",
+                            "target": "_self",
+                            "type": "web.data.links.LinkExternal",
+                            "url": "javascript:void(0);"
+                        },
+                        "style": {
+                            "globalId": "332FA458-FF96-49E2-B911-C264A81DD438",
+                            "globalName": "[Link 1]",
+                            "hover": {},
+                            "inactive": {},
+                            "press": {},
+                            "type": "web.data.styles.StyleLink",
+                            "visited": {}
+                        },
+                        "type": "web.data.Action"
+                    }
+                ]
+            ],
             "mobileDown": false,
             "orderIndex": 20,
             "paras": [],
@@ -713,24 +744,41 @@
         },
         {
             "bbox": {
-                "bottom": 604,
+                "bottom": 737,
                 "left": 350,
                 "right": 590,
-                "top": 568
+                "top": 571
             },
             "cells": [],
-            "height": 36,
+            "height": 166,
             "id": "81B8ACEE-E7BB-416C-8834-6EEBA2374827",
             "links": [],
             "mobileDown": false,
             "orderIndex": 27,
-            "paras": [],
+            "paras": [
+                [
+                    0,
+                    14,
+                    {
+                        "height": 1,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    15,
+                    123,
+                    {
+                        "height": 1.2,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
             "relIn": {
-                "bottom": -150,
+                "bottom": -17,
                 "id": "FE96191D-2041-4D5C-BA75-2F1B0FF2FE13",
                 "left": 30,
                 "right": -30,
-                "top": 21
+                "top": 24
             },
             "stretch": false,
             "styles": [
@@ -750,52 +798,10 @@
                         "size": null,
                         "type": "web.data.styles.StyleText"
                     }
-                ]
-            ],
-            "text": "CUSTOMERS SAY",
-            "type": "web.data.components.Text",
-            "width": 240,
-            "wrap": false
-        },
-        {
-            "bbox": {
-                "bottom": 718,
-                "left": 350,
-                "right": 590,
-                "top": 616
-            },
-            "cells": [],
-            "height": 102,
-            "id": "0777D7D8-07B8-4F53-9E5E-23607291F713",
-            "links": [],
-            "mobileDown": false,
-            "orderIndex": 28,
-            "paras": [
+                ],
                 [
-                    0,
-                    108,
-                    {
-                        "height": 1.2,
-                        "type": "web.data.styles.StylePara"
-                    }
-                ]
-            ],
-            "relIn": {
-                "bottom": -36,
-                "id": "FE96191D-2041-4D5C-BA75-2F1B0FF2FE13",
-                "left": 30,
-                "right": -30,
-                "top": 69
-            },
-            "relTo": {
-                "below": 12,
-                "id": "81B8ACEE-E7BB-416C-8834-6EEBA2374827"
-            },
-            "stretch": false,
-            "styles": [
-                [
-                    0,
-                    88,
+                    15,
+                    103,
                     {
                         "color": [
                             "HSV",
@@ -809,8 +815,8 @@
                     }
                 ],
                 [
-                    89,
-                    108,
+                    105,
+                    123,
                     {
                         "bold": true,
                         "color": [
@@ -825,7 +831,7 @@
                     }
                 ]
             ],
-            "text": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt viverra diam”\n\nBob, Westside Brox",
+            "text": "CUSTOMERS SAY\n\n“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt viverra diam”\n\nBob, Westside Brox",
             "type": "web.data.components.Text",
             "width": 240,
             "wrap": false
@@ -868,24 +874,68 @@
         },
         {
             "bbox": {
-                "bottom": 604,
+                "bottom": 661,
                 "left": 670,
                 "right": 910,
-                "top": 568
+                "top": 571
             },
             "cells": [],
-            "height": 36,
+            "height": 90,
             "id": "47C608A7-A51E-4200-8A48-8DFBE5C964C4",
-            "links": [],
+            "links": [
+                [
+                    15,
+                    32,
+                    {
+                        "id": "7139BB86-3ABA-493B-815E-C86CCF9E3D45",
+                        "link": {
+                            "hidden": false,
+                            "id": "50B4A62F-CB7A-43DB-8B88-D74372127EFB",
+                            "linkId": null,
+                            "name": "javascript:void(0);",
+                            "target": "_self",
+                            "type": "web.data.links.LinkExternal",
+                            "url": "javascript:void(0);"
+                        },
+                        "style": {
+                            "globalId": "8EFD359A-BD6D-446B-9B55-A76FBE1B6416",
+                            "globalName": "[Link 1]",
+                            "hover": {},
+                            "inactive": {},
+                            "press": {},
+                            "type": "web.data.styles.StyleLink",
+                            "visited": {}
+                        },
+                        "type": "web.data.Action"
+                    }
+                ]
+            ],
             "mobileDown": false,
             "orderIndex": 30,
-            "paras": [],
+            "paras": [
+                [
+                    0,
+                    14,
+                    {
+                        "height": 1,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    15,
+                    44,
+                    {
+                        "height": 1.2,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ]
+            ],
             "relIn": {
-                "bottom": -150,
+                "bottom": -93,
                 "id": "9D6594C6-E787-4A16-85DC-A2D94F67C9E0",
                 "left": 30,
                 "right": -30,
-                "top": 21
+                "top": 24
             },
             "stretch": false,
             "styles": [
@@ -905,52 +955,10 @@
                         "size": null,
                         "type": "web.data.styles.StyleText"
                     }
-                ]
-            ],
-            "text": "QUICK CONTACT",
-            "type": "web.data.components.Text",
-            "width": 240,
-            "wrap": false
-        },
-        {
-            "bbox": {
-                "bottom": 654,
-                "left": 670,
-                "right": 910,
-                "top": 616
-            },
-            "cells": [],
-            "height": 38,
-            "id": "230D0D51-061C-4898-999B-E708F620D37F",
-            "links": [],
-            "mobileDown": false,
-            "orderIndex": 31,
-            "paras": [
+                ],
                 [
-                    0,
-                    29,
-                    {
-                        "height": 1.2,
-                        "type": "web.data.styles.StylePara"
-                    }
-                ]
-            ],
-            "relIn": {
-                "bottom": -100,
-                "id": "9D6594C6-E787-4A16-85DC-A2D94F67C9E0",
-                "left": 30,
-                "right": -30,
-                "top": 69
-            },
-            "relTo": {
-                "below": 12,
-                "id": "47C608A7-A51E-4200-8A48-8DFBE5C964C4"
-            },
-            "stretch": false,
-            "styles": [
-                [
-                    0,
-                    29,
+                    15,
+                    44,
                     {
                         "color": [
                             "HSV",
@@ -964,22 +972,22 @@
                     }
                 ]
             ],
-            "text": "mail@demolink.org\n999-234-876",
+            "text": "QUICK CONTACT\n\nmail@demolink.org\n999-234-876",
             "type": "web.data.components.Text",
             "width": 240,
             "wrap": false
         },
         {
             "action": {
-                "id": "ADE387F6-627D-46B0-BB4F-A5F4F1935569",
+                "id": "6269E1F4-C1D9-4664-82D8-BA636D805BB1",
                 "link": {
                     "hidden": false,
-                    "id": "D17CBE58-BCCE-4153-A9B9-2E852868DF0B",
+                    "id": "EB33ED14-AB75-48BD-8C8B-010B2088538D",
                     "linkId": null,
-                    "name": "mailto:mail@demolink.org",
+                    "name": "javascript:void(0);",
                     "target": "_self",
                     "type": "web.data.links.LinkExternal",
-                    "url": "mailto:mail@demolink.org"
+                    "url": "javascript:void(0);"
                 },
                 "type": "web.data.Action"
             },
@@ -1002,8 +1010,8 @@
                 "top": 137
             },
             "relTo": {
-                "below": 30,
-                "id": "230D0D51-061C-4898-999B-E708F620D37F"
+                "below": 23,
+                "id": "47C608A7-A51E-4200-8A48-8DFBE5C964C4"
             },
             "stretch": false,
             "styleButton": {

@@ -1,0 +1,5305 @@
+{
+    "id": "9275D08C-DCDE-45F0-9BFE-288A4064D1A0",
+    "name": "Motorcycle Restoration",
+    "styles": [
+        {
+            "background": {
+                "asset": null,
+                "color": [
+                    "RGB",
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "gradient": null
+            },
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "FE6366FB-1B7C-41B9-BB4F-4BE7CF3CFEAE",
+            "name": "[body]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "body",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSV",
+                0,
+                0,
+                1,
+                1
+            ],
+            "font": "google://Oxygen",
+            "id": "4884DE3C-372E-4914-B7FC-D51E38E1D630",
+            "italic": false,
+            "name": "[paragraph]",
+            "ref": "normal",
+            "size": 16,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": true,
+            "color": [
+                "RGB",
+                0.21176470588235294,
+                0.21176470588235294,
+                0.21176470588235294,
+                1
+            ],
+            "font": "google://Oxygen",
+            "id": "3CA779E9-08CC-4E93-9728-AD720DF730A2",
+            "italic": false,
+            "name": "[heading.1]",
+            "ref": "heading.1",
+            "size": 48,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": false,
+            "color": [
+                "RGB",
+                0.21176470588235294,
+                0.21176470588235294,
+                0.21176470588235294,
+                1
+            ],
+            "font": "google://Oxygen",
+            "id": "6AC19ECB-3AE2-4F3C-AE88-3569611024EA",
+            "italic": false,
+            "name": "[heading.2]",
+            "ref": "heading.2",
+            "size": 30,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSV",
+                0,
+                0,
+                1,
+                1
+            ],
+            "font": "google://Oxygen",
+            "id": "0FA8B340-88EC-4974-8111-248602854320",
+            "italic": false,
+            "name": "[heading.3]",
+            "ref": "heading.3",
+            "size": 24,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "hover": {
+                "color": [
+                    "RGB",
+                    0.2549019607843137,
+                    0.5098039215686274,
+                    0.7607843137254902,
+                    1
+                ],
+                "underline": false
+            },
+            "id": "CF749DD1-D9AF-430E-AF6D-5ADBA93B8771",
+            "inactive": {
+                "color": [
+                    "RGB",
+                    0.07058823529411765,
+                    0.38823529411764707,
+                    0.7019607843137254,
+                    1
+                ],
+                "underline": false
+            },
+            "name": "[Link 1]",
+            "press": {
+                "color": [
+                    "RGB",
+                    0.2549019607843137,
+                    0.5098039215686274,
+                    0.7607843137254902,
+                    1
+                ],
+                "underline": false
+            },
+            "ref": "link.1",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "RGB",
+                    0.07058823529411765,
+                    0.38823529411764707,
+                    0.7019607843137254,
+                    1
+                ],
+                "underline": false
+            }
+        },
+        {
+            "accordionTextIndent": 13,
+            "block": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "cascadeWidth": 200,
+            "divider": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "expandable": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": null,
+                                "animated": false,
+                                "bpp": null,
+                                "contentType": "image/png",
+                                "etag": "W/\"421c-557b58d5de12c\"",
+                                "filesize": 16924,
+                                "height": 10,
+                                "id": "B5B9AD9F-5F3A-41E0-90A2-E9A653E11752",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/motorcycle-restoration-menu-1-expandable.png",
+                                "width": 25
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            40,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": null,
+                                "animated": false,
+                                "bpp": null,
+                                "contentType": "image/png",
+                                "etag": "W/\"420e-557b58e6bc6ec\"",
+                                "filesize": 16910,
+                                "height": 10,
+                                "id": "939FD046-A307-4859-ACC8-72308F5C1252",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/motorcycle-restoration-menu-1-expanded.png",
+                                "width": 25
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            40,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.582815734989648,
+                            0.8994413407821229,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": null,
+                                "animated": false,
+                                "bpp": null,
+                                "contentType": "image/png",
+                                "etag": "W/\"421c-557b58d5de12c\"",
+                                "filesize": 16924,
+                                "height": 10,
+                                "id": "B5B9AD9F-5F3A-41E0-90A2-E9A653E11752",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/motorcycle-restoration-menu-1-expandable.png",
+                                "width": 25
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            40,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": null,
+                                "animated": false,
+                                "bpp": null,
+                                "contentType": "image/png",
+                                "etag": "W/\"421c-557b58d5de12c\"",
+                                "filesize": 16924,
+                                "height": 10,
+                                "id": "B5B9AD9F-5F3A-41E0-90A2-E9A653E11752",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/motorcycle-restoration-menu-1-expandable.png",
+                                "width": 25
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            40,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": null,
+                                "animated": false,
+                                "bpp": null,
+                                "contentType": "image/png",
+                                "etag": "W/\"421c-557b58d5de12c\"",
+                                "filesize": 16924,
+                                "height": 10,
+                                "id": "B5B9AD9F-5F3A-41E0-90A2-E9A653E11752",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/motorcycle-restoration-menu-1-expandable.png",
+                                "width": 25
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            40,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "expanded": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": null,
+                                "animated": false,
+                                "bpp": null,
+                                "contentType": "image/png",
+                                "etag": "W/\"420e-557b58e6bc6ec\"",
+                                "filesize": 16910,
+                                "height": 10,
+                                "id": "939FD046-A307-4859-ACC8-72308F5C1252",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/motorcycle-restoration-menu-1-expanded.png",
+                                "width": 25
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            40,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.582815734989648,
+                            0.8994413407821229,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": null,
+                                "animated": false,
+                                "bpp": null,
+                                "contentType": "image/png",
+                                "etag": "W/\"420e-557b58e6bc6ec\"",
+                                "filesize": 16910,
+                                "height": 10,
+                                "id": "939FD046-A307-4859-ACC8-72308F5C1252",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/motorcycle-restoration-menu-1-expanded.png",
+                                "width": 25
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            40,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.582815734989648,
+                            0.8994413407821229,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": null,
+                                "animated": false,
+                                "bpp": null,
+                                "contentType": "image/png",
+                                "etag": "W/\"420e-557b58e6bc6ec\"",
+                                "filesize": 16910,
+                                "height": 10,
+                                "id": "939FD046-A307-4859-ACC8-72308F5C1252",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/motorcycle-restoration-menu-1-expanded.png",
+                                "width": 25
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            40,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.582815734989648,
+                            0.8994413407821229,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": null,
+                                "animated": false,
+                                "bpp": null,
+                                "contentType": "image/png",
+                                "etag": "W/\"420e-557b58e6bc6ec\"",
+                                "filesize": 16910,
+                                "height": 10,
+                                "id": "939FD046-A307-4859-ACC8-72308F5C1252",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/motorcycle-restoration-menu-1-expanded.png",
+                                "width": 25
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            40,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.582815734989648,
+                            0.8994413407821229,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": null,
+                                "animated": false,
+                                "bpp": null,
+                                "contentType": "image/png",
+                                "etag": "W/\"420e-557b58e6bc6ec\"",
+                                "filesize": 16910,
+                                "height": 10,
+                                "id": "939FD046-A307-4859-ACC8-72308F5C1252",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/motorcycle-restoration-menu-1-expanded.png",
+                                "width": 25
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            40,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.582815734989648,
+                            0.8994413407821229,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "id": "F09A507F-460C-4B3B-83F7-51A4B4AFFE2F",
+            "item": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            30,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.655,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                0.95
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            30,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.582815734989648,
+                            0.8994413407821229,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            30,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.655,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            30,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.655,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            30,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.655,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "name": "[menu.1]",
+            "ref": "menu.1",
+            "selected": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            30,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.582815734989648,
+                            0.8994413407821229,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                0.95
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            30,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.582815734989648,
+                            0.8994413407821229,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            30,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.582815734989648,
+                            0.8994413407821229,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            30,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.582815734989648,
+                            0.8994413407821229,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            30,
+                            30,
+                            30,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.582815734989648,
+                            0.8994413407821229,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "type": "web.data.styles.StyleMenu"
+        },
+        {
+            "accordionTextIndent": 13,
+            "block": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0.15294117647058825,
+                            0.5450980392156862,
+                            0.3764705882352941,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.15294117647058825,
+                            0.5450980392156862,
+                            0.3764705882352941,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.15294117647058825,
+                            0.5450980392156862,
+                            0.3764705882352941,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.15294117647058825,
+                            0.5450980392156862,
+                            0.3764705882352941,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "cascadeWidth": 250,
+            "divider": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0.15294117647058825,
+                            0.5450980392156862,
+                            0.3764705882352941,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.15294117647058825,
+                            0.5450980392156862,
+                            0.3764705882352941,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.15294117647058825,
+                            0.5450980392156862,
+                            0.3764705882352941,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.15294117647058825,
+                            0.5450980392156862,
+                            0.3764705882352941,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "expandable": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.16,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"c05f-51309438ad3ac\"",
+                                "filesize": 49247,
+                                "height": 14,
+                                "id": "C9CF0B04-CB22-499A-89A3-9BF001DE504D",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/dry-cleaner-menu2-expandable.png",
+                                "width": 27
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.675,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.16,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.16,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.16,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "expanded": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"c05f-51309438ad3ac\"",
+                                "filesize": 49247,
+                                "height": 14,
+                                "id": "4DDBEA7E-4D11-4DFF-93B4-7BEAF0CFD1C8",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/dry-cleaner-menu2-expandable.png",
+                                "width": 27
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.675,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"c05f-51309438ad3ac\"",
+                                "filesize": 49247,
+                                "height": 14,
+                                "id": "74FD8FD5-2A28-4E7D-BF54-DB06260291B2",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/dry-cleaner-menu2-expandable.png",
+                                "width": 27
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.675,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"c05f-51309438ad3ac\"",
+                                "filesize": 49247,
+                                "height": 14,
+                                "id": "F90DD56A-0028-4A19-A766-B73C352775D6",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/dry-cleaner-menu2-expandable.png",
+                                "width": 27
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.675,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"c05f-51309438ad3ac\"",
+                                "filesize": 49247,
+                                "height": 14,
+                                "id": "7BF24521-40A4-4E46-B431-66AA85B720E2",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/dry-cleaner-menu2-expandable.png",
+                                "width": 27
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.675,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"c05f-51309438ad3ac\"",
+                                "filesize": 49247,
+                                "height": 14,
+                                "id": "4877824A-847B-4F79-87F1-C16ADA6E1D93",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/dry-cleaner-menu2-expandable.png",
+                                "width": 27
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ]
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.675,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "id": "94E845AB-F61B-42C8-B3AE-0E339A839B7C",
+            "item": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            40,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.9921875,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.07058823529411765,
+                                0.38823529411764707,
+                                0.7019607843137254,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            40,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.51,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            40,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.9921875,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            40,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.9921875,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            40,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.9921875,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "name": "[menu.2]",
+            "ref": "menu.2",
+            "selected": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.07058823529411765,
+                                0.38823529411764707,
+                                0.7019607843137254,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            40,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.995,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.07058823529411765,
+                                0.38823529411764707,
+                                0.7019607843137254,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            40,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.51,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.07058823529411765,
+                                0.38823529411764707,
+                                0.7019607843137254,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            40,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.995,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.07058823529411765,
+                                0.38823529411764707,
+                                0.7019607843137254,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            40,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.995,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "RGB",
+                                0.07058823529411765,
+                                0.38823529411764707,
+                                0.7019607843137254,
+                                1
+                            ],
+                            "gradient": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "RGB",
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            40,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSV",
+                            0.995,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": 0,
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "type": "web.data.styles.StyleMenu"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "dotted",
+                        "dotted",
+                        "dotted",
+                        "dotted"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    7,
+                    7,
+                    8,
+                    7
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "B092548E-B05F-4EF0-85D5-AC401469824D",
+            "name": "[normal]",
+            "ref": "normal",
+            "text": {
+                "bold": false,
+                "color": [
+                    "RGB",
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    1
+                ],
+                "font": "google://Oxygen",
+                "italic": false,
+                "shadow": false,
+                "size": 16,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "dotted",
+                        "dotted",
+                        "dotted",
+                        "dotted"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "92C16D54-3878-4B5E-BDA8-33979734258C",
+            "name": "[heading.1]",
+            "ref": "heading.1",
+            "text": {
+                "bold": false,
+                "color": [
+                    "RGB",
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    1
+                ],
+                "font": "google://Oxygen",
+                "italic": false,
+                "shadow": false,
+                "size": 20,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "dotted",
+                        "dotted",
+                        "dotted",
+                        "dotted"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "81BC0927-B866-4064-8329-103077050F1D",
+            "name": "[heading.2]",
+            "ref": "heading.2",
+            "text": {
+                "bold": false,
+                "color": [
+                    "RGB",
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    1
+                ],
+                "font": "google://Oxygen",
+                "italic": false,
+                "shadow": false,
+                "size": 18,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0.9921568627450981,
+                        0.9921568627450981,
+                        0.9921568627450981,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "dotted",
+                        "dotted",
+                        "dotted",
+                        "dotted"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    7,
+                    7,
+                    8,
+                    7
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "256B7EAB-4FD9-420B-8F1B-8E8427A481F2",
+            "name": "[alternate]",
+            "ref": "alternate",
+            "text": {
+                "bold": false,
+                "color": [
+                    "RGB",
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    1
+                ],
+                "font": "google://Oxygen",
+                "italic": false,
+                "shadow": false,
+                "size": 16,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "1A19FE1E-A2C2-43AE-BDF8-35126CFBD067",
+            "name": "[main]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "main",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "C612760A-5E03-4B70-9CBB-ABD2E0295A15",
+            "name": "[content]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "content",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "455B4C2F-9684-4093-82F1-6A0FC001CD8F",
+            "name": "[decorator]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "decorator",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "31B96529-C235-4EEF-A625-A78B7218570B",
+            "name": "[special]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "special",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "8EC50C11-E805-4FD8-B8EF-E9BB09BE160B",
+            "name": "[horizontal]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "horizontal",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "9396A165-D7EA-4EE5-BD3A-8C36FEB7AF00",
+            "name": "[vertical]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "vertical",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "6AD548B7-BD92-4F81-8B48-70688EB6D88D",
+            "name": "[heading]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "heading",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "RGB",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "7D03905A-050F-4FC5-892F-14A250079AAA",
+            "name": "[divider]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "divider",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0.07058823529411765,
+                            0.38823529411764707,
+                            0.7019607843137254,
+                            0.8
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                0.3333333333333333,
+                                0.7137254901960784,
+                                0.3137254901960784,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.3333333333333333,
+                                0.7137254901960784,
+                                0.3137254901960784,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.3333333333333333,
+                                0.7137254901960784,
+                                0.3137254901960784,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.3333333333333333,
+                                0.7137254901960784,
+                                0.3137254901960784,
+                                1
+                            ]
+                        ],
+                        "corners": null,
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSV",
+                        0.7,
+                        0,
+                        1,
+                        1
+                    ],
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "id": "0DCA6564-8D6B-4CA1-8D1C-BFDBDD8A672C",
+            "inactive": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0.07058823529411765,
+                            0.38823529411764707,
+                            0.7019607843137254,
+                            1
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                0.3333333333333333,
+                                0.7137254901960784,
+                                0.3137254901960784,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.3333333333333333,
+                                0.7137254901960784,
+                                0.3137254901960784,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.3333333333333333,
+                                0.7137254901960784,
+                                0.3137254901960784,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.3333333333333333,
+                                0.7137254901960784,
+                                0.3137254901960784,
+                                1
+                            ]
+                        ],
+                        "corners": {
+                            "bottomLeft": 40,
+                            "bottomRight": 40,
+                            "topLeft": 40,
+                            "topRight": 40
+                        },
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSV",
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "font": "google://Oxygen",
+                    "size": 16
+                },
+                "verticalAlign": null
+            },
+            "name": "[button.1]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "ref": "button.1",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "width": null
+        },
+        {
+            "fieldBgColor": [
+                "RGB",
+                1,
+                0,
+                0,
+                1
+            ],
+            "fieldBorderColor": [
+                "RGB",
+                0.23529411764705882,
+                0,
+                0,
+                1
+            ],
+            "font": 6,
+            "fontColor": [
+                "RGB",
+                0,
+                0,
+                0,
+                1
+            ],
+            "fontSize": 12,
+            "id": "319D841F-0679-40C5-AAFD-F7E3973F8F88",
+            "name": "[form]",
+            "primaryColor": [
+                "RGB",
+                1,
+                0,
+                0,
+                1
+            ],
+            "ref": "form",
+            "type": "web.data.styles.StyleForm"
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0.20784313725490197,
+                            0.7372549019607844,
+                            0.6862745098039216,
+                            0.8
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                1,
+                                1,
+                                1,
+                                1
+                            ]
+                        ],
+                        "corners": null,
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSV",
+                        0.7,
+                        0,
+                        1,
+                        1
+                    ],
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "id": "254CBB8C-D926-4D8F-B9C9-AEC5EB8735C1",
+            "inactive": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "RGB",
+                            0.20784313725490197,
+                            0.7372549019607844,
+                            0.6862745098039216,
+                            1
+                        ],
+                        "gradient": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "RGB",
+                                0.3333333333333333,
+                                0.7137254901960784,
+                                0.3137254901960784,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.3333333333333333,
+                                0.7137254901960784,
+                                0.3137254901960784,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.3333333333333333,
+                                0.7137254901960784,
+                                0.3137254901960784,
+                                1
+                            ],
+                            [
+                                "RGB",
+                                0.3333333333333333,
+                                0.7137254901960784,
+                                0.3137254901960784,
+                                1
+                            ]
+                        ],
+                        "corners": {
+                            "bottomLeft": 40,
+                            "bottomRight": 40,
+                            "topLeft": 40,
+                            "topRight": 40
+                        },
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSV",
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "font": "google://Oxygen",
+                    "size": 16
+                },
+                "verticalAlign": null
+            },
+            "name": "[ button.2]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "ref": "button.2",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "width": null
+        },
+        {
+            "hover": {
+                "color": [
+                    "RGB",
+                    0.21176470588235294,
+                    0.21176470588235294,
+                    0.21176470588235294,
+                    1
+                ],
+                "underline": true
+            },
+            "id": "73227AEA-6334-4E38-861A-299FC626E736",
+            "inactive": {
+                "color": [
+                    "RGB",
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    1
+                ],
+                "underline": true
+            },
+            "name": "[Link 2]",
+            "press": {
+                "color": [
+                    "RGB",
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    1
+                ],
+                "underline": true
+            },
+            "ref": "link.2",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "RGB",
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    1
+                ],
+                "underline": true
+            }
+        },
+        {
+            "hover": {
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    0.9619047619047619,
+                    1
+                ],
+                "underline": false
+            },
+            "id": "E8AE4FBC-3AF4-4FDC-AF4F-A2402631C949",
+            "inactive": {
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "underline": false
+            },
+            "name": "[Link 3]",
+            "press": {
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "underline": false
+            },
+            "ref": "link.3",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "HSV",
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "underline": false
+            }
+        }
+    ],
+    "type": "web.data.styles.Stylesheet"
+}

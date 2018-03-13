@@ -16,17 +16,22 @@
                 "top": 102
             },
             "category": null,
+            "cropImages": true,
             "height": 730,
             "id": "EFF3F283-AE15-49CB-852D-4015DDABAC98",
-            "language": "en_us",
+            "imageRatio": "actual",
+            "labelPosition": "topRight",
             "mobileDown": false,
             "orderIndex": 16,
+            "productsPerPage": 24,
+            "productsPerRow": 4,
             "relTo": {
                 "below": 42,
                 "id": "7A6F0A96-D620-49CB-B118-96F72CF879C3"
             },
             "showCategory": true,
             "showWelcomeMessage": true,
+            "sortProducts": "name-ascending",
             "stretch": false,
             "style": {
                 "buttonId": "598BF8D4-E74D-452F-A498-5793FF7B5993",
@@ -59,10 +64,31 @@
                     0.21176470588235294,
                     1
                 ],
-                "id": "286923E6-4221-4664-8CFC-9823EE133DB1",
+                "hoverColor": [
+                    "RGB",
+                    1,
+                    1,
+                    1,
+                    0.2
+                ],
+                "labelBgColor": [
+                    "RGB",
+                    0.38823529411764707,
+                    0.6666666666666666,
+                    0.8588235294117647,
+                    1
+                ],
+                "labelTextColor": [
+                    "RGB",
+                    1,
+                    1,
+                    1,
+                    1
+                ],
                 "type": "web.data.styles.WebShop"
             },
             "type": "web.data.components.WebShop",
+            "userCanSortProducts": false,
             "width": 940,
             "wrap": false
         },
@@ -140,6 +166,7 @@
                     {
                         "globalId": "5C52DE51-4050-4903-9070-D0A9CDBD700B",
                         "globalName": "[heading.2]",
+                        "size": null,
                         "type": "web.data.styles.StyleText"
                     }
                 ]
@@ -195,7 +222,9 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 },
                 "globalId": "8E780283-6CE7-46C9-A53F-88C00C92C7C6",
@@ -207,7 +236,9 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 },
                 "inactive": {
@@ -217,7 +248,9 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 },
                 "press": {
@@ -227,7 +260,9 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 },
                 "type": "web.data.styles.StyleButton",
@@ -238,11 +273,19 @@
                         "padding": null
                     },
                     "horizontalAlign": null,
-                    "text": {},
+                    "text": {
+                        "size": null
+                    },
                     "verticalAlign": null
                 }
             },
             "styleForm": {
+                "fieldBgColor": null,
+                "fieldBorderColor": null,
+                "font": null,
+                "fontColor": null,
+                "fontSize": null,
+                "primaryColor": null,
                 "type": "web.data.styles.StyleForm"
             },
             "submitBtn": "  SUBSCRIBE  ",
@@ -251,9 +294,6 @@
             "width": 386,
             "wrap": false
         }
-    ],
-    "migrationInfo": [
-        34
     ],
     "mobileDown": false,
     "name": "Our Store",

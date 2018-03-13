@@ -26,10 +26,10 @@
                 "width": 940
             },
             "bbox": {
-                "bottom": 1924,
+                "bottom": 1939,
                 "left": 0,
                 "right": 940,
-                "top": 1919
+                "top": 1934
             },
             "cropLeft": 0,
             "cropTop": 0,
@@ -74,10 +74,10 @@
                 "width": 940
             },
             "bbox": {
-                "bottom": 904,
+                "bottom": 919,
                 "left": 0,
                 "right": 940,
-                "top": 899
+                "top": 914
             },
             "cropLeft": 0,
             "cropTop": 0,
@@ -106,10 +106,10 @@
         },
         {
             "bbox": {
-                "bottom": 1809,
+                "bottom": 1824,
                 "left": 0,
                 "right": 940,
-                "top": 1013
+                "top": 1028
             },
             "cells": [],
             "height": 796,
@@ -347,23 +347,28 @@
         },
         {
             "bbox": {
-                "bottom": 817,
+                "bottom": 832,
                 "left": 0,
                 "right": 940,
                 "top": 102
             },
             "category": null,
-            "height": 715,
+            "cropImages": true,
+            "height": 730,
             "id": "9EBA6DCD-C5D3-4EA9-8067-F2B1EE0F5667",
-            "language": "en_gb",
+            "imageRatio": "actual",
+            "labelPosition": "topRight",
             "mobileDown": false,
             "orderIndex": 24,
+            "productsPerPage": 24,
+            "productsPerRow": 4,
             "relTo": {
                 "below": 20,
                 "id": "C2EB3402-A048-4DA5-A3A7-60C5C59CD4B5"
             },
             "showCategory": true,
             "showWelcomeMessage": true,
+            "sortProducts": "name-ascending",
             "stretch": false,
             "style": {
                 "buttonId": "99514568-2D70-438B-9175-21BB9D55D43E",
@@ -376,9 +381,9 @@
                 ],
                 "fieldBorderColor": [
                     "RGB",
-                    0,
-                    0,
-                    0,
+                    1,
+                    1,
+                    1,
                     1
                 ],
                 "focusColor": [
@@ -396,16 +401,34 @@
                     1,
                     1
                 ],
-                "id": "37B81624-73C9-4B8E-B4A8-69A48041964B",
+                "hoverColor": [
+                    "RGB",
+                    1,
+                    1,
+                    1,
+                    0.2
+                ],
+                "labelBgColor": [
+                    "RGB",
+                    1,
+                    0.6745098039215687,
+                    0.29411764705882354,
+                    1
+                ],
+                "labelTextColor": [
+                    "RGB",
+                    1,
+                    1,
+                    1,
+                    1
+                ],
                 "type": "web.data.styles.WebShop"
             },
             "type": "web.data.components.WebShop",
+            "userCanSortProducts": false,
             "width": 940,
             "wrap": false
         }
-    ],
-    "migrationInfo": [
-        34
     ],
     "mobileDown": false,
     "name": "Our Shop",

@@ -380,18 +380,18 @@
         },
         {
             "bbox": {
-                "bottom": 1205,
+                "bottom": 1329,
                 "left": 720,
                 "right": 940,
-                "top": 765
+                "top": 889
             },
             "height": 440,
             "id": "4A1CC688-8786-48F6-B63A-59F730B96360",
             "mobileDown": false,
             "orderIndex": 17,
             "relTo": {
-                "below": 65,
-                "id": "C80263C2-6157-412A-A350-6AB06806902D"
+                "below": 144,
+                "id": "3CF8649A-ED5D-417D-A46D-2BFCAF369E44"
             },
             "stretch": false,
             "style": {
@@ -416,10 +416,10 @@
         },
         {
             "bbox": {
-                "bottom": 871,
+                "bottom": 995,
                 "left": 740,
                 "right": 940,
-                "top": 799
+                "top": 923
             },
             "cells": [],
             "height": 72,
@@ -471,10 +471,10 @@
         },
         {
             "bbox": {
-                "bottom": 909,
+                "bottom": 1033,
                 "left": 740,
                 "right": 830,
-                "top": 871
+                "top": 995
             },
             "height": 38,
             "id": "95DE0249-CFBE-48E2-8F2E-760F25467C2C",
@@ -548,10 +548,10 @@
         },
         {
             "bbox": {
-                "bottom": 1150,
+                "bottom": 1274,
                 "left": 740,
                 "right": 940,
-                "top": 947
+                "top": 1071
             },
             "cells": [],
             "height": 203,
@@ -632,23 +632,50 @@
         },
         {
             "bbox": {
-                "bottom": 437,
+                "bottom": 745,
                 "left": 720,
                 "right": 940,
                 "top": 365
             },
             "cells": [],
-            "height": 72,
+            "height": 380,
             "id": "3CF8649A-ED5D-417D-A46D-2BFCAF369E44",
-            "links": [],
+            "links": [
+                [
+                    22,
+                    40,
+                    {
+                        "id": "A1B43967-31BD-4453-8431-F003C86DF6E9",
+                        "linkId": "45805AC6-0E61-4EBB-9C4E-A05B9BE9B7E2",
+                        "style": {
+                            "globalId": "0CB30B24-4BE9-4675-8045-C04A57FFF7D9",
+                            "globalName": "[Link 1]",
+                            "hover": {},
+                            "inactive": {},
+                            "press": {},
+                            "type": "web.data.styles.StyleLink",
+                            "visited": {}
+                        },
+                        "type": "web.data.Action"
+                    }
+                ]
+            ],
             "mobileDown": false,
             "orderIndex": 21,
             "paras": [
                 [
                     0,
-                    20,
+                    21,
                     {
                         "height": 1.2,
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    22,
+                    139,
+                    {
+                        "height": 2.4,
                         "type": "web.data.styles.StylePara"
                     }
                 ]
@@ -668,560 +695,10 @@
                         "size": null,
                         "type": "web.data.styles.StyleText"
                     }
-                ]
-            ],
-            "text": "My Area\nof Expertise",
-            "type": "web.data.components.Text",
-            "width": 220,
-            "wrap": false
-        },
-        {
-            "bbox": {
-                "bottom": 700,
-                "left": 720,
-                "right": 940,
-                "top": 455
-            },
-            "cells": [
-                [
-                    0,
-                    19,
-                    {
-                        "colIndex": 0,
-                        "flexWidth": 1,
-                        "minHeight": 41,
-                        "rowIndex": 0,
-                        "style": {
-                            "block": {
-                                "background": {
-                                    "asset": null,
-                                    "color": [
-                                        "RGB",
-                                        1,
-                                        1,
-                                        1,
-                                        0
-                                    ],
-                                    "gradient": null
-                                },
-                                "border": {
-                                    "color": [
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ]
-                                    ],
-                                    "corners": null,
-                                    "style": [
-                                        "solid",
-                                        "solid",
-                                        "solid",
-                                        "solid"
-                                    ],
-                                    "width": [
-                                        0,
-                                        0,
-                                        1,
-                                        0
-                                    ]
-                                },
-                                "padding": [
-                                    3,
-                                    3,
-                                    3,
-                                    10
-                                ]
-                            },
-                            "globalId": "7F41F407-1CFB-4031-9972-A2BC166F3B7E",
-                            "globalName": "[normal]",
-                            "horizontalAlign": null,
-                            "text": {
-                                "size": null
-                            },
-                            "type": "web.data.styles.StyleCell",
-                            "verticalAlign": null
-                        }
-                    }
                 ],
                 [
-                    19,
-                    34,
-                    {
-                        "colIndex": 0,
-                        "flexWidth": 1,
-                        "minHeight": 41,
-                        "rowIndex": 1,
-                        "style": {
-                            "block": {
-                                "background": {
-                                    "asset": null,
-                                    "color": [
-                                        "RGB",
-                                        1,
-                                        1,
-                                        1,
-                                        0
-                                    ],
-                                    "gradient": null
-                                },
-                                "border": {
-                                    "color": [
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ]
-                                    ],
-                                    "corners": null,
-                                    "style": [
-                                        "solid",
-                                        "solid",
-                                        "solid",
-                                        "solid"
-                                    ],
-                                    "width": [
-                                        0,
-                                        0,
-                                        1,
-                                        0
-                                    ]
-                                },
-                                "padding": [
-                                    3,
-                                    3,
-                                    3,
-                                    10
-                                ]
-                            },
-                            "globalId": "7F41F407-1CFB-4031-9972-A2BC166F3B7E",
-                            "globalName": "[normal]",
-                            "horizontalAlign": null,
-                            "text": {
-                                "size": null
-                            },
-                            "type": "web.data.styles.StyleCell",
-                            "verticalAlign": null
-                        }
-                    }
-                ],
-                [
-                    34,
-                    55,
-                    {
-                        "colIndex": 0,
-                        "flexWidth": 1,
-                        "minHeight": 41,
-                        "rowIndex": 2,
-                        "style": {
-                            "block": {
-                                "background": {
-                                    "asset": null,
-                                    "color": [
-                                        "RGB",
-                                        1,
-                                        1,
-                                        1,
-                                        0
-                                    ],
-                                    "gradient": null
-                                },
-                                "border": {
-                                    "color": [
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ]
-                                    ],
-                                    "corners": null,
-                                    "style": [
-                                        "solid",
-                                        "solid",
-                                        "solid",
-                                        "solid"
-                                    ],
-                                    "width": [
-                                        0,
-                                        0,
-                                        1,
-                                        0
-                                    ]
-                                },
-                                "padding": [
-                                    3,
-                                    3,
-                                    3,
-                                    10
-                                ]
-                            },
-                            "globalId": "7F41F407-1CFB-4031-9972-A2BC166F3B7E",
-                            "globalName": "[normal]",
-                            "horizontalAlign": null,
-                            "text": {
-                                "size": null
-                            },
-                            "type": "web.data.styles.StyleCell",
-                            "verticalAlign": null
-                        }
-                    }
-                ],
-                [
-                    55,
-                    76,
-                    {
-                        "colIndex": 0,
-                        "flexWidth": 1,
-                        "minHeight": 41,
-                        "rowIndex": 3,
-                        "style": {
-                            "block": {
-                                "background": {
-                                    "asset": null,
-                                    "color": [
-                                        "RGB",
-                                        1,
-                                        1,
-                                        1,
-                                        0
-                                    ],
-                                    "gradient": null
-                                },
-                                "border": {
-                                    "color": [
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ]
-                                    ],
-                                    "corners": null,
-                                    "style": [
-                                        "solid",
-                                        "solid",
-                                        "solid",
-                                        "solid"
-                                    ],
-                                    "width": [
-                                        0,
-                                        0,
-                                        1,
-                                        0
-                                    ]
-                                },
-                                "padding": [
-                                    3,
-                                    3,
-                                    3,
-                                    10
-                                ]
-                            },
-                            "globalId": "7F41F407-1CFB-4031-9972-A2BC166F3B7E",
-                            "globalName": "[normal]",
-                            "horizontalAlign": null,
-                            "text": {
-                                "size": null
-                            },
-                            "type": "web.data.styles.StyleCell",
-                            "verticalAlign": null
-                        }
-                    }
-                ],
-                [
-                    76,
-                    98,
-                    {
-                        "colIndex": 0,
-                        "flexWidth": 1,
-                        "minHeight": 41,
-                        "rowIndex": 4,
-                        "style": {
-                            "block": {
-                                "background": {
-                                    "asset": null,
-                                    "color": [
-                                        "RGB",
-                                        1,
-                                        1,
-                                        1,
-                                        0
-                                    ],
-                                    "gradient": null
-                                },
-                                "border": {
-                                    "color": [
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ]
-                                    ],
-                                    "corners": null,
-                                    "style": [
-                                        "solid",
-                                        "solid",
-                                        "solid",
-                                        "solid"
-                                    ],
-                                    "width": [
-                                        0,
-                                        0,
-                                        1,
-                                        0
-                                    ]
-                                },
-                                "padding": [
-                                    3,
-                                    3,
-                                    3,
-                                    10
-                                ]
-                            },
-                            "globalId": "7F41F407-1CFB-4031-9972-A2BC166F3B7E",
-                            "globalName": "[normal]",
-                            "horizontalAlign": null,
-                            "text": {
-                                "size": null
-                            },
-                            "type": "web.data.styles.StyleCell",
-                            "verticalAlign": null
-                        }
-                    }
-                ],
-                [
-                    98,
-                    118,
-                    {
-                        "colIndex": 0,
-                        "flexWidth": 1,
-                        "minHeight": 41,
-                        "rowIndex": 5,
-                        "style": {
-                            "block": {
-                                "background": {
-                                    "asset": null,
-                                    "color": [
-                                        "RGB",
-                                        1,
-                                        1,
-                                        1,
-                                        0
-                                    ],
-                                    "gradient": null
-                                },
-                                "border": {
-                                    "color": [
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ],
-                                        [
-                                            "RGB",
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            0.7843137254901961,
-                                            1
-                                        ]
-                                    ],
-                                    "corners": null,
-                                    "style": [
-                                        "solid",
-                                        "solid",
-                                        "solid",
-                                        "solid"
-                                    ],
-                                    "width": [
-                                        0,
-                                        0,
-                                        0,
-                                        0
-                                    ]
-                                },
-                                "padding": [
-                                    3,
-                                    3,
-                                    3,
-                                    10
-                                ]
-                            },
-                            "globalId": "7F41F407-1CFB-4031-9972-A2BC166F3B7E",
-                            "globalName": "[normal]",
-                            "horizontalAlign": null,
-                            "text": {
-                                "size": null
-                            },
-                            "type": "web.data.styles.StyleCell",
-                            "verticalAlign": null
-                        }
-                    }
-                ]
-            ],
-            "height": 245,
-            "id": "C80263C2-6157-412A-A350-6AB06806902D",
-            "links": [
-                [
-                    0,
-                    18,
-                    {
-                        "id": "61DAC170-BF42-4053-A8B6-47842809AF03",
-                        "linkId": "45805AC6-0E61-4EBB-9C4E-A05B9BE9B7E2",
-                        "style": {
-                            "globalId": "0CB30B24-4BE9-4675-8045-C04A57FFF7D9",
-                            "globalName": "[Link 1]",
-                            "hover": {},
-                            "inactive": {},
-                            "press": {},
-                            "type": "web.data.styles.StyleLink",
-                            "visited": {}
-                        },
-                        "type": "web.data.Action"
-                    }
-                ]
-            ],
-            "mobileDown": false,
-            "orderIndex": 22,
-            "paras": [],
-            "relTo": {
-                "below": 18,
-                "id": "3CF8649A-ED5D-417D-A46D-2BFCAF369E44"
-            },
-            "stretch": false,
-            "styles": [
-                [
-                    0,
-                    18,
+                    22,
+                    40,
                     {
                         "bold": true,
                         "size": null,
@@ -1229,8 +706,8 @@
                     }
                 ]
             ],
-            "text": "Individual Therapy\tFamily Therapy\tDepression Treatment\tTherapy for Children\tPost Divorce Recovery\tSupport for Parents\t",
-            "type": "web.data.components.Table",
+            "text": "My Area\nof Expertise\n\nIndividual Therapy\nFamily Therapy\nDepression Treatment\nTherapy for Children\nPost Divorce Recovery\nSupport for Parents",
+            "type": "web.data.components.Text",
             "width": 220,
             "wrap": false
         }
