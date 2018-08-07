@@ -6,39 +6,43 @@
             "background": {
                 "asset": null,
                 "color": [
-                    "RGB",
-                    1,
-                    1,
+                    "HSL",
+                    0,
+                    0,
                     1,
                     1
                 ],
-                "gradient": null
+                "fixed": null,
+                "gradient": null,
+                "position": null,
+                "repeat": null,
+                "size": null
             },
             "border": {
                 "color": [
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
@@ -73,7 +77,7 @@
         {
             "bold": false,
             "color": [
-                "HSV",
+                "HSL",
                 0,
                 0,
                 0,
@@ -82,6 +86,7 @@
             "font": "google://Raleway",
             "id": "D740F520-BB75-4F7D-BD26-E3D3149C767B",
             "italic": false,
+            "letterspacing": 0,
             "name": "[paragraph]",
             "ref": "normal",
             "size": 14,
@@ -91,7 +96,7 @@
         {
             "bold": true,
             "color": [
-                "HSV",
+                "HSL",
                 0,
                 0,
                 0,
@@ -100,6 +105,7 @@
             "font": "google://Raleway",
             "id": "2768A212-4531-477D-AD84-5200D32BB932",
             "italic": false,
+            "letterspacing": 0,
             "name": "[heading.1]",
             "ref": "heading.1",
             "size": 42,
@@ -109,7 +115,7 @@
         {
             "bold": true,
             "color": [
-                "HSV",
+                "HSL",
                 0,
                 0,
                 0,
@@ -118,6 +124,7 @@
             "font": "google://Raleway",
             "id": "4ADE8A29-22F4-4984-8175-26DD0E3F31E5",
             "italic": false,
+            "letterspacing": 0,
             "name": "[heading.2]",
             "ref": "heading.2",
             "size": 30,
@@ -127,15 +134,16 @@
         {
             "bold": true,
             "color": [
-                "RGB",
-                0.403921568627451,
-                0.403921568627451,
+                "HSL",
+                0,
+                0,
                 0.403921568627451,
                 1
             ],
             "font": "google://Raleway",
             "id": "40A0B1A4-30AF-456E-B935-EC71B3CBE555",
             "italic": false,
+            "letterspacing": 0,
             "name": "[heading.3]",
             "ref": "heading.3",
             "size": 18,
@@ -145,10 +153,10 @@
         {
             "hover": {
                 "color": [
-                    "RGB",
-                    0.8509803921568627,
-                    0.6705882352941176,
-                    0.47058823529411764,
+                    "HSL",
+                    0.08762886597938142,
+                    0.5606936416184971,
+                    0.6607843137254902,
                     1
                 ],
                 "underline": false
@@ -156,21 +164,21 @@
             "id": "FE16A485-C893-4FA9-B0A5-C5E0B69436A9",
             "inactive": {
                 "color": [
-                    "RGB",
-                    0.8117647058823529,
-                    0.5725490196078431,
-                    0.27058823529411763,
+                    "HSL",
+                    0.09299516908212559,
+                    0.5897435897435898,
+                    0.5411764705882353,
                     1
                 ],
                 "underline": false
             },
-            "name": "[Link 1]",
+            "name": "[link.1]",
             "press": {
                 "color": [
-                    "RGB",
-                    0.8117647058823529,
-                    0.5725490196078431,
-                    0.27058823529411763,
+                    "HSL",
+                    0.09299516908212559,
+                    0.5897435897435898,
+                    0.5411764705882353,
                     1
                 ],
                 "underline": false
@@ -179,10 +187,10 @@
             "type": "web.data.styles.StyleLink",
             "visited": {
                 "color": [
-                    "RGB",
-                    0.8117647058823529,
-                    0.5725490196078431,
-                    0.27058823529411763,
+                    "HSL",
+                    0.09299516908212559,
+                    0.5897435897435898,
+                    0.5411764705882353,
                     1
                 ],
                 "underline": false
@@ -195,28 +203,28 @@
                 "border": {
                     "color": [
                         [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
                             1
                         ],
                         [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
                             1
                         ],
                         [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
                             1
                         ],
                         [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
@@ -250,28 +258,28 @@
                 "border": {
                     "color": [
                         [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
                             1
                         ],
                         [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
                             1
                         ],
                         [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
                             1
                         ],
                         [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
@@ -318,6 +326,7 @@
                                 "width": 49
                             },
                             "color": null,
+                            "fixed": false,
                             "gradient": null,
                             "position": [
                                 "100%",
@@ -332,28 +341,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -385,7 +394,7 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "HSV",
+                            "HSL",
                             0,
                             0,
                             1,
@@ -419,6 +428,7 @@
                                 "width": 49
                             },
                             "color": null,
+                            "fixed": false,
                             "gradient": null,
                             "position": [
                                 "100%",
@@ -427,33 +437,34 @@
                             "repeat": [
                                 false,
                                 false
-                            ]
+                            ],
+                            "size": 100
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -485,9 +496,9 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.9294117647058824,
-                            0.9294117647058824,
+                            "HSL",
+                            0,
+                            0,
                             0.9294117647058824,
                             1
                         ],
@@ -518,6 +529,7 @@
                                 "width": 49
                             },
                             "color": null,
+                            "fixed": false,
                             "gradient": null,
                             "position": [
                                 "100%",
@@ -532,28 +544,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -585,7 +597,7 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "HSV",
+                            "HSL",
                             0,
                             0,
                             1,
@@ -618,6 +630,7 @@
                                 "width": 49
                             },
                             "color": null,
+                            "fixed": false,
                             "gradient": null,
                             "position": [
                                 "100%",
@@ -632,28 +645,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -685,7 +698,7 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "HSV",
+                            "HSL",
                             0,
                             0,
                             1,
@@ -718,6 +731,7 @@
                                 "width": 49
                             },
                             "color": null,
+                            "fixed": false,
                             "gradient": null,
                             "position": [
                                 "100%",
@@ -732,28 +746,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -785,7 +799,7 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "HSV",
+                            "HSL",
                             0,
                             0,
                             1,
@@ -821,6 +835,7 @@
                                 "width": 49
                             },
                             "color": null,
+                            "fixed": false,
                             "gradient": null,
                             "position": [
                                 "100%",
@@ -829,33 +844,34 @@
                             "repeat": [
                                 false,
                                 false
-                            ]
+                            ],
+                            "size": 100
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -887,9 +903,9 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.9294117647058824,
-                            0.9294117647058824,
+                            "HSL",
+                            0,
+                            0,
                             0.9294117647058824,
                             1
                         ],
@@ -921,6 +937,7 @@
                                 "width": 49
                             },
                             "color": null,
+                            "fixed": false,
                             "gradient": null,
                             "position": [
                                 "100%",
@@ -929,33 +946,34 @@
                             "repeat": [
                                 false,
                                 false
-                            ]
+                            ],
+                            "size": 100
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -987,9 +1005,9 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.9294117647058824,
-                            0.9294117647058824,
+                            "HSL",
+                            0,
+                            0,
                             0.9294117647058824,
                             1
                         ],
@@ -1020,6 +1038,7 @@
                                 "width": 49
                             },
                             "color": null,
+                            "fixed": false,
                             "gradient": null,
                             "position": [
                                 "100%",
@@ -1028,33 +1047,34 @@
                             "repeat": [
                                 false,
                                 false
-                            ]
+                            ],
+                            "size": 100
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -1086,9 +1106,9 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.9294117647058824,
-                            0.9294117647058824,
+                            "HSL",
+                            0,
+                            0,
                             0.9294117647058824,
                             1
                         ],
@@ -1119,6 +1139,7 @@
                                 "width": 49
                             },
                             "color": null,
+                            "fixed": false,
                             "gradient": null,
                             "position": [
                                 "100%",
@@ -1127,33 +1148,34 @@
                             "repeat": [
                                 false,
                                 false
-                            ]
+                            ],
+                            "size": 100
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -1185,9 +1207,9 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.9294117647058824,
-                            0.9294117647058824,
+                            "HSL",
+                            0,
+                            0,
                             0.9294117647058824,
                             1
                         ],
@@ -1218,6 +1240,7 @@
                                 "width": 49
                             },
                             "color": null,
+                            "fixed": false,
                             "gradient": null,
                             "position": [
                                 "100%",
@@ -1226,33 +1249,34 @@
                             "repeat": [
                                 false,
                                 false
-                            ]
+                            ],
+                            "size": 100
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -1284,9 +1308,9 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.9294117647058824,
-                            0.9294117647058824,
+                            "HSL",
+                            0,
+                            0,
                             0.9294117647058824,
                             1
                         ],
@@ -1309,28 +1333,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -1362,7 +1386,7 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "HSV",
+                            "HSL",
                             0,
                             0,
                             1,
@@ -1384,28 +1408,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -1437,9 +1461,9 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.9294117647058824,
-                            0.9294117647058824,
+                            "HSL",
+                            0,
+                            0,
                             0.9294117647058824,
                             1
                         ],
@@ -1458,28 +1482,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -1511,7 +1535,7 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "HSV",
+                            "HSL",
                             0,
                             0,
                             1,
@@ -1532,28 +1556,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -1585,7 +1609,7 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "HSV",
+                            "HSL",
                             0,
                             0,
                             1,
@@ -1606,28 +1630,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -1659,7 +1683,7 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "HSV",
+                            "HSL",
                             0,
                             0,
                             1,
@@ -1685,28 +1709,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -1738,9 +1762,9 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.9294117647058824,
-                            0.9294117647058824,
+                            "HSL",
+                            0,
+                            0,
                             0.9294117647058824,
                             1
                         ],
@@ -1760,28 +1784,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -1813,9 +1837,9 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.9294117647058824,
-                            0.9294117647058824,
+                            "HSL",
+                            0,
+                            0,
                             0.9294117647058824,
                             1
                         ],
@@ -1834,28 +1858,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -1887,9 +1911,9 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.9294117647058824,
-                            0.9294117647058824,
+                            "HSL",
+                            0,
+                            0,
                             0.9294117647058824,
                             1
                         ],
@@ -1908,28 +1932,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -1961,9 +1985,9 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.9294117647058824,
-                            0.9294117647058824,
+                            "HSL",
+                            0,
+                            0,
                             0.9294117647058824,
                             1
                         ],
@@ -1982,28 +2006,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -2035,9 +2059,9 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.9294117647058824,
-                            0.9294117647058824,
+                            "HSL",
+                            0,
+                            0,
                             0.9294117647058824,
                             1
                         ],
@@ -2061,28 +2085,28 @@
                 "border": {
                     "color": [
                         [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
                             1
                         ],
                         [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
                             1
                         ],
                         [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
                             1
                         ],
                         [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
@@ -2116,28 +2140,28 @@
                 "border": {
                     "color": [
                         [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
                             1
                         ],
                         [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
                             1
                         ],
                         [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
                             1
                         ],
                         [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
@@ -2184,9 +2208,9 @@
                                 "width": 25
                             },
                             "color": [
-                                "RGB",
-                                0.9607843137254902,
-                                0.9607843137254902,
+                                "HSL",
+                                0,
+                                0,
                                 0.9607843137254902,
                                 1
                             ],
@@ -2205,28 +2229,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -2258,10 +2282,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -2292,9 +2316,9 @@
                                 "width": 25
                             },
                             "color": [
-                                "RGB",
-                                0.9294117647058824,
-                                0.9294117647058824,
+                                "HSL",
+                                0,
+                                0,
                                 0.9294117647058824,
                                 1
                             ],
@@ -2307,33 +2331,34 @@
                             "repeat": [
                                 false,
                                 false
-                            ]
+                            ],
+                            "size": 100
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -2365,10 +2390,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -2398,9 +2423,9 @@
                                 "width": 25
                             },
                             "color": [
-                                "RGB",
-                                0.9607843137254902,
-                                0.9607843137254902,
+                                "HSL",
+                                0,
+                                0,
                                 0.9607843137254902,
                                 1
                             ],
@@ -2419,28 +2444,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -2472,10 +2497,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -2505,9 +2530,9 @@
                                 "width": 25
                             },
                             "color": [
-                                "RGB",
-                                0.9607843137254902,
-                                0.9607843137254902,
+                                "HSL",
+                                0,
+                                0,
                                 0.9607843137254902,
                                 1
                             ],
@@ -2526,28 +2551,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -2579,10 +2604,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -2612,9 +2637,9 @@
                                 "width": 25
                             },
                             "color": [
-                                "RGB",
-                                0.9607843137254902,
-                                0.9607843137254902,
+                                "HSL",
+                                0,
+                                0,
                                 0.9607843137254902,
                                 1
                             ],
@@ -2633,28 +2658,28 @@
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -2686,10 +2711,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -2722,9 +2747,9 @@
                                 "width": 25
                             },
                             "color": [
-                                "RGB",
-                                0.9294117647058824,
-                                0.9294117647058824,
+                                "HSL",
+                                0,
+                                0,
                                 0.9294117647058824,
                                 1
                             ],
@@ -2737,33 +2762,34 @@
                             "repeat": [
                                 false,
                                 false
-                            ]
+                            ],
+                            "size": 100
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -2795,10 +2821,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -2829,9 +2855,9 @@
                                 "width": 25
                             },
                             "color": [
-                                "RGB",
-                                0.9294117647058824,
-                                0.9294117647058824,
+                                "HSL",
+                                0,
+                                0,
                                 0.9294117647058824,
                                 1
                             ],
@@ -2844,33 +2870,34 @@
                             "repeat": [
                                 false,
                                 false
-                            ]
+                            ],
+                            "size": 100
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -2902,10 +2929,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -2935,9 +2962,9 @@
                                 "width": 25
                             },
                             "color": [
-                                "RGB",
-                                0.9294117647058824,
-                                0.9294117647058824,
+                                "HSL",
+                                0,
+                                0,
                                 0.9294117647058824,
                                 1
                             ],
@@ -2950,33 +2977,34 @@
                             "repeat": [
                                 false,
                                 false
-                            ]
+                            ],
+                            "size": 100
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -3008,10 +3036,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -3041,9 +3069,9 @@
                                 "width": 25
                             },
                             "color": [
-                                "RGB",
-                                0.9294117647058824,
-                                0.9294117647058824,
+                                "HSL",
+                                0,
+                                0,
                                 0.9294117647058824,
                                 1
                             ],
@@ -3056,33 +3084,34 @@
                             "repeat": [
                                 false,
                                 false
-                            ]
+                            ],
+                            "size": 100
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -3114,10 +3143,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -3147,9 +3176,9 @@
                                 "width": 25
                             },
                             "color": [
-                                "RGB",
-                                0.9294117647058824,
-                                0.9294117647058824,
+                                "HSL",
+                                0,
+                                0,
                                 0.9294117647058824,
                                 1
                             ],
@@ -3162,33 +3191,34 @@
                             "repeat": [
                                 false,
                                 false
-                            ]
+                            ],
+                            "size": 100
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -3220,10 +3250,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -3244,39 +3274,43 @@
                         "background": {
                             "asset": null,
                             "color": [
-                                "RGB",
-                                0.9607843137254902,
-                                0.9607843137254902,
+                                "HSL",
+                                0,
+                                0,
                                 0.9607843137254902,
                                 1
                             ],
-                            "gradient": null
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -3308,10 +3342,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -3329,39 +3363,43 @@
                         "background": {
                             "asset": null,
                             "color": [
-                                "RGB",
-                                0.9294117647058824,
-                                0.9294117647058824,
+                                "HSL",
+                                0,
+                                0,
                                 0.9294117647058824,
                                 1
                             ],
-                            "gradient": null
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -3393,10 +3431,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -3413,39 +3451,43 @@
                         "background": {
                             "asset": null,
                             "color": [
-                                "RGB",
-                                0.9607843137254902,
-                                0.9607843137254902,
+                                "HSL",
+                                0,
+                                0,
                                 0.9607843137254902,
                                 1
                             ],
-                            "gradient": null
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -3477,10 +3519,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -3497,39 +3539,43 @@
                         "background": {
                             "asset": null,
                             "color": [
-                                "RGB",
-                                0.9607843137254902,
-                                0.9607843137254902,
+                                "HSL",
+                                0,
+                                0,
                                 0.9607843137254902,
                                 1
                             ],
-                            "gradient": null
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -3561,10 +3607,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -3581,39 +3627,43 @@
                         "background": {
                             "asset": null,
                             "color": [
-                                "RGB",
-                                0.9607843137254902,
-                                0.9607843137254902,
+                                "HSL",
+                                0,
+                                0,
                                 0.9607843137254902,
                                 1
                             ],
-                            "gradient": null
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -3645,10 +3695,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -3670,39 +3720,43 @@
                         "background": {
                             "asset": null,
                             "color": [
-                                "RGB",
-                                0.9294117647058824,
-                                0.9294117647058824,
+                                "HSL",
+                                0,
+                                0,
                                 0.9294117647058824,
                                 1
                             ],
-                            "gradient": null
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -3734,10 +3788,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -3755,39 +3809,43 @@
                         "background": {
                             "asset": null,
                             "color": [
-                                "RGB",
-                                0.9294117647058824,
-                                0.9294117647058824,
+                                "HSL",
+                                0,
+                                0,
                                 0.9294117647058824,
                                 1
                             ],
-                            "gradient": null
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -3819,10 +3877,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -3839,39 +3897,43 @@
                         "background": {
                             "asset": null,
                             "color": [
-                                "RGB",
-                                0.9294117647058824,
-                                0.9294117647058824,
+                                "HSL",
+                                0,
+                                0,
                                 0.9294117647058824,
                                 1
                             ],
-                            "gradient": null
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -3903,10 +3965,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -3923,39 +3985,43 @@
                         "background": {
                             "asset": null,
                             "color": [
-                                "RGB",
-                                0.9294117647058824,
-                                0.9294117647058824,
+                                "HSL",
+                                0,
+                                0,
                                 0.9294117647058824,
                                 1
                             ],
-                            "gradient": null
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -3987,10 +4053,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -4007,39 +4073,43 @@
                         "background": {
                             "asset": null,
                             "color": [
-                                "RGB",
-                                0.9294117647058824,
-                                0.9294117647058824,
+                                "HSL",
+                                0,
+                                0,
                                 0.9294117647058824,
                                 1
                             ],
-                            "gradient": null
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
                         },
                         "border": {
                             "color": [
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
                                     1
                                 ],
                                 [
-                                    "RGB",
+                                    "HSL",
                                     0,
                                     0,
                                     0,
@@ -4071,10 +4141,10 @@
                     "text": {
                         "bold": false,
                         "color": [
-                            "RGB",
-                            0.23921568627450981,
+                            "HSL",
+                            0.08333333333333333,
+                            0.10909090909090909,
                             0.21568627450980393,
-                            0.19215686274509805,
                             1
                         ],
                         "font": "google://Raleway",
@@ -4443,28 +4513,28 @@
             "border": {
                 "color": [
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
@@ -4501,28 +4571,28 @@
             "border": {
                 "color": [
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
@@ -4559,28 +4629,28 @@
             "border": {
                 "color": [
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
@@ -4617,28 +4687,28 @@
             "border": {
                 "color": [
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
@@ -4675,28 +4745,28 @@
             "border": {
                 "color": [
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
@@ -4733,28 +4803,28 @@
             "border": {
                 "color": [
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
@@ -4791,28 +4861,28 @@
             "border": {
                 "color": [
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
@@ -4849,28 +4919,28 @@
             "border": {
                 "color": [
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
                         1
                     ],
                     [
-                        "RGB",
+                        "HSL",
                         0,
                         0,
                         0,
@@ -4921,13 +4991,17 @@
                     "background": {
                         "asset": null,
                         "color": [
-                            "RGB",
-                            0.807843137254902,
-                            0.5529411764705883,
-                            0.22745098039215686,
+                            "HSL",
+                            0.09346846846846847,
+                            0.6016260162601625,
+                            0.5176470588235293,
                             0.8
                         ],
-                        "gradient": null
+                        "fixed": null,
+                        "gradient": null,
+                        "position": null,
+                        "repeat": null,
+                        "size": null
                     },
                     "border": {
                         "color": null,
@@ -4950,7 +5024,7 @@
                 "horizontalAlign": null,
                 "text": {
                     "color": [
-                        "HSV",
+                        "HSL",
                         0.86,
                         0,
                         1,
@@ -4966,13 +5040,17 @@
                     "background": {
                         "asset": null,
                         "color": [
-                            "RGB",
-                            0.8117647058823529,
-                            0.5725490196078431,
-                            0.27058823529411763,
+                            "HSL",
+                            0.09299516908212559,
+                            0.5897435897435898,
+                            0.5411764705882353,
                             1
                         ],
-                        "gradient": null
+                        "fixed": null,
+                        "gradient": null,
+                        "position": null,
+                        "repeat": null,
+                        "size": null
                     },
                     "border": {
                         "color": null,
@@ -5005,7 +5083,7 @@
                 "horizontalAlign": "left",
                 "text": {
                     "color": [
-                        "HSV",
+                        "HSL",
                         0.74,
                         0,
                         1,
@@ -5054,15 +5132,15 @@
                 1
             ],
             "fieldBorderColor": [
-                "RGB",
-                0.23529411764705882,
+                "HSL",
                 0,
-                0,
+                1,
+                0.11764705882352941,
                 1
             ],
             "font": 6,
             "fontColor": [
-                "RGB",
+                "HSL",
                 0,
                 0,
                 0,
@@ -5072,10 +5150,10 @@
             "id": "85191AF9-79B8-4FE4-ADE9-AEA12EFEBF78",
             "name": "[form]",
             "primaryColor": [
-                "RGB",
+                "HSL",
+                0,
                 1,
-                0,
-                0,
+                0.5,
                 1
             ],
             "ref": "form",
@@ -5084,7 +5162,7 @@
         {
             "hover": {
                 "color": [
-                    "HSV",
+                    "HSL",
                     0,
                     0,
                     0.44761904761904764,
@@ -5095,7 +5173,7 @@
             "id": "64C5D271-96E4-4D1B-95CC-3A822D1DD0C0",
             "inactive": {
                 "color": [
-                    "HSV",
+                    "HSL",
                     0,
                     0,
                     0,
@@ -5103,10 +5181,10 @@
                 ],
                 "underline": false
             },
-            "name": "[ link 2]",
+            "name": "[link.2]",
             "press": {
                 "color": [
-                    "HSV",
+                    "HSL",
                     0,
                     0,
                     0.02857142857142857,
@@ -5118,7 +5196,7 @@
             "type": "web.data.styles.StyleLink",
             "visited": {
                 "color": [
-                    "HSV",
+                    "HSL",
                     0,
                     0,
                     0,
@@ -5130,7 +5208,7 @@
         {
             "hover": {
                 "color": [
-                    "HSV",
+                    "HSL",
                     0.265,
                     0,
                     0.9238095238095239,
@@ -5141,7 +5219,7 @@
             "id": "3E9FDD89-853B-427E-A277-2D2C2C729562",
             "inactive": {
                 "color": [
-                    "HSV",
+                    "HSL",
                     0,
                     0,
                     1,
@@ -5149,10 +5227,10 @@
                 ],
                 "underline": false
             },
-            "name": "[ link 3]",
+            "name": "[link.3]",
             "press": {
                 "color": [
-                    "HSV",
+                    "HSL",
                     0,
                     0,
                     1,
@@ -5164,7 +5242,7 @@
             "type": "web.data.styles.StyleLink",
             "visited": {
                 "color": [
-                    "HSV",
+                    "HSL",
                     0.335,
                     0,
                     1,
@@ -5192,13 +5270,17 @@
                     "background": {
                         "asset": null,
                         "color": [
-                            "RGB",
-                            0.24705882352941178,
-                            0.24705882352941178,
+                            "HSL",
+                            0,
+                            0,
                             0.24705882352941178,
                             0.8
                         ],
-                        "gradient": null
+                        "fixed": null,
+                        "gradient": null,
+                        "position": null,
+                        "repeat": null,
+                        "size": null
                     },
                     "border": {
                         "color": null,
@@ -5221,7 +5303,7 @@
                 "horizontalAlign": null,
                 "text": {
                     "color": [
-                        "HSV",
+                        "HSL",
                         0.855,
                         0,
                         1,
@@ -5237,13 +5319,17 @@
                     "background": {
                         "asset": null,
                         "color": [
-                            "RGB",
-                            0.2,
-                            0.2,
+                            "HSL",
+                            0,
+                            0,
                             0.2,
                             1
                         ],
-                        "gradient": null
+                        "fixed": null,
+                        "gradient": null,
+                        "position": null,
+                        "repeat": null,
+                        "size": null
                     },
                     "border": {
                         "color": null,
@@ -5276,7 +5362,7 @@
                 "horizontalAlign": "left",
                 "text": {
                     "color": [
-                        "HSV",
+                        "HSL",
                         0.805,
                         0,
                         1,
@@ -5287,7 +5373,7 @@
                 },
                 "verticalAlign": "top"
             },
-            "name": "[ button.2]",
+            "name": "[button.2]",
             "press": {
                 "block": {
                     "background": null,
@@ -5335,41 +5421,45 @@
                     "background": {
                         "asset": null,
                         "color": [
-                            "RGB",
-                            0.9714285714285714,
-                            0.9714285714285714,
+                            "HSL",
+                            0,
+                            0,
                             0.9714285714285714,
                             0.1
                         ],
-                        "gradient": null
+                        "fixed": null,
+                        "gradient": null,
+                        "position": null,
+                        "repeat": null,
+                        "size": null
                     },
                     "border": {
                         "color": [
                             [
-                                "RGB",
-                                1,
-                                1,
-                                1,
-                                0.8
-                            ],
-                            [
-                                "RGB",
-                                1,
-                                1,
+                                "HSL",
+                                0,
+                                0,
                                 1,
                                 0.8
                             ],
                             [
-                                "RGB",
-                                1,
-                                1,
+                                "HSL",
+                                0,
+                                0,
                                 1,
                                 0.8
                             ],
                             [
-                                "RGB",
+                                "HSL",
+                                0,
+                                0,
                                 1,
-                                1,
+                                0.8
+                            ],
+                            [
+                                "HSL",
+                                0,
+                                0,
                                 1,
                                 0.8
                             ]
@@ -5393,7 +5483,7 @@
                 "horizontalAlign": null,
                 "text": {
                     "color": [
-                        "HSV",
+                        "HSL",
                         0.855,
                         0,
                         1,
@@ -5409,41 +5499,45 @@
                     "background": {
                         "asset": null,
                         "color": [
-                            "RGB",
+                            "HSL",
                             0,
                             0,
                             0,
                             0.1
                         ],
-                        "gradient": null
+                        "fixed": null,
+                        "gradient": null,
+                        "position": null,
+                        "repeat": null,
+                        "size": null
                     },
                     "border": {
                         "color": [
                             [
-                                "RGB",
-                                1,
-                                1,
-                                1,
-                                1
-                            ],
-                            [
-                                "RGB",
-                                1,
-                                1,
+                                "HSL",
+                                0,
+                                0,
                                 1,
                                 1
                             ],
                             [
-                                "RGB",
-                                1,
-                                1,
+                                "HSL",
+                                0,
+                                0,
                                 1,
                                 1
                             ],
                             [
-                                "RGB",
+                                "HSL",
+                                0,
+                                0,
                                 1,
-                                1,
+                                1
+                            ],
+                            [
+                                "HSL",
+                                0,
+                                0,
                                 1,
                                 1
                             ]
@@ -5477,7 +5571,7 @@
                 "horizontalAlign": "left",
                 "text": {
                     "color": [
-                        "HSV",
+                        "HSL",
                         0.805,
                         0,
                         1,
@@ -5488,7 +5582,7 @@
                 },
                 "verticalAlign": "top"
             },
-            "name": "[ button.3]",
+            "name": "[button.3]",
             "press": {
                 "block": {
                     "background": null,

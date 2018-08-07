@@ -1,5 +1,5 @@
 * { box-sizing: border-box; }
-body { font-size: 1.6rem; font-family: sans-serif; background: #F2F4F6; color: #ccc; letter-spacing: -1px; }
+body { font-size: 1.6rem; font-family: sans-serif; background: #F2F4F6; color: #ccc;  letter-spacing: -1px;}
 section { height: 100%; width: 100%; padding-bottom: 20%; }
 section .center { text-align: center; }
 
@@ -63,7 +63,7 @@ input:active, input:focus {
 dl {
   text-align: left;
   font-size: 0.7em;
-  width: 650px;
+  width: 750px;
   margin: 0 auto;
   padding: 0 0 0 5%;
 }
@@ -90,9 +90,39 @@ dd {
   letter-spacing: 0.0001em;
 }
 
+ul.pages {
+  list-style:  none;
+}
+
+ul.pages h2 {
+  display: block;
+}
+
+ul.pages li {
+  display:  inline-block;
+  margin: 5px 0;
+}
+
+ul.pages span {
+  float:  none;
+}
+
 .divider {
   clear: both;
   color: #cccccc;
   margin-left: 40px;
   padding-top: 20px;
+}
+
+li.highlighted {
+  /*color: cornflowerblue;*/
+  background-color:  cornflowerblue;
+  color: aliceblue;
+  line-height: 1.5em;
+  font-weight:  bold;
+  padding: 5px 0 0 5px;
+}
+
+span.highlighted {
+  color: #9bce7d;
 }

@@ -18,8 +18,10 @@
             "cells": [],
             "height": 149,
             "id": "C54D5405-4792-4362-9D52-C55BD76626AC",
+            "inTemplate": false,
             "links": [],
             "mobileDown": false,
+            "mobileHide": false,
             "orderIndex": 14,
             "paras": [
                 [
@@ -40,12 +42,13 @@
                     }
                 ]
             ],
+            "relIn": null,
             "relPage": {},
+            "relPara": null,
             "relTo": {
                 "below": 91,
                 "id": "33909397-3AD4-474F-95FC-BC5C209DB73F"
             },
-            "stretch": false,
             "styles": [
                 [
                     0,
@@ -80,8 +83,7 @@
             "wrap": false
         },
         {
-            "anchorLeft": 50,
-            "anchorTop": 50,
+            "action": null,
             "asset": {
                 "alpha": null,
                 "animated": false,
@@ -106,9 +108,15 @@
             "cropTop": 0,
             "height": 500,
             "id": "7ED7904F-338A-4A75-A4B3-B9CE013E30B7",
+            "inTemplate": false,
+            "lightBoxEnabled": false,
             "mobileDown": false,
             "mobileHide": true,
+            "openLink": false,
             "orderIndex": 15,
+            "relIn": null,
+            "relPage": null,
+            "relPara": null,
             "relTo": {
                 "below": 44,
                 "id": "C54D5405-4792-4362-9D52-C55BD76626AC"
@@ -116,11 +124,9 @@
             "rotation": 0,
             "scale": 0.5,
             "scaleStrategy": "crop",
-            "stretch": false,
             "style": {
                 "background": null,
                 "border": null,
-                "padding": null,
                 "type": "web.data.styles.StyleBlock"
             },
             "title": "",
@@ -130,7 +136,7 @@
         },
         {
             "bbox": {
-                "bottom": 1497,
+                "bottom": 1509,
                 "left": 458,
                 "right": 1178,
                 "top": 1025
@@ -171,22 +177,19 @@
                 "email",
                 "message"
             ],
-            "height": 472,
+            "height": 484,
             "id": "6A11DBCF-DF0F-4707-96BB-88D39BF40407",
-            "mobileDown": false,
+            "inTemplate": false,
             "orderIndex": 16,
             "recipientEmail": "abc@xyz.com",
+            "relIn": null,
+            "relPage": null,
+            "relPara": null,
             "relTo": {
                 "below": 105,
                 "id": "7ED7904F-338A-4A75-A4B3-B9CE013E30B7"
             },
             "stretch": false,
-            "style": {
-                "background": null,
-                "border": null,
-                "padding": null,
-                "type": "web.data.styles.StyleBlock"
-            },
             "styleButton": {
                 "disabled": {
                     "block": {
@@ -261,6 +264,7 @@
                 "primaryColor": null,
                 "type": "web.data.styles.StyleForm"
             },
+            "subject": "",
             "submitBtn": "Send",
             "successMessage": "Thank you for your message.",
             "type": "web.data.components.ContactForm",
@@ -277,15 +281,16 @@
             "cells": [],
             "height": 66,
             "id": "3734475C-B1B1-4055-B8EE-C3E1A2518D92",
+            "inTemplate": false,
             "links": [
                 [
                     7,
                     24,
                     {
-                        "id": "1E0C4A77-0EA8-4DF0-9E9B-733362B172C0",
+                        "id": "F489E9A6-5608-4150-B14A-88DB92A5EC93",
                         "link": {
                             "hidden": false,
-                            "id": "F4968D0B-925F-40CD-A0A7-24F7F936F5DE",
+                            "id": "7E7E15F3-BC1B-4DB0-AA8B-8B1047103E2E",
                             "linkId": null,
                             "name": "javascript:void(0);",
                             "target": "_self",
@@ -294,7 +299,7 @@
                         },
                         "style": {
                             "globalId": "7DB80455-AB06-4E58-96D2-0FAB0AEB46B5",
-                            "globalName": "[Link 1]",
+                            "globalName": "[link.2]",
                             "hover": {},
                             "inactive": {},
                             "press": {},
@@ -306,6 +311,7 @@
                 ]
             ],
             "mobileDown": false,
+            "mobileHide": false,
             "orderIndex": 17,
             "paras": [
                 [
@@ -317,11 +323,13 @@
                     }
                 ]
             ],
+            "relIn": null,
+            "relPage": null,
+            "relPara": null,
             "relTo": {
                 "below": 83,
                 "id": "B14E015A-6467-4B7B-BA50-23A61B216706"
             },
-            "stretch": false,
             "styles": [
                 [
                     0,
@@ -373,25 +381,59 @@
             "cells": [],
             "height": 56,
             "id": "0E8FE118-C24E-46AF-B336-9D157F04FA2F",
+            "inTemplate": false,
             "links": [],
             "mobileDown": false,
+            "mobileHide": false,
             "orderIndex": 18,
             "paras": [
                 [
                     0,
-                    24,
+                    5,
                     {
-                        "indent": 2,
+                        "padding": [
+                            0,
+                            0,
+                            0,
+                            80
+                        ],
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    6,
+                    7,
+                    {
+                        "padding": [
+                            0,
+                            0,
+                            0,
+                            80
+                        ],
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    7,
+                    22,
+                    {
+                        "padding": [
+                            0,
+                            0,
+                            0,
+                            80
+                        ],
                         "type": "web.data.styles.StylePara"
                     }
                 ]
             ],
+            "relIn": null,
             "relPage": {},
+            "relPara": null,
             "relTo": {
                 "below": 105,
                 "id": "7ED7904F-338A-4A75-A4B3-B9CE013E30B7"
             },
-            "stretch": false,
             "styles": [
                 [
                     0,
@@ -399,13 +441,14 @@
                     {
                         "bold": true,
                         "color": [
-                            "RGB",
-                            0.5019607843137255,
-                            0.7607843137254902,
-                            0.20392156862745098,
+                            "HSL",
+                            0.244131455399061,
+                            0.5772357723577236,
+                            0.48235294117647054,
                             1
                         ],
-                        "size": null,
+                        "globalId": "F64C69FC-2842-4FEE-9D3A-C07D0E8239C9",
+                        "globalName": "textnormal",
                         "type": "web.data.styles.StyleText"
                     }
                 ],
@@ -414,28 +457,29 @@
                     6,
                     {
                         "bold": true,
-                        "size": null,
+                        "globalId": "F64C69FC-2842-4FEE-9D3A-C07D0E8239C9",
+                        "globalName": "textnormal",
                         "type": "web.data.styles.StyleText"
                     }
                 ],
                 [
                     7,
-                    24,
+                    22,
                     {
                         "font": "google://Muli",
-                        "size": null,
+                        "globalId": "F64C69FC-2842-4FEE-9D3A-C07D0E8239C9",
+                        "globalName": "textnormal",
                         "type": "web.data.styles.StyleText"
                     }
                 ]
             ],
-            "text": "PHONE\n\n(+123) 12 456 789",
+            "text": "PHONE\n\n(+123) 456 7890",
             "type": "web.data.components.Text",
             "width": 328,
             "wrap": false
         },
         {
-            "anchorLeft": 50,
-            "anchorTop": 50,
+            "action": null,
             "asset": {
                 "alpha": null,
                 "animated": false,
@@ -460,7 +504,11 @@
             "cropTop": 0,
             "height": 55,
             "id": "93F01E9A-27CD-4F61-B069-BCC2633E21E9",
+            "inTemplate": false,
+            "lightBoxEnabled": false,
             "mobileDown": false,
+            "mobileHide": false,
+            "openLink": false,
             "orderIndex": 20,
             "relIn": {
                 "bottom": -1,
@@ -474,14 +522,13 @@
                 "index": 0,
                 "offset": 0
             },
+            "relTo": null,
             "rotation": 0,
             "scale": 0.5,
             "scaleStrategy": "crop",
-            "stretch": false,
             "style": {
                 "background": null,
                 "border": null,
-                "padding": null,
                 "type": "web.data.styles.StyleBlock"
             },
             "title": "",
@@ -499,8 +546,10 @@
             "cells": [],
             "height": 56,
             "id": "B14E015A-6467-4B7B-BA50-23A61B216706",
+            "inTemplate": false,
             "links": [],
             "mobileDown": false,
+            "mobileHide": false,
             "orderIndex": 19,
             "paras": [
                 [
@@ -512,12 +561,13 @@
                     }
                 ]
             ],
+            "relIn": null,
             "relPage": {},
+            "relPara": null,
             "relTo": {
                 "below": 85,
                 "id": "0E8FE118-C24E-46AF-B336-9D157F04FA2F"
             },
-            "stretch": false,
             "styles": [
                 [
                     0,
@@ -560,8 +610,7 @@
             "wrap": false
         },
         {
-            "anchorLeft": 50,
-            "anchorTop": 50,
+            "action": null,
             "asset": {
                 "alpha": null,
                 "animated": false,
@@ -586,7 +635,11 @@
             "cropTop": 66,
             "height": 55,
             "id": "4DAFF582-B163-4AA1-8ED1-213428A9FBFF",
+            "inTemplate": false,
+            "lightBoxEnabled": false,
             "mobileDown": false,
+            "mobileHide": false,
+            "openLink": false,
             "orderIndex": 21,
             "relIn": {
                 "bottom": -1,
@@ -595,18 +648,18 @@
                 "right": -282,
                 "top": 0
             },
+            "relPage": null,
             "relPara": {
                 "index": 0,
                 "offset": 0
             },
+            "relTo": null,
             "rotation": 0,
             "scale": 0.5,
             "scaleStrategy": "crop",
-            "stretch": false,
             "style": {
                 "background": null,
                 "border": null,
-                "padding": null,
                 "type": "web.data.styles.StyleBlock"
             },
             "title": "",
@@ -615,8 +668,7 @@
             "wrap": true
         },
         {
-            "anchorLeft": 50,
-            "anchorTop": 50,
+            "action": null,
             "asset": {
                 "alpha": null,
                 "animated": false,
@@ -641,7 +693,11 @@
             "cropTop": 0,
             "height": 42,
             "id": "F6F4B748-079E-49CC-8CF4-031E8BE047C6",
+            "inTemplate": false,
+            "lightBoxEnabled": false,
             "mobileDown": false,
+            "mobileHide": false,
+            "openLink": false,
             "orderIndex": 22,
             "relIn": {
                 "bottom": -24,
@@ -650,18 +706,18 @@
                 "right": -274,
                 "top": 0
             },
+            "relPage": null,
             "relPara": {
                 "index": 0,
                 "offset": 0
             },
+            "relTo": null,
             "rotation": 0,
             "scale": 0.5,
             "scaleStrategy": "crop",
-            "stretch": false,
             "style": {
                 "background": null,
                 "border": null,
-                "padding": null,
                 "type": "web.data.styles.StyleBlock"
             },
             "title": "",
@@ -671,25 +727,25 @@
         },
         {
             "bbox": {
-                "bottom": 1577,
+                "bottom": 1589,
                 "left": 0,
                 "right": 1180,
-                "top": 1497
+                "top": 1509
             },
             "height": 80,
             "id": "C459A78D-3288-4233-B6E9-7007092AB0AE",
-            "mobileDown": false,
+            "inTemplate": false,
             "orderIndex": 23,
+            "relIn": null,
             "relPage": {},
+            "relPara": null,
             "relTo": {
                 "below": 0,
                 "id": "6A11DBCF-DF0F-4707-96BB-88D39BF40407"
             },
-            "stretch": false,
             "style": {
                 "background": null,
                 "border": null,
-                "padding": null,
                 "type": "web.data.styles.StyleBlock"
             },
             "type": "web.data.components.Block",
@@ -697,8 +753,7 @@
             "wrap": false
         },
         {
-            "anchorLeft": 50,
-            "anchorTop": 50,
+            "action": null,
             "asset": {
                 "alpha": null,
                 "animated": false,
@@ -723,8 +778,11 @@
             "cropTop": 0,
             "height": 70,
             "id": "15EC468B-46EE-4023-9D2A-F0F1CA3D348F",
+            "inTemplate": false,
+            "lightBoxEnabled": false,
             "mobileDown": false,
             "mobileHide": true,
+            "openLink": false,
             "orderIndex": 24,
             "relIn": {
                 "bottom": -262,
@@ -733,14 +791,15 @@
                 "right": -469,
                 "top": 168
             },
+            "relPage": null,
+            "relPara": null,
+            "relTo": null,
             "rotation": 0,
             "scale": 0.4861111111111111,
             "scaleStrategy": "crop",
-            "stretch": false,
             "style": {
                 "background": null,
                 "border": null,
-                "padding": null,
                 "type": "web.data.styles.StyleBlock"
             },
             "title": "",

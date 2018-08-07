@@ -9,88 +9,88 @@ block content
       form(action='/search', method='post')
         input#search(type='text', placeholder='e.g. A887B21D-7067-42F0-924C-5433BFE46B7C' name='search' autofocus)
         button(type='submit')
-    #container
+    //- #container
 
-    link(rel="stylesheet" href="stylesheets/tauCharts.min.css")
-    style.
-        #container {
-            width:100%;
-            height:100%;  
-            margin:0;
-            padding: 0;
-        }
-        #container > svg{  
-         display:block;
-        }
+    //- link(rel="stylesheet" href="stylesheets/tauCharts.min.css")
+    //- style.
+    //-     #container {
+    //-         width:100%;
+    //-         height:100%;  
+    //-         margin:0;
+    //-         padding: 0;
+    //-     }
+    //-     #container > svg{  
+    //-      display:block;
+    //-     }
 
-        .color-red {
-          fill: red;
-        }
+    //-     .color-red {
+    //-       fill: red;
+    //-     }
 
-        .color-green {
-          fill: green;
-        }
+    //-     .color-green {
+    //-       fill: green;
+    //-     }
 
-        .color-blue {
-          fill: blue;
-        }
-    script(src="scripts/d3.v3.min.js")
-    script(src="scripts/tauCharts.min.js")
+    //-     .color-blue {
+    //-       fill: blue;
+    //-     }
+    //- script(src="scripts/d3.v3.min.js")
+    //- script(src="scripts/tauCharts.min.js")
 
-    script.
-        var defData = [
-        {"team": "d", "cycleTime": 1, "effort": 1, "count": 1, "priority": "low"}, {
-            "team": "d",
-            "cycleTime": 2,
-            "effort": 2,
-            "count": 5,
-            "priority": "low"
-        }, {"team": "d", "cycleTime": 3, "effort": 3, "count": 8, "priority": "medium"}, {
-            "team": "d",
-            "cycleTime": 4,
-            "effort": 4,
-            "count": 3,
-            "priority": "high"
-        }, {"team": "l", "cycleTime": 2, "effort": 1, "count": 1, "priority": "low"}, {
-            "team": "l",
-            "cycleTime": 3,
-            "effort": 2,
-            "count": 5,
-            "priority": "low"
-        }, {"team": "l", "cycleTime": 4, "effort": 3, "count": 8, "priority": "medium"}, {
-            "team": "l",
-            "cycleTime": 5,
-            "effort": 4,
-            "count": 3,
-            "priority": "high"
-        },
-        {"team": "k", "cycleTime": 2, "effort": 4, "count": 1, "priority": "low"}, {
-            "team": "k",
-            "cycleTime": 3,
-            "effort": 5,
-            "count": 5,
-            "priority": "low"
-        }, {"team": "k", "cycleTime": 4, "effort": 6, "count": 8, "priority": "medium"}, {
-            "team": "k",
-            "cycleTime": 5,
-            "effort": 8,
-            "count": 3,
-            "priority": "high"
-        }];
-        var chart = new tauCharts.Chart({
-            guide:{
-              x:{label:'Cycle Time in days'},
-              y:{label:'Effort in points'},
-              padding:{b:40,l:40,t:10,r:10},
-              color:{                
-                brewer:['color-red', 'color-green', 'color-blue']
-              }
-            },
-            data: defData,
-            type: 'scatterplot',
-            x: 'cycleTime',
-            y: 'effort',
-            color: 'team',
-            size: 'count'
-        });
-        chart.renderTo('#container');
+    //- script.
+    //-     var defData = [
+    //-     {"team": "d", "cycleTime": 1, "effort": 1, "count": 1, "priority": "low"}, {
+    //-         "team": "d",
+    //-         "cycleTime": 2,
+    //-         "effort": 2,
+    //-         "count": 5,
+    //-         "priority": "low"
+    //-     }, {"team": "d", "cycleTime": 3, "effort": 3, "count": 8, "priority": "medium"}, {
+    //-         "team": "d",
+    //-         "cycleTime": 4,
+    //-         "effort": 4,
+    //-         "count": 3,
+    //-         "priority": "high"
+    //-     }, {"team": "l", "cycleTime": 2, "effort": 1, "count": 1, "priority": "low"}, {
+    //-         "team": "l",
+    //-         "cycleTime": 3,
+    //-         "effort": 2,
+    //-         "count": 5,
+    //-         "priority": "low"
+    //-     }, {"team": "l", "cycleTime": 4, "effort": 3, "count": 8, "priority": "medium"}, {
+    //-         "team": "l",
+    //-         "cycleTime": 5,
+    //-         "effort": 4,
+    //-         "count": 3,
+    //-         "priority": "high"
+    //-     },
+    //-     {"team": "k", "cycleTime": 2, "effort": 4, "count": 1, "priority": "low"}, {
+    //-         "team": "k",
+    //-         "cycleTime": 3,
+    //-         "effort": 5,
+    //-         "count": 5,
+    //-         "priority": "low"
+    //-     }, {"team": "k", "cycleTime": 4, "effort": 6, "count": 8, "priority": "medium"}, {
+    //-         "team": "k",
+    //-         "cycleTime": 5,
+    //-         "effort": 8,
+    //-         "count": 3,
+    //-         "priority": "high"
+    //-     }];
+    //-     var chart = new tauCharts.Chart({
+    //-         guide:{
+    //-           x:{label:'Cycle Time in days'},
+    //-           y:{label:'Effort in points'},
+    //-           padding:{b:40,l:40,t:10,r:10},
+    //-           color:{                
+    //-             brewer:['color-red', 'color-green', 'color-blue']
+    //-           }
+    //-         },
+    //-         data: defData,
+    //-         type: 'scatterplot',
+    //-         x: 'cycleTime',
+    //-         y: 'effort',
+    //-         color: 'team',
+    //-         size: 'count'
+    //-     });
+    //-     chart.renderTo('#container');

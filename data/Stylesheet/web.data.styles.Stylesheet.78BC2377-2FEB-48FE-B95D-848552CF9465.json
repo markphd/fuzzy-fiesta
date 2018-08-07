@@ -1,0 +1,5311 @@
+{
+    "id": "78BC2377-2FEB-48FE-B95D-848552CF9465",
+    "name": "Cooking Recipes",
+    "styles": [
+        {
+            "background": {
+                "asset": null,
+                "color": [
+                    "HSL",
+                    0.8333333333333334,
+                    0,
+                    0.9529411764705882,
+                    1
+                ],
+                "fixed": null,
+                "gradient": null,
+                "position": null,
+                "repeat": null,
+                "size": null
+            },
+            "border": {
+                "color": [
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "843F4CDE-E0F6-4595-9F16-DED00740EA2B",
+            "name": "[body]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "body",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSL",
+                0,
+                0,
+                0,
+                1
+            ],
+            "font": "google://Raleway",
+            "id": "E9055863-13D9-472B-A478-5474F7269E2F",
+            "italic": false,
+            "letterspacing": 0,
+            "name": "[paragraph]",
+            "ref": "normal",
+            "size": 14,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": true,
+            "color": [
+                "HSL",
+                0,
+                0,
+                0.21176470588235294,
+                1
+            ],
+            "font": "google://Arizonia",
+            "id": "470E748F-82C7-4615-91B5-FEA618F2759F",
+            "italic": false,
+            "letterspacing": 0,
+            "name": "[heading.1]",
+            "ref": "heading.1",
+            "size": 48,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSL",
+                0,
+                0,
+                0.21176470588235294,
+                1
+            ],
+            "font": "google://Raleway",
+            "id": "7C340245-CC6F-48DC-BE02-29F252E53606",
+            "italic": false,
+            "letterspacing": 0,
+            "name": "[heading.2]",
+            "ref": "heading.2",
+            "size": 36,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "bold": false,
+            "color": [
+                "HSL",
+                0,
+                0,
+                1,
+                1
+            ],
+            "font": "google://Raleway",
+            "id": "F0F34F2C-403D-45C3-82C0-10217DED487A",
+            "italic": false,
+            "letterspacing": 0,
+            "name": "[heading.3]",
+            "ref": "heading.3",
+            "size": 20,
+            "type": "web.data.styles.StyleText",
+            "underline": false
+        },
+        {
+            "hover": {
+                "color": [
+                    "HSL",
+                    0.4303482587064677,
+                    0.32367149758454106,
+                    0.5941176470588235,
+                    1
+                ],
+                "underline": true
+            },
+            "id": "E2C3F43E-16CF-4901-A48C-6280DEE4B4D8",
+            "inactive": {
+                "color": [
+                    "HSL",
+                    0.4303482587064677,
+                    0.32367149758454106,
+                    0.5941176470588235,
+                    1
+                ],
+                "underline": false
+            },
+            "name": "[link.1]",
+            "press": {
+                "color": [
+                    "HSL",
+                    0.582687338501292,
+                    0.5139442231075698,
+                    0.507843137254902,
+                    1
+                ],
+                "underline": false
+            },
+            "ref": "link.1",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "HSL",
+                    0.582815734989648,
+                    0.817258883248731,
+                    0.38627450980392153,
+                    1
+                ],
+                "underline": false
+            }
+        },
+        {
+            "accordionTextIndent": 13,
+            "block": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "HSL",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "HSL",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "HSL",
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            "HSL",
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "cascadeWidth": 200,
+            "divider": {
+                "background": {
+                    "asset": {
+                        "alpha": null,
+                        "animated": false,
+                        "bpp": null,
+                        "contentType": "image/png",
+                        "etag": "W/\"5b-56d4238b0d032\"",
+                        "filesize": 91,
+                        "height": 11,
+                        "id": "A5E4B368-BBE5-4C0A-8972-E7786D9AA931",
+                        "recommendedFormat": null,
+                        "type": "web.data.assets.Image",
+                        "url": "repository:/portfolios-scientist-line-menu.png",
+                        "width": 1
+                    },
+                    "color": null,
+                    "fixed": false,
+                    "gradient": null,
+                    "position": [
+                        "50%",
+                        "50%"
+                    ],
+                    "repeat": [
+                        false,
+                        false
+                    ],
+                    "size": 100
+                },
+                "border": null,
+                "padding": [
+                    5,
+                    5,
+                    5,
+                    5
+                ]
+            },
+            "expandable": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": null,
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.43034825870646676,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": null,
+                                "animated": false,
+                                "bpp": null,
+                                "contentType": "image/png",
+                                "etag": "W/\"420e-557b58e6bc6ec\"",
+                                "filesize": 16910,
+                                "height": 10,
+                                "id": "C8A13599-1A0C-4F71-9690-3207CB4236F7",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/motorcycle-restoration-menu-1-expanded.png",
+                                "width": 25
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.582815734989648,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": null,
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.43034825870646676,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": null,
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.43034825870646676,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": null,
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.43034825870646676,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "expanded": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": null,
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.582815734989648,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": null,
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.582815734989648,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": null,
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.582815734989648,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": null,
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.582815734989648,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": null,
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.582815734989648,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "id": "B6FB901A-94AB-4B8E-AA7A-4D23E46BE4F6",
+            "item": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.6549999999999999,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": null,
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.4303482587064677,
+                            0.32367149758454106,
+                            0.5941176470588235,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.6549999999999999,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.6549999999999999,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.6549999999999999,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "name": "[menu.1]",
+            "ref": "menu.1",
+            "selected": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.4303482587064677,
+                            0.32367149758454106,
+                            0.5941176470588235,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": null,
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.4303482587064677,
+                            0.32367149758454106,
+                            0.5941176470588235,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.4303482587064677,
+                            0.32367149758454106,
+                            0.5941176470588235,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.4303482587064677,
+                            0.32367149758454106,
+                            0.5941176470588235,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            20,
+                            10,
+                            20
+                        ]
+                    },
+                    "horizontalAlign": "center",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.4303482587064677,
+                            0.32367149758454106,
+                            0.5941176470588235,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "type": "web.data.styles.StyleMenu"
+        },
+        {
+            "accordionTextIndent": 13,
+            "block": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "HSL",
+                            0.42833333333333334,
+                            0.5617977528089887,
+                            0.34901960784313724,
+                            1
+                        ],
+                        [
+                            "HSL",
+                            0.42833333333333334,
+                            0.5617977528089887,
+                            0.34901960784313724,
+                            1
+                        ],
+                        [
+                            "HSL",
+                            0.42833333333333334,
+                            0.5617977528089887,
+                            0.34901960784313724,
+                            1
+                        ],
+                        [
+                            "HSL",
+                            0.42833333333333334,
+                            0.5617977528089887,
+                            0.34901960784313724,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "cascadeWidth": 250,
+            "divider": {
+                "background": null,
+                "border": {
+                    "color": [
+                        [
+                            "HSL",
+                            0.42833333333333334,
+                            0.5617977528089887,
+                            0.34901960784313724,
+                            1
+                        ],
+                        [
+                            "HSL",
+                            0.42833333333333334,
+                            0.5617977528089887,
+                            0.34901960784313724,
+                            1
+                        ],
+                        [
+                            "HSL",
+                            0.42833333333333334,
+                            0.5617977528089887,
+                            0.34901960784313724,
+                            1
+                        ],
+                        [
+                            "HSL",
+                            0.42833333333333334,
+                            0.5617977528089887,
+                            0.34901960784313724,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "solid",
+                        "solid",
+                        "solid",
+                        "solid"
+                    ],
+                    "width": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "padding": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "expandable": {
+                "disabled": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.16,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"c05f-51309438ad3ac\"",
+                                "filesize": 49247,
+                                "height": 14,
+                                "id": "180FBC03-DC2B-4967-9719-FC9BDE07055F",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/dry-cleaner-menu2-expandable.png",
+                                "width": 27
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.675,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.16,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.16,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": null,
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.16,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "expanded": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"c05f-51309438ad3ac\"",
+                                "filesize": 49247,
+                                "height": 14,
+                                "id": "A0A937F4-D326-4A5B-9465-16D478D7C85D",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/dry-cleaner-menu2-expandable.png",
+                                "width": 27
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.675,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"c05f-51309438ad3ac\"",
+                                "filesize": 49247,
+                                "height": 14,
+                                "id": "50DE1DA9-CB21-47BA-B976-4D9E35BCBA75",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/dry-cleaner-menu2-expandable.png",
+                                "width": 27
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.675,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"c05f-51309438ad3ac\"",
+                                "filesize": 49247,
+                                "height": 14,
+                                "id": "0BACA7AA-AE57-456D-AEB9-639FBBA16FF9",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/dry-cleaner-menu2-expandable.png",
+                                "width": 27
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.675,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"c05f-51309438ad3ac\"",
+                                "filesize": 49247,
+                                "height": 14,
+                                "id": "F329FDB9-CB66-406C-A35C-B79734FBEE95",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/dry-cleaner-menu2-expandable.png",
+                                "width": 27
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.675,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": {
+                                "alpha": true,
+                                "animated": false,
+                                "bpp": 32,
+                                "contentType": "image/png",
+                                "etag": "W/\"c05f-51309438ad3ac\"",
+                                "filesize": 49247,
+                                "height": 14,
+                                "id": "AA519BFB-6F6C-4256-A68E-5343140A1CD0",
+                                "recommendedFormat": null,
+                                "type": "web.data.assets.Image",
+                                "url": "repository:/dry-cleaner-menu2-expandable.png",
+                                "width": 27
+                            },
+                            "color": null,
+                            "fixed": false,
+                            "gradient": null,
+                            "position": [
+                                "100%",
+                                "50%"
+                            ],
+                            "repeat": [
+                                false,
+                                false
+                            ],
+                            "size": 100
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            20,
+                            27,
+                            20,
+                            30
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.675,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": null
+                },
+                "width": null
+            },
+            "id": "BD27F387-AA3E-4884-95AA-FD5EE0E8CA68",
+            "item": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "HSL",
+                                0,
+                                0,
+                                1,
+                                1
+                            ],
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            10,
+                            10,
+                            10
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.9921875,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "HSL",
+                                0.4303482587064677,
+                                0.32367149758454106,
+                                0.5941176470588235,
+                                1
+                            ],
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            10,
+                            10,
+                            10
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.51,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "HSL",
+                                0,
+                                0,
+                                1,
+                                1
+                            ],
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            10,
+                            10,
+                            10
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.9921875,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "HSL",
+                                0,
+                                0,
+                                1,
+                                1
+                            ],
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            10,
+                            10,
+                            10
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.9921875,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "HSL",
+                                0,
+                                0,
+                                1,
+                                1
+                            ],
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            10,
+                            10,
+                            10
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.9921875,
+                            0,
+                            0,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "name": "[menu.2]",
+            "ref": "menu.2",
+            "selected": {
+                "disabled": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "HSL",
+                                0.4303482587064677,
+                                0.32367149758454106,
+                                0.5941176470588235,
+                                1
+                            ],
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            10,
+                            10,
+                            10
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.995,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "height": null,
+                "hover": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "HSL",
+                                0.4303482587064677,
+                                0.32367149758454106,
+                                0.5941176470588235,
+                                1
+                            ],
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            10,
+                            10,
+                            10
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.51,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "inactive": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "HSL",
+                                0.4303482587064677,
+                                0.32367149758454106,
+                                0.5941176470588235,
+                                1
+                            ],
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            10,
+                            10,
+                            10
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.995,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "press": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "HSL",
+                                0.4303482587064677,
+                                0.32367149758454106,
+                                0.5941176470588235,
+                                1
+                            ],
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            10,
+                            10,
+                            10
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.995,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "visited": {
+                    "block": {
+                        "background": {
+                            "asset": null,
+                            "color": [
+                                "HSL",
+                                0.4303482587064677,
+                                0.32367149758454106,
+                                0.5941176470588235,
+                                1
+                            ],
+                            "fixed": null,
+                            "gradient": null,
+                            "position": null,
+                            "repeat": null,
+                            "size": null
+                        },
+                        "border": {
+                            "color": [
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ],
+                                [
+                                    "HSL",
+                                    0,
+                                    0,
+                                    1,
+                                    1
+                                ]
+                            ],
+                            "corners": null,
+                            "style": [
+                                "solid",
+                                "solid",
+                                "solid",
+                                "solid"
+                            ],
+                            "width": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "padding": [
+                            10,
+                            10,
+                            10,
+                            10
+                        ]
+                    },
+                    "horizontalAlign": "left",
+                    "text": {
+                        "bold": false,
+                        "color": [
+                            "HSL",
+                            0.995,
+                            0,
+                            1,
+                            1
+                        ],
+                        "font": "google://Raleway",
+                        "italic": false,
+                        "shadow": false,
+                        "size": 14,
+                        "underline": false
+                    },
+                    "verticalAlign": "top"
+                },
+                "width": null
+            },
+            "type": "web.data.styles.StyleMenu"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "dotted",
+                        "dotted",
+                        "dotted",
+                        "dotted"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    7,
+                    7,
+                    8,
+                    7
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "B75BC8E2-7FB1-415F-83CD-8E2D900904CE",
+            "name": "[normal]",
+            "ref": "normal",
+            "text": {
+                "bold": false,
+                "color": [
+                    "RGB",
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    1
+                ],
+                "font": "google://Oxygen",
+                "italic": false,
+                "shadow": false,
+                "size": 16,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "dotted",
+                        "dotted",
+                        "dotted",
+                        "dotted"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "55278617-B1BB-48F9-8AD7-6CCB0F52BB93",
+            "name": "[heading.1]",
+            "ref": "heading.1",
+            "text": {
+                "bold": false,
+                "color": [
+                    "RGB",
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    1
+                ],
+                "font": "google://Oxygen",
+                "italic": false,
+                "shadow": false,
+                "size": 20,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "dotted",
+                        "dotted",
+                        "dotted",
+                        "dotted"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "4F55F232-8069-4876-815F-5A9E2309EDE8",
+            "name": "[heading.2]",
+            "ref": "heading.2",
+            "text": {
+                "bold": false,
+                "color": [
+                    "RGB",
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    1
+                ],
+                "font": "google://Oxygen",
+                "italic": false,
+                "shadow": false,
+                "size": 18,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "block": {
+                "background": {
+                    "asset": null,
+                    "color": [
+                        "RGB",
+                        0.9921568627450981,
+                        0.9921568627450981,
+                        0.9921568627450981,
+                        1
+                    ],
+                    "gradient": null
+                },
+                "border": {
+                    "color": [
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ],
+                        [
+                            "RGB",
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            0.9215686274509803,
+                            1
+                        ]
+                    ],
+                    "corners": null,
+                    "style": [
+                        "dotted",
+                        "dotted",
+                        "dotted",
+                        "dotted"
+                    ],
+                    "width": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "padding": [
+                    7,
+                    7,
+                    8,
+                    7
+                ]
+            },
+            "horizontalAlign": "left",
+            "id": "3ECA7688-000B-425A-8476-14FF3B5656DF",
+            "name": "[alternate]",
+            "ref": "alternate",
+            "text": {
+                "bold": false,
+                "color": [
+                    "RGB",
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    0.5843137254901961,
+                    1
+                ],
+                "font": "google://Oxygen",
+                "italic": false,
+                "shadow": false,
+                "size": 16,
+                "underline": false
+            },
+            "type": "web.data.styles.StyleCell",
+            "verticalAlign": "middle"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "99B30BC1-0F55-4D51-A860-C021F594994A",
+            "name": "[main]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "main",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "2ED03394-ADDC-46DF-9F2A-328248DE0782",
+            "name": "[content]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "content",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "C71FCDA8-B6CB-4A76-9F74-6E051AC0D183",
+            "name": "[decorator]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "decorator",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "AB5ACAE6-8B22-4A10-BEA8-249A34C817C4",
+            "name": "[special]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "special",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "E1227EB0-95F7-475D-A660-D230FD4370A1",
+            "name": "[horizontal]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "horizontal",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "C05CBE68-8C07-4D00-97FE-275BB51075EA",
+            "name": "[vertical]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "vertical",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "DA62E6B9-EBC2-48DA-B953-798C7B751FDB",
+            "name": "[heading]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "heading",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "background": null,
+            "border": {
+                "color": [
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    [
+                        "HSL",
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                ],
+                "corners": null,
+                "style": [
+                    "solid",
+                    "solid",
+                    "solid",
+                    "solid"
+                ],
+                "width": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "id": "579B24C8-FAD7-489B-A72F-B5B692235EF3",
+            "name": "[divider]",
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "ref": "divider",
+            "type": "web.data.styles.StyleBlock"
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "HSL",
+                            0.4303482587064677,
+                            0.32367149758454106,
+                            0.5941176470588235,
+                            0.8
+                        ],
+                        "fixed": null,
+                        "gradient": null,
+                        "position": null,
+                        "repeat": null,
+                        "size": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "HSL",
+                                0.32516339869281047,
+                                0.41129032258064535,
+                                0.5137254901960786,
+                                1
+                            ],
+                            [
+                                "HSL",
+                                0.32516339869281047,
+                                0.41129032258064535,
+                                0.5137254901960786,
+                                1
+                            ],
+                            [
+                                "HSL",
+                                0.32516339869281047,
+                                0.41129032258064535,
+                                0.5137254901960786,
+                                1
+                            ],
+                            [
+                                "HSL",
+                                0.32516339869281047,
+                                0.41129032258064535,
+                                0.5137254901960786,
+                                1
+                            ]
+                        ],
+                        "corners": {
+                            "bottomLeft": 0,
+                            "bottomRight": 0,
+                            "topLeft": 0,
+                            "topRight": 0
+                        },
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSL",
+                        0.7,
+                        0,
+                        1,
+                        1
+                    ],
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "id": "2A8DE8DB-90AF-4A42-A76D-19542B9CC966",
+            "inactive": {
+                "block": {
+                    "background": {
+                        "asset": null,
+                        "color": [
+                            "HSL",
+                            0.4303482587064677,
+                            0.32367149758454106,
+                            0.5941176470588235,
+                            1
+                        ],
+                        "fixed": null,
+                        "gradient": null,
+                        "position": null,
+                        "repeat": null,
+                        "size": null
+                    },
+                    "border": {
+                        "color": [
+                            [
+                                "HSL",
+                                0.32516339869281047,
+                                0.41129032258064535,
+                                0.5137254901960786,
+                                1
+                            ],
+                            [
+                                "HSL",
+                                0.32516339869281047,
+                                0.41129032258064535,
+                                0.5137254901960786,
+                                1
+                            ],
+                            [
+                                "HSL",
+                                0.32516339869281047,
+                                0.41129032258064535,
+                                0.5137254901960786,
+                                1
+                            ],
+                            [
+                                "HSL",
+                                0.32516339869281047,
+                                0.41129032258064535,
+                                0.5137254901960786,
+                                1
+                            ]
+                        ],
+                        "corners": {
+                            "bottomLeft": 0,
+                            "bottomRight": 0,
+                            "topLeft": 0,
+                            "topRight": 0
+                        },
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSL",
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "font": "google://Raleway",
+                    "size": 16
+                },
+                "verticalAlign": null
+            },
+            "name": "[button.1]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "ref": "button.1",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "width": null
+        },
+        {
+            "fieldBgColor": [
+                "RGB",
+                1,
+                0,
+                0,
+                1
+            ],
+            "fieldBorderColor": [
+                "HSL",
+                0,
+                1,
+                0.11764705882352941,
+                1
+            ],
+            "font": 6,
+            "fontColor": [
+                "HSL",
+                0,
+                0,
+                0,
+                1
+            ],
+            "fontSize": 12,
+            "id": "29D5D282-87B3-4CEF-B93E-30A39D2080DC",
+            "name": "[form]",
+            "primaryColor": [
+                "HSL",
+                0,
+                1,
+                0.5,
+                1
+            ],
+            "ref": "form",
+            "type": "web.data.styles.StyleForm"
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": null,
+                    "border": {
+                        "color": [
+                            [
+                                "HSL",
+                                0.4303482587064677,
+                                0.32367149758454106,
+                                0.5941176470588235,
+                                0.8
+                            ],
+                            [
+                                "HSL",
+                                0.4303482587064677,
+                                0.32367149758454106,
+                                0.5941176470588235,
+                                0.8
+                            ],
+                            [
+                                "HSL",
+                                0.4303482587064677,
+                                0.32367149758454106,
+                                0.5941176470588235,
+                                0.8
+                            ],
+                            [
+                                "HSL",
+                                0.4303482587064677,
+                                0.32367149758454106,
+                                0.5941176470588235,
+                                0.8
+                            ]
+                        ],
+                        "corners": {
+                            "bottomLeft": 0,
+                            "bottomRight": 0,
+                            "topLeft": 0,
+                            "topRight": 0
+                        },
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            2,
+                            2,
+                            2,
+                            2
+                        ]
+                    },
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSL",
+                        0.430348258706468,
+                        0.3421750663129974,
+                        0.6199596774193548,
+                        1
+                    ],
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "id": "7397F223-90E5-406A-8B27-96750326D235",
+            "inactive": {
+                "block": {
+                    "background": null,
+                    "border": {
+                        "color": [
+                            [
+                                "HSL",
+                                0.4303482587064677,
+                                0.32367149758454106,
+                                0.5941176470588235,
+                                1
+                            ],
+                            [
+                                "HSL",
+                                0.4303482587064677,
+                                0.32367149758454106,
+                                0.5941176470588235,
+                                1
+                            ],
+                            [
+                                "HSL",
+                                0.4303482587064677,
+                                0.32367149758454106,
+                                0.5941176470588235,
+                                1
+                            ],
+                            [
+                                "HSL",
+                                0.4303482587064677,
+                                0.32367149758454106,
+                                0.5941176470588235,
+                                1
+                            ]
+                        ],
+                        "corners": {
+                            "bottomLeft": 0,
+                            "bottomRight": 0,
+                            "topLeft": 0,
+                            "topRight": 0
+                        },
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            2,
+                            2,
+                            2,
+                            2
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSL",
+                        0.4303482587064677,
+                        0.32367149758454106,
+                        0.5941176470588235,
+                        1
+                    ],
+                    "font": "google://Raleway",
+                    "size": 14
+                },
+                "verticalAlign": null
+            },
+            "name": "[button.2]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "ref": "button.2",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "width": null
+        },
+        {
+            "hover": {
+                "color": [
+                    "HSL",
+                    0,
+                    0,
+                    0.21176470588235294,
+                    1
+                ],
+                "underline": true
+            },
+            "id": "D7001D97-4FD4-43F4-AF42-70C706A0508A",
+            "inactive": {
+                "color": [
+                    "HSL",
+                    0,
+                    0,
+                    0.5843137254901961,
+                    1
+                ],
+                "underline": true
+            },
+            "name": "[link.2]",
+            "press": {
+                "color": [
+                    "HSL",
+                    0,
+                    0,
+                    0.5843137254901961,
+                    1
+                ],
+                "underline": true
+            },
+            "ref": "link.2",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "HSL",
+                    0,
+                    0,
+                    0.5843137254901961,
+                    1
+                ],
+                "underline": true
+            }
+        },
+        {
+            "hover": {
+                "color": [
+                    "HSL",
+                    0.5774946921443737,
+                    0.7584541062801933,
+                    0.40588235294117647,
+                    1
+                ],
+                "underline": false
+            },
+            "id": "B94DC555-EADC-4547-AD22-95B82FB02023",
+            "inactive": {
+                "color": [
+                    "HSL",
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "underline": false
+            },
+            "name": "[link.3]",
+            "press": {
+                "color": [
+                    "HSL",
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "underline": false
+            },
+            "ref": "link.3",
+            "type": "web.data.styles.StyleLink",
+            "visited": {
+                "color": [
+                    "HSL",
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "underline": false
+            }
+        },
+        {
+            "disabled": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "height": null,
+            "hover": {
+                "block": {
+                    "background": null,
+                    "border": {
+                        "color": [
+                            [
+                                "HSL",
+                                0,
+                                0,
+                                0.9193548387096775,
+                                1
+                            ],
+                            [
+                                "HSL",
+                                0,
+                                0,
+                                0.9193548387096775,
+                                1
+                            ],
+                            [
+                                "HSL",
+                                0,
+                                0,
+                                0.9193548387096775,
+                                1
+                            ],
+                            [
+                                "HSL",
+                                0,
+                                0,
+                                0.9193548387096775,
+                                1
+                            ]
+                        ],
+                        "corners": {
+                            "bottomLeft": 0,
+                            "bottomRight": 0,
+                            "topLeft": 0,
+                            "topRight": 0
+                        },
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    },
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSL",
+                        0.7,
+                        0,
+                        0.9193548387096775,
+                        1
+                    ],
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "id": "AD85A413-908E-4139-AF93-EEB41A5ACD38",
+            "inactive": {
+                "block": {
+                    "background": null,
+                    "border": {
+                        "color": [
+                            [
+                                "HSL",
+                                0,
+                                0,
+                                1,
+                                1
+                            ],
+                            [
+                                "HSL",
+                                0,
+                                0,
+                                1,
+                                1
+                            ],
+                            [
+                                "HSL",
+                                0,
+                                0,
+                                1,
+                                1
+                            ],
+                            [
+                                "HSL",
+                                0,
+                                0,
+                                1,
+                                1
+                            ]
+                        ],
+                        "corners": {
+                            "bottomLeft": 0,
+                            "bottomRight": 0,
+                            "topLeft": 0,
+                            "topRight": 0
+                        },
+                        "style": [
+                            "solid",
+                            "solid",
+                            "solid",
+                            "solid"
+                        ],
+                        "width": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    },
+                    "padding": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "color": [
+                        "HSL",
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "font": "google://Oxygen",
+                    "size": 16
+                },
+                "verticalAlign": null
+            },
+            "name": "[button.3]",
+            "press": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "ref": "button.3",
+            "type": "web.data.styles.StyleButton",
+            "visited": {
+                "block": {
+                    "background": null,
+                    "border": null,
+                    "padding": null
+                },
+                "horizontalAlign": null,
+                "text": {
+                    "size": null
+                },
+                "verticalAlign": null
+            },
+            "width": null
+        }
+    ],
+    "type": "web.data.styles.Stylesheet"
+}

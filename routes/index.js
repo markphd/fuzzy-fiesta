@@ -6,7 +6,7 @@ var db = new Datastore({ filename: 'data/master.db', autoload: true });
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' } );
+  res.render('index', { title: 'WSB Template Finder' } );
 });
 
 router.post('/search', function(req, res, next) {
@@ -29,10 +29,24 @@ router.post('/search', function(req, res, next) {
   var keyword = new RegExp(req.body.search, "i");
   // FIND TEMPLATE OR PAGE
   db.find({ $or: [{stylesheetId: { $regex: keyword } }, {name: { $regex: keyword } }, { id: { $regex: keyword } }, { pages: { $elemMatch: { id: { $regex: keyword } } } }]}, function(err, docs) {
-    console.log(docs);
+    let pageMatch = ''; 
+    if (docs.length > 0) {
+      let template =  docs[0].pages;
+      template.forEach( (page) => {
+        let re = new RegExp(keyword)
+        if (page.id.match(re) || page.name.match(re) ) {
+          pageMatch = page;
+          console.log(page.stylesheetId, "Stylesheet")
+          console.log(page.id, "WE GOT A MATCH!")
+        }
+      })
+    } else {
+      res.render('error');
+    }
     // return result = docs;
     console.log(docs.length);
-    if (docs.length === 0) { res.redirect('/') } else { res.render('search', { title: 'Search results', name: docs[0].name, style: docs[0].stylesheetId, numberPages: docs[0].pages.length, pagesArray: docs[0].pages, templateId: docs[0].id }); } ; 
+    docs.length
+    if (docs.length === 0) { res.redirect('/') } else { res.render('search', { title: 'Search results', name: docs[0].name, style: docs[0].stylesheetId, numberPages: docs[0].pages.length, pagesArray: docs[0].pages, templateId: docs[0].id, highlight: pageMatch }); } ; 
    
   })
 });

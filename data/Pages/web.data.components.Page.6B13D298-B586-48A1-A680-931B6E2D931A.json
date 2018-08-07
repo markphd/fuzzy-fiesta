@@ -17,17 +17,18 @@
             },
             "height": 100,
             "id": "319414ED-A8CF-4434-BD0D-41AE09B3F41B",
-            "mobileDown": false,
+            "inTemplate": false,
             "orderIndex": 11,
+            "relIn": null,
+            "relPage": null,
+            "relPara": null,
             "relTo": {
                 "below": 0,
                 "id": "67DDDB3C-DCE0-4325-9331-0E0E796A4834"
             },
-            "stretch": false,
             "style": {
                 "background": null,
                 "border": null,
-                "padding": null,
                 "type": "web.data.styles.StyleBlock"
             },
             "type": "web.data.components.Block",
@@ -43,9 +44,11 @@
             },
             "height": 300,
             "id": "6F686F50-2AFB-4118-85DB-460D833EA97F",
-            "mobileDown": false,
+            "inTemplate": false,
             "orderIndex": 0,
+            "relIn": null,
             "relPage": {},
+            "relPara": null,
             "relTo": {
                 "below": 0,
                 "id": "C0FCA2D3-0211-43C1-8A2E-0AE1403EABDA"
@@ -68,9 +71,9 @@
                         "width": 3200
                     },
                     "color": [
-                        "RGB",
-                        0.2,
-                        0.2,
+                        "HSL",
+                        0,
+                        0,
                         0.2,
                         1
                     ],
@@ -87,7 +90,6 @@
                     "size": "fill"
                 },
                 "border": null,
-                "padding": null,
                 "type": "web.data.styles.StyleBlock"
             },
             "type": "web.data.components.Block",
@@ -104,21 +106,31 @@
             "cells": [],
             "height": 114,
             "id": "51F5A776-BBB3-40B9-8E73-A68D7BECF0A7",
+            "inTemplate": false,
             "links": [],
             "mobileDown": false,
+            "mobileHide": false,
             "orderIndex": 12,
             "paras": [
                 [
                     0,
-                    23,
+                    14,
                     {
                         "align": "center",
                         "type": "web.data.styles.StylePara"
                     }
                 ],
                 [
-                    24,
-                    41,
+                    15,
+                    16,
+                    {
+                        "align": "center",
+                        "type": "web.data.styles.StylePara"
+                    }
+                ],
+                [
+                    16,
+                    33,
                     {
                         "align": "center",
                         "height": 1.5,
@@ -134,71 +146,65 @@
                 "top": 93
             },
             "relPage": {},
-            "stretch": false,
+            "relPara": null,
+            "relTo": null,
             "styles": [
                 [
                     0,
-                    22,
+                    14,
                     {
                         "color": [
-                            "HSV",
+                            "HSL",
                             0,
                             0,
                             1,
                             1
                         ],
                         "globalId": "2768A212-4531-477D-AD84-5200D32BB932",
-                        "globalName": "[heading.1]",
+                        "globalName": "textheading1",
                         "shadow": {
                             "blur": 4,
-                            "color": [
-                                "HSV",
-                                0,
-                                0,
-                                0,
-                                0.5
-                            ],
                             "left": 1,
                             "top": 2,
                             "type": "web.data.styles.TextShadow"
                         },
-                        "size": null,
                         "type": "web.data.styles.StyleText"
                     }
                 ],
                 [
-                    24,
-                    41,
+                    15,
+                    15,
+                    {
+                        "globalId": "D740F520-BB75-4F7D-BD26-E3D3149C767B",
+                        "globalName": "textnormal",
+                        "type": "web.data.styles.StyleText"
+                    }
+                ],
+                [
+                    16,
+                    33,
                     {
                         "bold": true,
                         "color": [
-                            "HSV",
+                            "HSL",
                             0,
                             0,
                             1,
                             1
                         ],
                         "globalId": "4ADE8A29-22F4-4984-8175-26DD0E3F31E5",
-                        "globalName": "[heading.2]",
+                        "globalName": "textheading2",
                         "shadow": {
                             "blur": 4,
-                            "color": [
-                                "HSV",
-                                0,
-                                0,
-                                0,
-                                0.5
-                            ],
                             "left": 0,
                             "top": 2,
                             "type": "web.data.styles.TextShadow"
                         },
-                        "size": null,
                         "type": "web.data.styles.StyleText"
                     }
                 ]
             ],
-            "text": "Molly's Kitchen Revamp\n\nNovember 20, 2022",
+            "text": "Kitchen Revamp\n\nNovember 13, 2022",
             "type": "web.data.components.Text",
             "width": 840,
             "wrap": false
@@ -218,18 +224,24 @@
             "delay": 5,
             "height": 780,
             "id": "28F17889-DA5E-4D1D-B266-E12C4D5F1EF4",
+            "inTemplate": false,
             "indicator": "never",
             "lightbox": false,
             "links": false,
             "mobileDown": false,
+            "mobileHide": false,
             "navigator": "always",
             "orderIndex": 53,
+            "relIn": null,
+            "relPage": null,
+            "relPara": null,
             "relTo": {
                 "below": 100,
                 "id": "6F686F50-2AFB-4118-85DB-460D833EA97F"
             },
             "slides": [
                 {
+                    "altText": "",
                     "asset": {
                         "alpha": null,
                         "animated": false,
@@ -247,6 +259,7 @@
                     "caption": ""
                 },
                 {
+                    "altText": "",
                     "asset": {
                         "alpha": null,
                         "animated": false,
@@ -264,7 +277,6 @@
                     "caption": ""
                 }
             ],
-            "stretch": false,
             "transition": "fade",
             "type": "web.data.components.ImageSlider",
             "width": 1180,
@@ -280,8 +292,10 @@
             "cells": [],
             "height": 244,
             "id": "CDEE9FF5-0C8F-460C-8E71-14CF53E150E8",
+            "inTemplate": false,
             "links": [],
             "mobileDown": false,
+            "mobileHide": false,
             "orderIndex": 54,
             "paras": [
                 [
@@ -293,11 +307,13 @@
                     }
                 ]
             ],
+            "relIn": null,
+            "relPage": null,
+            "relPara": null,
             "relTo": {
                 "below": 32,
                 "id": "28F17889-DA5E-4D1D-B266-E12C4D5F1EF4"
             },
-            "stretch": false,
             "styles": [],
             "text": "Varius cras facilisis aliquam. Eleifend libero aenean. Pellentesque enim auctor libero. Ut consequat. Ipsum fames tempor dolor mollis, congue commodo. Phasellus purus senectus massa bibendum pede, erat fringilla pellentesque hac dictum sed ipsum, nulla duis sed sed nulla, morbi sit bibendum.\n\nPotenti donec luctus et integer porttitor, blandit integer imperdiet purus sed. Suscipit nulla mi, pede egestas id magna cursus excepteur vitae. Duis amet lacus curabitur. primis sodales, mollis in tempus wisi lorem ipsum risus venenatis nulla amet laoreet aenean sapien eligendi.",
             "type": "web.data.components.Text",
@@ -314,8 +330,10 @@
             "cells": [],
             "height": 244,
             "id": "C299D4E9-A5E4-4D5C-A0E8-E9C8B43BF4C2",
+            "inTemplate": false,
             "links": [],
             "mobileDown": false,
+            "mobileHide": false,
             "orderIndex": 54,
             "paras": [
                 [
@@ -345,12 +363,13 @@
                     }
                 ]
             ],
+            "relIn": null,
             "relPage": {},
+            "relPara": null,
             "relTo": {
                 "below": 32,
                 "id": "28F17889-DA5E-4D1D-B266-E12C4D5F1EF4"
             },
-            "stretch": false,
             "styles": [],
             "text": "Erat tellus, in quis consequat, metus sodales tristique neque vestibulum vestibulum. Nam mauris, fringilla vehicula elit mollis massa erat nonummy, phasellus sollicitudin non facilisis vestibulum, sollicitudin sit mattis condimentum nec. Pellentesque vitae morbi quis maecenas ultrices augue dolores amet massa, quis feugiat feugiat.\n\nNunc lacus volutpat, quisque aenean vel, quisque sed.\nPlacerat ut, phasellus sed modi, nulla ipsum.\nNisl sed, cras massa scelerisque, ut quis donec.\nMorbi lectus vitae, augue augue. \n",
             "type": "web.data.components.Text",
@@ -359,7 +378,7 @@
         },
         {
             "action": {
-                "id": "F5541C56-EB11-43FD-9738-4F14B0BFDF50",
+                "id": "00DA7CAB-A0EB-4906-A40C-5F2B7DABF555",
                 "linkId": "3F564706-D013-4A19-97EE-947FD8B44751",
                 "type": "web.data.Action"
             },
@@ -372,13 +391,17 @@
             "btnText": "Get a Quote",
             "height": 42,
             "id": "67DDDB3C-DCE0-4325-9331-0E0E796A4834",
+            "inTemplate": false,
             "mobileDown": false,
+            "mobileHide": false,
             "orderIndex": 55,
+            "relIn": null,
+            "relPage": null,
+            "relPara": null,
             "relTo": {
                 "below": 0,
                 "id": "EC05F095-B482-4DF4-8503-9A968306871B"
             },
-            "stretch": false,
             "styleButton": {
                 "disabled": {
                     "block": {
@@ -450,7 +473,7 @@
         },
         {
             "action": {
-                "id": "810D506A-9E67-4E9A-80DF-DC2195D39447",
+                "id": "1FE3C5ED-403C-4246-AF38-490C7807E350",
                 "linkId": "A765BCF5-6017-4743-B5DF-65F0DC10925E",
                 "type": "web.data.Action"
             },
@@ -463,14 +486,17 @@
             "btnText": "View All Projects",
             "height": 42,
             "id": "900EABD8-472A-4D24-9886-091306C10600",
+            "inTemplate": false,
             "mobileDown": false,
+            "mobileHide": false,
             "orderIndex": 55,
+            "relIn": null,
             "relPage": {},
+            "relPara": null,
             "relTo": {
                 "below": 0,
                 "id": "EC05F095-B482-4DF4-8503-9A968306871B"
             },
-            "stretch": false,
             "styleButton": {
                 "disabled": {
                     "block": {
@@ -549,17 +575,18 @@
             },
             "height": 18,
             "id": "EC05F095-B482-4DF4-8503-9A968306871B",
-            "mobileDown": false,
+            "inTemplate": false,
             "orderIndex": 56,
+            "relIn": null,
+            "relPage": null,
+            "relPara": null,
             "relTo": {
                 "below": 0,
                 "id": "CDEE9FF5-0C8F-460C-8E71-14CF53E150E8"
             },
-            "stretch": false,
             "style": {
                 "background": null,
                 "border": null,
-                "padding": null,
                 "type": "web.data.styles.StyleBlock"
             },
             "type": "web.data.components.Block",
@@ -568,7 +595,7 @@
         }
     ],
     "mobileDown": false,
-    "name": "Molly's Kitchen Revamp",
+    "name": "Kitchen Revamp",
     "orderIndex": 0,
     "stretch": false,
     "templateId": "FC4E7971-F8BF-40B2-A073-03E774E48ED1",
