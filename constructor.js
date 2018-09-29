@@ -22,9 +22,9 @@ var dbStylesheets = new Datastore({ filename: stylesheetsDB, autoload: true });
 // Insert object to Master DB following the schema above
 
 
-// GET TEMPLATE NAME & ID
+// GET TEMPLATE NAME, CATEGORIES & ID
 function generateTemplateNameIDStylesheet() {
-	dbTemplates.find({}, {_id:0, id:1, templateId: 1, name: 1, stylesheetId: 1}, function (err, docs) {
+	dbTemplates.find({}, {_id:0, id:1, templateId: 1, name: 1, stylesheetId: 1, categories:1}, function (err, docs) {
 		var tempCollection = [];
 		tempCollection.push(docs);
 
