@@ -1,10 +1,10 @@
 * { box-sizing: border-box; }
-body { font-size: 1.6rem; font-family: sans-serif; background: #F2F4F6; color: #ccc; }
+body { font-size: 1.6rem; font-family: sans-serif; background: #F2F4F6; color: #fff; }
 section { height: 100%; width: 100%; }
 section .center { text-align: center; }
 
 h1 { font-weight: 100;}
-p { font-weight: 600; letter-spacing: 0; color: #ccc; }
+p { font-weight: 600; letter-spacing: 0; color: #fff; }
 p.template-name { color: #9bce7d; font-size: 1.5em; letter-spacing: -2px; font-weight: bolder; margin-bottom: 0; }
 p.template-json { color: #c8e0cb; font-size: 1em; letter-spacing: -2px; margin-top: 0; }
 li { list-style: none; }
@@ -93,7 +93,7 @@ ul.pages span {
 
 .divider {
   clear: both;
-  color: #cccccc;
+  color: #fffccc;
   margin-left: 40px;
   padding-top: 20px;
 }
@@ -114,31 +114,35 @@ li.highlighted {
 ul.template-list {
   max-width: 960px;
   margin: auto;
-  padding: 20px 35px;
   display:  flex;
   flex-direction: column;
   align-items: stretch;
 }
 
 ul.template-pages {
-  margin: 0;
+  margin: 10px 0;
   padding: 0;
 }
 
 li.template-page {
+  background-color: darkblue;
+  padding: 2%;
   margin: 10px 0;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid aliceblue;
 }
 
 li.template-name {
   margin: 20px 0;
-  color: #ccc;
+  color: #fff;
+  padding: 5%;
+  background-color: darkblue;
 }
 
 h3.template-title {
-  color: #b1b1b1;
-  margin-bottom: 10px;
+  color: #fff;
+  margin: 0;
 }
 
 h3.template-title::before {
@@ -150,9 +154,16 @@ h3.template-title::before {
 p.template-id, p.template-stylesheet, p.template-category, p.template-pages {
   font-family: monospace;
   font-size: 0.7em;
-  color: #b1b1b1;
   font-weight: 300;
   margin: 5px 0;
+}
+
+p.template-pages {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 0.8em;
+  text-align: right;
+  padding: 3%;
 }
 
 p.template-pages::before {
