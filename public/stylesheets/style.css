@@ -1,12 +1,13 @@
 * { box-sizing: border-box; }
-body { font-size: 1.6rem; font-family: sans-serif; background: #F2F4F6; color: #ccc;  letter-spacing: -1px;}
-section { height: 100%; width: 100%; padding-bottom: 20%; }
+body { font-size: 1.6rem; font-family: sans-serif; background: #F2F4F6; color: #ccc; }
+section { height: 100%; width: 100%; }
 section .center { text-align: center; }
 
 h1 { font-weight: 100;}
-p { font-weight: 100; letter-spacing: 0; color: #E6E6E6; }
+p { font-weight: 600; letter-spacing: 0; color: #ccc; }
 p.template-name { color: #9bce7d; font-size: 1.5em; letter-spacing: -2px; font-weight: bolder; margin-bottom: 0; }
 p.template-json { color: #c8e0cb; font-size: 1em; letter-spacing: -2px; margin-top: 0; }
+li { list-style: none; }
 
 .logo {
 	width: 50px;
@@ -16,6 +17,19 @@ p.template-json { color: #c8e0cb; font-size: 1em; letter-spacing: -2px; margin-t
 
 h2 {
   display: inline-block;
+  color: #70c041;
+}
+
+.context {
+  padding-bottom: 20%;
+}
+
+.match {
+  opacity: 0;
+}
+
+.result {
+  text-align: center;
 }
 
 #search {
@@ -60,36 +74,6 @@ input:active, input:focus {
   outline: none;
 }
 
-dl {
-  text-align: left;
-  font-size: 0.7em;
-  width: 750px;
-  margin: 0 auto;
-  padding: 0 0 0 5%;
-}
-
-dl img {
-  height: 50px;
-  float: left;
-  margin-bottom: 10px;
-}
-
-span {
-  // color: #eabcbc;
-  color: #c8e0cb;
-  margin: 0 20px;
-  float: left;
-}
-
-dd {
-  color: darkgrey;
-  font-size: 0.9em;
-  display: inline;
-  float: left;
-  clear: both;
-  letter-spacing: 0.0001em;
-}
-
 ul.pages {
   list-style:  none;
 }
@@ -123,6 +107,99 @@ li.highlighted {
   padding: 5px 0 0 5px;
 }
 
-span.highlighted {
+/*span.highlighted {
   color: #9bce7d;
+}*/
+
+ul.template-list {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px 35px;
+  display:  flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+ul.template-pages {
+  margin: 0;
+  padding: 0;
+}
+
+li.template-page {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+li.template-name {
+  margin: 20px 0;
+  color: #ccc;
+}
+
+h3.template-title {
+  color: #b1b1b1;
+  margin-bottom: 10px;
+}
+
+h3.template-title::before {
+  content: "🎨 ";
+  height: 20px;
+  width: 20px;
+}
+
+p.template-id, p.template-stylesheet, p.template-category, p.template-pages {
+  font-family: monospace;
+  font-size: 0.7em;
+  color: #b1b1b1;
+  font-weight: 300;
+  margin: 5px 0;
+}
+
+p.template-pages::before {
+  content: "📚 Total pages: ";
+  height: 20px;
+  width: 20px;
+}
+
+p.template-id::before {
+  content: "🔑 ";
+  height: 20px;
+  width: 20px;
+}
+p.template-stylesheet::before {
+  content: "💅 ";
+  height: 20px;
+  width: 20px; 
+}
+
+p.template-category {
+  color: cornflowerblue;
+}
+
+p.template-category::before {
+  content: "🗄 ";
+  height: 20px;
+  width: 20px;  
+}
+span.page-id {
+  font-size: 0.7em;
+  font-family: monospace;
+}
+
+span.page-name {
+  font-size: 0.7em;
+}
+
+span.page-name::before {
+  font-size: 0.7em;
+  margin-right:  10px;
+  content: "📄";
+  height: 10px;
+  width: 10px;  
+}
+
+mark {
+  background-color: #70c041;
+  color: antiquewhite;
+  padding: 5px;
 }

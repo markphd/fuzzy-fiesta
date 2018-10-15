@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-
 var Datastore = require('nedb');
 var db = new Datastore({ filename: 'data/master.db', autoload: true });
 
@@ -29,9 +28,16 @@ router.post('/search', function(req, res, next) {
   var keyword = new RegExp(req.body.search, "i");
   // FIND TEMPLATE OR PAGE
   db.find({ $or: [{stylesheetId: { $regex: keyword } }, {name: { $regex: keyword } }, { id: { $regex: keyword } }, { pages: { $elemMatch: { id: { $regex: keyword } } } }]}, function(err, docs) {
+    
     let pageMatch = ''; 
+    let templateMatch = '';
+    let styleMatch = '';
+    let template =  '';
+
     if (docs.length > 0) {
-      let template =  docs[0].pages;
+      templateMatch = docs[0].name;
+      styleMatch = docs[0].stylesheetId;
+      template =  docs[0].pages;
       template.forEach( (page) => {
         let re = new RegExp(keyword)
         if (page.id.match(re) || page.name.match(re) ) {
@@ -46,7 +52,7 @@ router.post('/search', function(req, res, next) {
     // return result = docs;
     console.log(docs.length);
     docs.length
-    if (docs.length === 0) { res.redirect('/') } else { res.render('search', { title: 'Search results', name: docs[0].name, style: docs[0].stylesheetId, numberPages: docs[0].pages.length, pagesArray: docs[0].pages, templateId: docs[0].id, highlight: pageMatch }); } ; 
+    if (docs.length === 0) { res.redirect('/') } else { res.render('search', {'templates': docs, 'keyword': keyword, 'page': pageMatch.id, 'template': templateMatch, 'style': styleMatch }); } ; 
    
   })
 });
