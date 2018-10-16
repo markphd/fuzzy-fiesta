@@ -32,13 +32,13 @@ block content
           p.template-stylesheet= item.stylesheetId
           if showCategories
             p.template-category= item.categories 
+            br
           else
-            null
+            br
           ul.template-pages
               each page in pages
                 li.template-page
                   span.page-name= page.name
-                  br
                   span.page-id= page.id
           p.template-pages= pages.length
   script(src='https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/mark.min.js')
